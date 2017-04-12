@@ -1,0 +1,329 @@
+/*全图背景*/
+.hsf-first-register{
+	width: 100%;
+	height: 13.34rem;
+	background: url(../../img/hsf-img/hsf-first-1.png) no-repeat;
+	background-size: 7.5rem;
+}
+
+/*注册开始*/
+.hsf-first-register .hsf-first-zhuce{
+	width: 100%;
+	height: 0.74rem;
+	padding-top: 0.24rem;
+	box-sizing: border-box;
+	padding-left: 0.24rem;
+}
+ a.hsf-first-xzhuce{
+	width: 1.14rem;
+	height: 0.5rem;
+	background: #e7e7e7;
+	border-radius: 0.4rem;
+	border: 1px solid #b2b2b2;
+	display: block;
+}
+/*返回按钮*/
+.hsf-first-register a.hsf-first-xzhuce .hsf-first-fanhuiicon{
+	width: 0.22rem;
+	height: 0.22rem;
+	border-radius: 50%;
+	background: #fff url(../../img/hsf-img/hsf-first-fanhui.png)lno-repeat 50% 50%;
+	background-size: 0.07rem;
+	margin-left: 0.16rem;
+	margin-top: 0.14rem;
+	float: left;
+	margin-right: 0.08rem;
+	box-shadow: 0 0.01rem 0.08rem #c4c4c4;
+}
+.hsf-first-register a.hsf-first-xzhuce .hsf-first-zhucezi{
+	width: 0.5rem;
+	height: 0.22rem;
+	float: left;
+	margin-top: 0.08rem;
+	font-family: "苹方";
+	font-size: 0.22rem;
+	color: #a0a0a0;
+}
+
+/*中间文字*/
+.hsf-first-register .hsf-first-shangpin{
+	width: 2.04rem;
+	height: 4.02rem;
+	margin: 0 auto;
+}
+.hsf-first-register .hsf-first-shangpin .hsf-first-sptu{
+	width: 2.04rem;
+	height: 2.24rem;
+	background: url(../../img/hsf-img/hsf-first-shanping.png) no-repeat;
+	background-size: 2.04rem;
+}
+.hsf-first-register .hsf-first-shangpin .hsf-first-slogan{
+	float: left;
+	width: 2.04rem;
+	height: 0.78rem;
+	background:url(../../img/hsf-img/hsf-first-yupin.png) no-repeat;
+	background-size: 2.04rem;
+}
+/*标志物标题2开始*/
+.hsf-first-twoshangpin{
+	width: 100%;
+	padding-left: 0.7rem;
+	box-sizing: border-box;
+}
+
+/*表单开始*/
+.hsf-first-register .hsf-first-biaodan{
+	width: 100%;
+	height: 2.97rem;
+	padding-top: 0.17rem;
+	padding-left: 0.7rem;
+	box-sizing: border-box;
+}
+
+
+
+.hsf-first-register .hsf-first-biaodan .hsf-first-biaodandise{
+	width: 6.1rem;
+	height: 2.4rem;
+	background: #fff;
+	border-radius: 0.1rem;
+	box-sizing: border-box;
+	padding-top: 0.43rem;
+}
+.hsf-first-register .hsf-first-biaodandise .hsf-first-kuang{
+	width: 6.1rem;
+	height: 0.43rem;
+	margin-bottom: 0.3rem;
+	padding-left: 0.26rem;
+	box-sizing: border-box;
+	overflow: hidden;
+	position:relative;
+}
+.hsf-first-register .hsf-first-kuang .hsf-first-dian1{
+	width: 0.08rem;
+	height: 0.08rem;
+	background: #8a4a2d;
+	margin-top: 0.17rem;
+	float: left;
+	margin-right: 0.04rem;
+	border-radius: 50%;
+}
+.hsf-first-register .hsf-first-kuang .s{
+	background: #c4a496;
+	margin-right: 0.08rem;
+}
+.hsf-first-register .hsf-first-kuang .hsf-first-zhanghao{
+	width: 3.0rem;
+	height: 0.28rem;
+	box-sizing: border-box;
+	float: left;
+	border: 0;
+	color: #b7b7b7;
+}
+.hsf-first-register .hsf-first-kuang .hsf-first-mima{
+	width: 0.44rem;
+	height: 0.44rem;
+	float: right;
+	background: #fff url(../../img/hsf-img/hsf-first-suo.png) no-repeat 50% 50%;
+	background-size: 0.19rem;
+	border: 1px solid #ececec;
+	border-radius: 50%;
+	margin-right: 0.5rem;
+}
+.hsf-first-register .hsf-first-kuang .hsf-first-yonghu{
+	width: 0.44rem;
+	height: 0.44rem;
+	float: right;
+	background: #fff url(../../img/hsf-img/hsf-first-ren.png) no-repeat 50% 50%;
+	background-size: 0.19rem;
+	border: 1px solid #ececec;
+	border-radius: 50%;
+	margin-right: 0.5rem;
+	
+}
+/*错误时叉号*/
+.hsf-first-false{
+	width:0.44rem;
+	height:0.44rem;
+	display: none;
+	float: right;
+	background: url(../../img/hsf-img/hsf-first-false.png)no-repeat 50% 50%;
+	
+}
+.hsf-first-true{
+	width:0.44rem;
+	height:0.44rem;
+	float: right;
+	display: none;	
+	background: url(../../img/hsf-img/hsf-first-true.png)no-repeat 50% 50%;
+}
+.hsf-first-xianshi{
+	width:0.50rem;
+	height:0.44rem;
+	display: none;
+	float: right;
+	margin-right: 0.3rem;
+	background: url(../../img/hsf-img/hsf-first-kejian.png)no-repeat 50% 50%;
+}
+
+
+
+/*::-webkit-input-placeholder{
+	color: #b7b7b7;
+}*/
+
+
+.hsf-first-register .hsf-first-biaodandise .hsf-first-xian{
+	width: 6.1rem;
+	height: 0.09rem;
+	background: url(../../img/hsf-img/hsf-first-xian.png) no-repeat 50% 50%;
+	background-size: 5.99rem;
+	margin-bottom: 0.3rem;
+}
+.hsf-first-register .hsf-first-button{
+	width: 100%;
+	height: 1.7rem;
+	padding-left: 2.25rem;
+	padding-top: 0.4rem;
+	box-sizing: border-box;
+	position: relative;
+}
+.hsf-first-register .hsf-first-button .hsf-first-jinru{
+	width: 3.0rem;
+	height: 1.06rem;
+	 mix-blend-mode: multiply;  
+	box-sizing: border-box;
+	border-radius: 0.5rem;
+	border: 0.03rem	solid rgba(255,255,255,1);	
+}
+.hsf-first-background{
+	background: rgba(104, 53, 23, 0.8);
+}
+.hsf-first-register .hsf-first-button .hsf-first-neirong{
+	width: 2.64rem;
+	height: 0.66rem;
+	position: absolute;
+	left: 2.44rem;
+	top: 0.6rem;
+}
+.hsf-first-register .hsf-first-neirong .hsf-first-dian{
+	width: 0.08rem;
+	height: 0.08rem;
+	background: #ececec;
+	margin-top: 0.28rem;
+	border-radius: 50%;
+	float: left;
+	margin-right: 0.48rem;
+}
+.hsf-first-register .hsf-first-neirong .s{
+	float: right;
+	margin-right: 0;
+}
+.hsf-first-register .hsf-first-neirong .hsf-first-ziz{
+	width: 1.48rem;
+	height: 0.66rem;
+	float: left;
+	text-align: center;
+	
+}
+.hsf-first-register .hsf-first-ziz h1{
+	color: #fff;
+	font-size: 0.26rem;
+	font-family: "苹方";
+}
+.hsf-first-register .hsf-first-ziz h2{
+	color: #d9d9d9;
+	font-size: 0.18rem;
+	font-family: San Francisco display;
+	font-weight: 400;
+}
+.hsf-first-register .hsf-first-moren{
+	width: 2.66rem;
+	height: 0.94rem;
+	margin: 0 auto;
+}
+.hsf-first-register .hsf-first-moren .hsf-first-wangjimima{
+	width: 1.3rem;
+	height: 0.94rem;
+	display: block;
+	overflow: hidden;
+	float: left;
+	margin-right: 0.07rem;
+}
+.hsf-first-register .hsf-first-wangjimima .hsf-first-dian{
+	width: 0.06rem;
+	height: 0.06rem;
+	background: #90949c;
+	border-radius: 50%;
+	margin-top: 0.58rem;
+	margin-right: 0.12rem;
+	float: left;
+}
+.hsf-first-zi{
+	width: 1.1rem;
+	height: 0.3rem;
+	float: left;
+	font-size: 0.26rem;
+	color: #987160;
+	font-family: "苹方";
+	text-align: center;
+	margin-top: 0.42rem;
+}
+.hsf-first-register .hsf-first-moren .hsf-first-xian{
+	width: 0.01rem;
+	height: 0.36rem;
+	background: #a4a4a5;
+	float: left;
+	margin-top: 0.44rem;
+	margin-right: 0.16rem;
+}
+.hsf-first-register .hsf-first-moren .hsf-first-jizhu{
+	width: 1.04rem;
+	height: 0.4rem;
+	float: left;
+	margin-top: 0.42rem;
+
+}
+.hsf-first-register .hsf-first-jizhu .hsf-first-jizhuanniu{
+	width: 1.02rem;
+	height: 0.4rem;
+	background: rgba(108, 68, 50, 0.4);
+	float: left;
+	border: 0.01rem solid #969696;
+	border-radius: 0.2rem;
+	box-sizing: border-box;
+}
+.hsf-first-register .hsf-first-jizhu .hsf-first-xiaodian{
+	width: 0.3rem;
+	height: 0.3rem;
+	background:url(../../img/hsf-img/hsf-first-xiaodian.png) no-repeat;
+	background-size: 0.3rem;
+	margin-left: 0.05rem;
+	margin-top: 0.05rem;
+}
+.hsf-first-register .hsf-first-disanfang{
+	width: 5rem;
+	height: 1.2rem;
+	margin: 0 auto;
+	margin-top: 0.66rem;
+}
+.hsf-first-register .hsf-first-disanfang .hsf-first-QQ{
+	width: 1.2rem;
+	height: 1.2rem;
+	background: #fff url(../../img/hsf-img/hsf-first-qq.png) no-repeat 50% 50%;
+	background-size: 0.75rem;
+	display: block;
+	margin-right: 0.7rem;
+	float: left;
+	border-radius: 50%;
+	box-shadow: 0 0 0.2rem rgba(165, 165, 165, 0.7);
+}
+.hsf-first-register .hsf-first-disanfang .x{
+	background: #fff url(../../img/hsf-img/hsf-first-weixin.png) no-repeat 50% 50%;
+	background-size: 0.75rem;
+}
+.hsf-first-register .hsf-first-disanfang .w{
+	margin-right: 0;
+	background: #fff url(../../img/hsf-img/hsf-first-weibo.png)no-repeat 50% 50%;
+	background-size: 0.75rem;
+}
