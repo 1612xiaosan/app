@@ -1,0 +1,453 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+<meta name="x5-orientation" content="portrait | landscape" />
+<meta name="screen-orientation" content="portrait">
+<meta name="x5-fullscreen" content="true" />
+<meta name="full-screen" content="yes">
+<meta name="format-detection" content="telephone=no, email=no" />
+	<title>Document</title>
+</head>
+<link rel="stylesheet" href="css/index.css">
+<link rel="stylesheet" href="css/swiper.css">
+<body>
+	<div class="header">
+		<a href="">
+			<i class="iconfont">&#xe603;</i>
+		</a>
+		<div class="search">
+			<form action="">
+				<input type="text" placeholder="搜索商品/店铺">
+			</form>
+		</div>
+		<a href="" class="two">登录</a>
+	</div>
+	<div class="banner">
+		<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<img src="images/b1.jpg" alt="" />
+					</div>
+					<div class="swiper-slide">
+						<img src="images/b2.jpg" alt="" />
+					</div>
+					<div class="swiper-slide">
+						<img src="images/01_.webp" alt="" />
+					</div>
+					<div class="swiper-slide">
+						<img src="images/02_.webp" alt="" />
+					</div>
+					<div class="swiper-slide">
+						<img src="images/03.webp" alt="" />
+					</div>
+					<div class="swiper-slide">
+						<img src="images/04.webp" alt="" />
+					</div>
+					<div class="swiper-slide">
+						<img src="images/05.webp" alt="" />
+					</div>
+				</div>
+				<div class="swiper-pagination" id="xiaoyuandian"></div>
+			</div>
+	</div>
+	<script src="swiper.min.js"></script>
+	<script>
+				var swiper = new Swiper('.swiper-container', {
+					pagination: '.swiper-pagination',
+					nextButton: '.swiper-button-next',
+					prevButton: '.swiper-button-prev',
+					slidesPerView: 1,
+					paginationClickable: true,
+					spaceBetween: 30,
+					loop: true
+				});
+				var mySwiper = new Swiper('.swiper-container', {
+					autoplay: 1000,
+					autoplayDisableOnInteraction: false,
+					pagination: '.swiper-pagination',
+					observer: true,
+				})
+				$('#btn1').click(function() {
+					$(".swiper-wrapper .swiper-slide1").remove();
+				})
+			</script>
+	<ul class="list">
+		<li>
+			<a href="">
+				<img src="images/1.webp" alt="">
+				<h6>积分乐园</h6>
+			</a>
+		</li>
+		<li>
+			<a href="">
+				<img src="images/2.webp" alt="">
+				<h6>充值中心</h6>
+			</a>
+		</li>
+		<li>
+			<a href="">
+				<img src="images/3.webp" alt="">
+				<h6>天猫国际</h6>
+			</a>
+		</li>
+		<li>
+			<a href="">
+				<img src="images/4.webp" alt="">
+				<h6>聚划算</h6>
+			</a>
+		</li>
+		<li>
+			<a href="">
+				<img src="images/5.webp" alt="">
+				<h6>天猫超市</h6>
+			</a>
+		</li>
+		<li>
+			<a href="">
+				<img src="images/6.webp" alt="">
+				<h6>免费试用</h6>
+			</a>
+		</li>
+		<li>
+			<a href="">
+				<img src="images/7.webp" alt="">
+				<h6>尤物</h6>
+			</a>
+		</li>
+		<li>
+			<a href="">
+				<img src="images/8.webp" alt="">
+				<h6>粉丝趴</h6>
+			</a>
+		</li>
+		<li>
+			<a href="">
+				<img src="images/9.webp" alt="">
+				<h6>装备升级</h6>
+			</a>
+		</li>
+		<li>
+			<a href="">
+				<img src="images/10.webp" alt="">
+				<h6>分类</h6>
+			</a>
+		</li>
+	</ul>
+	<div class="part3">
+ 	<div class="p3left">
+ 		<a href="">
+ 		  <img src="images/o31.webp" alt="">
+ 		  <img src="images/o32.webp" alt="">
+ 	    </a>
+ 	</div>
+ 	<div class="p3right">
+ 		<a href="">
+ 		   <h5>植秀村砍刀眉笔买1赠三</h5>
+ 		   <h6>买几赠明星洁颜产品+热销单品加好礼</h6>
+ 		</a>
+    </div>
+ 	
+ </div>
+	<div class="main">
+		<div class="swiper-containera">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<img src="images/g1.webp" alt="">
+					</div>
+					<div class="swiper-slide">
+						<img src="images/g2.webp" alt="">
+					</div>
+					<div class="swiper-slide">
+						<img src="images/h1.jpg" alt="" />
+					</div>
+					<div class="swiper-slide">
+						<img src="images/h2.jpg" alt="" />
+					</div>
+					<div class="swiper-slide">
+						<img src="images/h3.jpg" alt="" />
+					</div>
+				</div>
+			</div>
+	</div>
+	<script src="swiper.min.js"></script>
+	<script>
+				var swiper = new Swiper('.swiper-containera', {
+					pagination: '.swiper-pagination',
+					slidesPerView:2,
+					paginationClickable: true,
+					spaceBetween:10,
+					loop: true
+				});
+				var mySwiper = new Swiper('.swiper-container', {
+					autoplay: 1000,
+					autoplayDisableOnInteraction: false,
+					pagination: '.swiper-pagination',
+					observer: true,
+				})
+				$('#btn1').click(function() {
+					$(".swiper-wrapper .swiper-slide1").remove();
+				})
+			</script>
+		<ul>
+			<li>
+				<a href="">
+					
+				</a>
+			</li>
+			<li>
+				<a href="">
+					
+				</a>
+			</li>
+		</ul>
+	<div class="biqiang">
+		<span class="one"></span>
+    		<img src="images/11.webp" alt="">
+    		<span class="two">必抢</span>
+    		<span class="three"></span>
+	</div>
+	<ul class="listtwo">
+			<li>
+				<a href="">
+					<h5>今日必抢</h5>
+					<img src="images/12.jpg" alt="">
+					<h6>￥25<s>￥39</s></h6>
+				</a>
+			</li>
+			<li>
+				<a href="">
+					<h5>聚超值</h5>
+					<img src="images/19.jpg" alt="">
+					<h6>￥25<s>￥39</s></h6>
+				</a>
+			</li>
+			<li>
+				<a href="">
+					<h5>进口必抢</h5>
+					<img src="images/13.jpg" alt="">
+					<h6>￥25<s>￥39</s></h6>
+				</a>
+			</li>
+			<li>
+				<a href="">
+					<h5>型男</h5>
+					<img src="images/14.jpg" alt="">
+					<h6>￥25<s>￥39</s></h6>
+
+
+				</a>
+			</li>
+			<li>
+				<a href="">
+					<h5>女神范</h5>
+					<img src="images/15.jpg" alt="">
+					<h6>￥25<s>￥39</s></h6>
+				</a>
+			</li>
+			<li>
+				<a href="">
+					<h5>爱囤货</h5>
+					<img src="images/16.jpg" alt="">
+					<h6>￥25<s>￥39</s></h6>
+				</a>
+			</li>
+			<li>
+				<a href="">
+					<h5>焕新家</h5>
+					<img src="images/17.jpg" alt="">
+					<h6>￥25<s>￥39</s></h6>
+				</a>
+			</li>
+			<li>
+				<a href="">
+					<h5>美食家</h5>
+					<img src="images/18.jpg" alt="">
+					<h6>￥25<s>￥39</s></h6>
+				</a>
+			</li>
+    </ul>
+    <ul class="listthree">
+    	<div class="chaoliu">
+    		<span class="one"></span>
+    		<img src="images/chaoliu.webp" alt="">
+    		<span class="two">潮流酷玩</span>
+    		<span class="three"></span>
+    	</div>
+    	<li class="kunw">
+    		<a href="">
+    			<img src="images/001.webp" alt="">
+    		</a>
+    	</li>
+    	<li class="kunw">
+    		<a href="">
+    			<img src="images/002.webp" alt="">
+    		</a>
+    	</li>
+    	<li class="kunw">
+    		<a href="">
+    			<img src="images/003.webp" alt="">
+    		</a>
+    	</li>
+    </ul>
+    <ul class="listfour">
+    	<div class="pinpai">
+    		<span class="one"></span>
+    		<img src="images/xing.webp" alt="">
+    		<span class="two">品牌特卖</span>
+    		<span class="three"></span>
+    	</div>
+    	<li class="temai">
+    		<a href="">
+    			<img src="images/temai.webp" alt="">
+    		</a>
+    	</li>
+    	<li class="temai">
+    		<a href="">
+    			<img src="images/temai1.webp" alt="">
+    		</a>
+    	</li>
+    </ul>
+    <ul class="listfive">
+    	<div class="zixun">
+    		<span class="one"></span>
+    		<img src="images/zixun.webp" alt="">
+    		<span class="two">品牌咨询</span>
+    		<span class="three"></span>
+    	</div>
+    	<li class="zixunone">
+    		<a href="">
+    			<img src="images/zixun1.webp" alt="">
+    		</a>
+    	</li>
+    	<li class="zixunone">
+    		<a href="">
+    			<img src="images/zixun2.webp" alt="">
+    		</a>
+    	</li>
+    	<li class="zixunone">
+    		<a href="">
+    			<img src="images/zixun3.webp" alt="">
+    		</a>
+    	</li>
+    </ul>
+    <ul class="six">
+    	<li>
+    		<a href="">
+    			<img src="images/six.webp" alt="">
+    		</a>
+    	</li>
+    </ul>
+    <ul class="seven">
+    	<div class="bianjie">
+    		<span class="one"></span>
+    		<img src="images/bianjie.webp" alt="">
+    		<span class="two">便捷生活</span>
+    		<span class="three"></span>
+    	</div>
+    	<li class="shenghuoone">
+    		<a href="">
+    			<img src="images/bianjie1.webp" alt="">
+    		</a>
+    	</li>
+    	<li class="shenghuo">
+    		<a href="">
+    			<img src="images/bianjie2.webp" alt="">
+    		</a>
+    		<a href="">
+    			<img src="images/bianjie3.webp" alt="">
+    		</a>
+    	</li>
+    </ul>
+    <ul class="eight">
+    	<div class="guoji">
+    		<span class="one"></span>
+    		<img src="images/guoji.webp" alt="">
+    		<span class="two">国际海购</span>
+    		<span class="three"></span>
+    	</div>
+    	<li class="haigou">
+    		<a href="">
+    			<img src="images/haigou.webp" alt="">
+    		</a>
+    	</li>
+    	<li class="haigou">
+    		<a href="">
+    			<img src="images/haigou1.webp" alt="">
+    		</a>
+    	</li>
+    	<li class="haigou">
+    		<a href="">
+    			<img src="images/haigou2.webp" alt="">
+    		</a>
+    	</li>
+    </ul>
+    <ul class="nine">
+    	<div class="jinxuan">
+    		<span class="one"></span>
+    		<img src="images/jinxuan.webp" alt="">
+    		<span class="two">精选市场</span>
+    		<span class="three"></span>
+    	</div>
+    	<li class="shichang">
+    		<a href="">
+    			<img src="images/shichang.webp" alt="">
+    		</a>
+    	</li>
+    	<li class="shichang">
+    		<a href="">
+    			<img src="images/shichang1.webp" alt="">
+    		</a>
+    	</li>
+    	<li class="shichang">
+    		<a href="">
+    			<img src="images/shichang2.webp" alt="">
+    		</a>
+    	</li>
+    	<li class="shichang">
+    		<a href="">
+    			<img src="images/shichang3.webp" alt="">
+    		</a>
+    	</li>
+    	<li class="shichangone">
+    		<a href="">
+    			<img src="images/shichang4.webp" alt="">
+    		</a>
+    	</li>
+    	<li class="shichangone">
+    		<a href="">
+    			<img src="images/shichang5.webp" alt="">
+    		</a>
+    	</li>
+    </ul>
+    <ul class="ten">
+    	<div class="aishenghuo">
+    		<span class="one"></span>
+    		<img src="images/aishenghuo.webp" alt="">
+    		<span class="two">爱生活</span>
+    		<span class="three"></span>
+    	</div>
+    	<li class="shichang">
+    		<a href="">
+    			<img src="images/huo1.webp" alt="">
+    		</a>
+    	</li>
+    	<li class="shichang">
+    		<a href="">
+    			<img src="images/huo2.webp" alt="">
+    		</a>
+    	</li>
+    	<li class="shichang">
+    		<a href="">
+    			<img src="images/huo3.webp" alt="">
+    		</a>
+    	</li>
+    	<li class="shichang">
+    		<a href="">
+    			<img src="images/huo4.webp" alt="">
+    		</a>
+    	</li>
+    </ul>
+</body>
+</html>
