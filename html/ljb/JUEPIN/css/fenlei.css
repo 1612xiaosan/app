@@ -1,0 +1,227 @@
+body{
+	background: #f6f6f6;
+}
+.header{
+	width: 7.5rem;
+	height: 2.36rem;
+	position: relative;
+}
+.header .tu{
+	width: 7.5rem;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: -1;
+}
+.header .tu2{
+	width: 7.5rem;
+}
+.header .zhezhao{
+	width: 7.5rem;
+	height: 1rem;
+	background: rgba(0, 0, 0, 0.55);
+	padding: 0.24rem;
+	box-sizing: border-box;
+	position: fixed;
+	z-index: 2;
+}
+#zhezhao{
+	width: 7.5rem;
+	height: 1rem;
+}
+.header .zhezhao .biaoti{
+	width: 0.7rem;
+	height: 0.54rem;
+	background: url('../img/fenlei_biaoti.png')no-repeat;
+	background-size: 0.7rem;
+	float: left;
+}
+.header .zhezhao .kuang{
+	width: 6.28rem;
+	height: 0.54rem;
+	background: url('../img/fenlei_sousuokuang .png')no-repeat;
+	background-size: 6.28rem;
+	float: left;
+}
+.header .kuang .shuru{
+	float: left;
+	margin-left: 0.72rem;
+	margin-top: 0.1rem;
+	width: 5rem;
+	height: 0.28rem;
+	background: rgba(0, 0, 0, 0);
+	border: 0;
+	font-size: 0.24rem;
+	color: #9da2ab;
+}
+.header .bt{
+	width: 2.84rem;
+	height: 0.54rem;
+	background: url('../img/fenlei——xian.png')no-repeat left bottom;
+	background-size: 2.84rem;
+	position: absolute;
+	left: 2.3rem;
+	top: 1.46rem;
+	font-family: "苹方";
+	font-weight: 700;
+	font-size: 0.26rem;
+	color: #fff;
+	text-align: center;
+}
+.fenlei{
+	width: 7.5rem;
+	height: 3.64rem;
+	background: url('../img/fenlei_fengexian.png')no-repeat;
+	background-size: 7.5rem;
+	padding-top: 0.5rem;
+	box-sizing: border-box;
+}
+.fenlei .shang{
+	width: 6.32rem;
+	height: 1.36rem;
+	margin: 0 auto;
+}
+.fenlei .shang .zuo1{
+	width: 1.02rem;
+	height: 100%;
+	background: url('../img/shangzhuang.png')no-repeat;
+	background-size: 1.02rem;
+	float: left;
+	margin-right: 0.74rem;
+}
+.fenlei .shang .c{
+	margin-right: 0;
+	background: url('../img/gongyipin.png')no-repeat;
+	background-size: 1.02rem;
+}
+.fenlei .shang .s{
+	background: url('../img/xiazhuang.png')no-repeat;
+	background-size: 1.02rem;
+}
+.fenlei .shang .x{
+	background: url('../img/xiezi.png')no-repeat;
+	background-size: 1.02rem;
+}
+.fenlei .xia{
+	width: 6.32rem;
+	height: 1.36rem;
+	margin: 0 auto;
+	margin-top: 0.12rem;
+}
+.fenlei .xia .zuo2{
+	width: 1.02rem;
+	height: 100%;
+	background: url('../img/jiaju.png')no-repeat;
+	background-size: 1.02rem;
+	float: left;
+	margin-right: 0.74rem;
+}
+.fenlei .xia .d{
+	margin-right: 0;
+	background: url('../img/diy.png')no-repeat;
+	background-size: 1.02rem;
+}
+.fenlei .xia .b{
+	background: url('../img/chaobao.png')no-repeat;
+	background-size: 1.02rem;
+}
+.fenlei .xia .e{
+	background: url('../img/peishi.png')no-repeat;
+	background-size: 1.02rem;
+}
+.xiass{
+	width: 7.5rem;
+	height: 6.02rem;
+	background: url('../img/2017-03-11_211115.png')no-repeat;
+	background-size: 7.5rem;
+}
+/* tab开始 */
+.tabbar{
+	width: 7.5rem;
+	height: 1rem;
+	background: #121314; 
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	padding-left: 0.47rem;
+	padding-top: 0.29rem;
+	box-sizing:border-box; 
+	z-index: 2;
+}
+#tabbar{
+	width: 7.5rem;
+	height: 1rem;
+}
+.tabbar .home{
+	width: 0.56rem;
+	height: 0.44rem;
+	background: url('../img/2017-03-11_211640.png') no-repeat 0 45%;
+	background-size: 0.56rem;
+	display: block;
+	margin-right: 0.94rem;
+	float: left;
+}
+.tabbar .fenlei{
+	width: 0.56rem;
+	height: 0.44rem;
+	background: url('../img/2017-03-11_211653.png') no-repeat;
+	background-size: 0.56rem;
+	display: block;
+	margin-right: 0.94rem;
+	float: left;
+}
+.tabbar .xiangji{
+	width: 0.56rem;
+	height: 0.44rem;
+	background: url('../img/tab_xiangji.png') no-repeat;
+	background-size: 0.56rem;
+	display: block;
+	margin-right: 0.94rem;
+	float: left;
+}
+.tabbar .gouwuche{
+	width: 0.56rem;
+	height: 0.44rem;
+	background: url('../img/tab_gouwuche.png') no-repeat;
+	background-size: 0.56rem;
+	display: block;
+	margin-right: 0.94rem;
+	float: left;
+}
+.tabbar .wode{
+	width: 0.56rem;
+	height: 0.44rem;
+	background: url('../img/tab_gerenzhognxin.png') no-repeat;
+	background-size: 0.56rem;
+	display: block;
+	margin-right: 0rem;
+	float: left;
+}
+.tabbar .xuxian{
+	width: 5.23rem;
+	height: 0.44rem;
+	float: left;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-right: auto;
+	margin-left: auto;
+	z-index: -1;
+}
+.tabbar .xuxian .xuxians{
+	width: 0.71rem;
+	height: 0.44rem;
+	background: url('../img/xuxian.png') no-repeat;
+	background-size: 0.71rem;
+	margin-right: 0.78rem;
+	float: left;
+}
+.tabbar .xuxian .xuxianx{
+	width: 0.71rem;
+	height: 0.44rem;
+	background: url('../img/xuxian.png') no-repeat;
+	background-size: 0.71rem;
+	margin-right:0rem;
+	float: left;
+}
+/* tab结束 */

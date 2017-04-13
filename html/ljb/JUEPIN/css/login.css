@@ -1,0 +1,287 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: San Francisco display;
+}
+a{
+	text-decoration: none;
+}
+.ditu{
+	width: 100%;
+	height: 13.34rem;
+	background: url('../img/login_ditu.png') no-repeat;
+	background-size: 7.5rem;
+}
+.ditu .zhuce{
+	width: 100%;
+	height: 0.74rem;
+	padding-top: 0.24rem;
+	box-sizing: border-box;
+	padding-left: 0.24rem;
+}
+.ditu .zhuce .xzhuce{
+	width: 1.14rem;
+	height: 0.5rem;
+	background: #e7e7e7;
+	border-radius: 0.4rem;
+	border: 1px solid #b2b2b2;
+	display: block;
+}
+.ditu .xzhuce .fanhuiicon{
+	width: 0.22rem;
+	height: 0.22rem;
+	border-radius: 50%;
+	background: #fff url('../img/login_fanhuiicon.png')no-repeat 50% 50%;
+	background-size: 0.07rem;
+	margin-left: 0.16rem;
+	margin-top: 0.14rem;
+	float: left;
+	margin-right: 0.08rem;
+	box-shadow: 0 0.01rem 0.08rem #c4c4c4;
+}
+.ditu .xzhuce .zhucezi{
+	width: 0.5rem;
+	height: 0.22rem;
+	float: left;
+	margin-top: 0.08rem;
+	font-family: "苹方";
+	font-size: 0.22rem;
+	color: #a0a0a0;
+}
+.ditu .shangpin{
+	width: 2.04rem;
+	height: 4.02rem;
+	margin: 0 auto;
+}
+.ditu .shangpin .sptu{
+	width: 2.04rem;
+	height: 2.24rem;
+	background: url('../img/login_shangpin.png')no-repeat;
+	background-size: 2.04rem;
+	float: left;
+}
+.ditu .shangpin .slogan{
+	float: left;
+	width: 2.04rem;
+	height: 1.78rem;
+	background: url('../img/login_slogan.png')no-repeat;
+	background-size: 2.04rem;
+}
+.ditu .biaodan{
+	width: 100%;
+	height: 2.97rem;
+	padding-top: 0.17rem;
+	padding-left: 0.7rem;
+	box-sizing: border-box;
+}
+.ditu .biaodan .biaodandise{
+	width: 6.1rem;
+	height: 2.4rem;
+	background: #fff;
+	border-radius: 0.1rem;
+	box-sizing: border-box;
+	padding-top: 0.43rem;
+}
+.ditu .biaodandise .kuang{
+	width: 6.1rem;
+	height: 0.43rem;
+	margin-bottom: 0.3rem;
+	padding-left: 0.26rem;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.ditu .kuang .dian1{
+	width: 0.08rem;
+	height: 0.08rem;
+	background: #8a4a2d;
+	margin-top: 0.17rem;
+	float: left;
+	margin-right: 0.04rem;
+	border-radius: 50%;
+}
+.ditu .kuang .s{
+	background: #c4a496;
+	margin-right: 0.08rem;
+}
+.ditu .kuang .zhanghao{
+	width: 4.74rem;
+	height: 0.28rem;
+	box-sizing: border-box;
+	float: left;
+	margin-top: 0.07rem;
+	border: 0;
+	color: #b7b7b7;
+	margin-right: 0.16rem;
+}
+::-webkit-input-placeholder{
+	color: #b7b7b7;
+}
+.ditu .kuang .yonghu{
+	width: 0.44rem;
+	height: 0.44rem;
+	float: left;
+	background: #fff url('../img/login_icon_ren.png')no-repeat 50% 50%;
+	background-size: 0.19rem;
+	border: 1px solid #ececec;
+	border-radius: 50%;
+}
+.ditu .kuang .mima{
+	width: 0.44rem;
+	height: 0.44rem;
+	float: left;
+	background: #fff url('../img/longin_icon_suozi.png')no-repeat 50% 50%;
+	background-size: 0.19rem;
+	border: 1px solid #ececec;
+	border-radius: 50%;
+}
+.ditu .biaodandise .xian{
+	width: 6.1rem;
+	height: 0.09rem;
+	background: url('../img/login_xian.png')no-repeat 50% 50%;
+	background-size: 5.99rem;
+	margin-bottom: 0.3rem;
+}
+.ditu .button{
+	width: 100%;
+	height: 1.7rem;
+	padding-left: 2.25rem;
+	padding-top: 0.4rem;
+	box-sizing: border-box;
+	position: relative;
+}
+.ditu .button .jinru{
+	width: 3.0rem;
+	height: 1.06rem;
+	background: rgba(104, 53, 23, 0.8);
+	/* mix-blend-mode: multiply;  */
+	box-sizing: border-box;
+	border-radius: 0.5rem;
+	border: 0.03rem	solid rgba(255,255,255,1);	
+}
+.ditu .button .neirong{
+	width: 2.64rem;
+	height: 0.66rem;
+	position: absolute;
+	left: 2.44rem;
+	top: 0.6rem;
+}
+.ditu .neirong .dian{
+	width: 0.08rem;
+	height: 0.08rem;
+	background: #ececec;
+	margin-top: 0.28rem;
+	border-radius: 50%;
+	float: left;
+	margin-right: 0.48rem;
+}
+.ditu .neirong .s{
+	float: right;
+	margin-right: 0;
+}
+.ditu .neirong .zi{
+	width: 1.48rem;
+	height: 0.66rem;
+	float: left;
+	text-align: center;
+}
+.ditu .zi h1{
+	color: #fff;
+	font-size: 0.26rem;
+	font-family: "苹方";
+}
+.ditu .zi h2{
+	color: #d9d9d9;
+	font-size: 0.18rem;
+	font-family: San Francisco display;
+	font-weight: 400;
+}
+.ditu .moren{
+	width: 2.66rem;
+	height: 0.94rem;
+	margin: 0 auto;
+}
+.ditu .moren .wangjimima{
+	width: 1.3rem;
+	height: 0.94rem;
+	display: block;
+	overflow: hidden;
+	float: left;
+	margin-right: 0.07rem;
+}
+.ditu .wangjimima .dian{
+	width: 0.06rem;
+	height: 0.06rem;
+	background: #90949c;
+	border-radius: 50%;
+	margin-top: 0.58rem;
+	margin-right: 0.12rem;
+	float: left;
+}
+.ditu .wangjimima .zi{
+	width: 1.1rem;
+	height: 0.3rem;
+	float: left;
+	margin-top: 0.44rem;
+	font-size: 0.26rem;
+	color: #5c5c5c;
+	font-family: "苹方";
+}
+.ditu .moren .xian{
+	width: 0.01rem;
+	height: 0.36rem;
+	background: #a4a4a5;
+	float: left;
+	margin-top: 0.44rem;
+	margin-right: 0.16rem;
+}
+.ditu .moren .jizhu{
+	width: 1.04rem;
+	height: 0.4rem;
+	float: left;
+	margin-top: 0.42rem;
+
+}
+.ditu .jizhu .jizhuanniu{
+	width: 1.02rem;
+	height: 0.4rem;
+	background: rgba(108, 68, 50, 0.4);
+	float: left;
+	border: 0.01rem solid #969696;
+	border-radius: 0.2rem;
+	box-sizing: border-box;
+}
+.ditu .jizhu .xiaodian{
+	width: 0.3rem;
+	height: 0.3rem;
+	background: url('../img/login_xiaodian.png')no-repeat;
+	background-size: 0.3rem;
+	margin-left: 0.05rem;
+	margin-top: 0.05rem;
+}
+.ditu .disanfang{
+	width: 5rem;
+	height: 1.2rem;
+	margin: 0 auto;
+	margin-top: 0.66rem;
+}
+.ditu .disanfang .QQ{
+	width: 1.2rem;
+	height: 1.2rem;
+	background: #fff url('../img/login_qq.png')no-repeat 50% 50%;
+	background-size: 0.75rem;
+	display: block;
+	margin-right: 0.7rem;
+	float: left;
+	border-radius: 50%;
+	box-shadow: 0 0 0.2rem rgba(165, 165, 165, 0.7);
+}
+.ditu .disanfang .x{
+	background: #fff url('../img/login_qqweixin.png')no-repeat 50% 50%;
+	background-size: 0.75rem;
+}
+.ditu .disanfang .w{
+	margin-right: 0;
+	background: #fff url('../img/login_weibo.png')no-repeat 50% 50%;
+	background-size: 0.75rem;
+}
