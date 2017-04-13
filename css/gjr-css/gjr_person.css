@@ -138,27 +138,38 @@ body{
 .gjr_add{
 	width: 100%;
 	height: 0.8rem;
-	background-image: url("../../img/gjr-img/menu (2).png");;
-	background-size:cover;
+	/*background-image: url("");;*/
+}
+.gjr_add>img{
+	width: 100%;
 }
 .gjr_status{
 	width: 100%;
 	height: auto;
 	background: #f4f4f4;
 	overflow: hidden;
+	margin-top: 0.1rem;
 }
 
 .gjr_user{
 	width: 7.02rem;
 	height: 1.3rem;
 	margin: 0 auto;
-	border-bottom: 1px solid #cbcbcb;
 }
 .gjr_sright{
 	float: left;
 	width: 5.82rem;
 	height: 1rem;
 	padding-top: 0.3rem;
+	position: relative;
+}
+.gjr_sright>img{
+	width: 0.48rem;
+	height: 0.16rem;
+	position: absolute;
+	right: 0rem;
+	top: 50%;
+	height: -0.08rem;
 }
 .gjr_user>img{
 	width: 1.2rem;
@@ -182,10 +193,86 @@ body{
 .gjr_sright> div.gjr_star1>img{
 	height: 0.25rem;
 }
-
-
-
-
+.gjr_display{
+	width: 7.02rem;
+	height: 3.5rem;
+	margin: 0 auto;
+}
+.gjr_display>li{
+	float: left;
+}
+.gjr_display>li>a{
+	width: 100%;
+	height: 100%;
+}
+.gjr_display>li>a>img{
+	width: 100%;
+}
+.gjr_display>li:first-child,.gjr_display>li:nth-child(2){
+	width: 2.31rem;
+	height: 100%;
+	margin-right: 0.03rem;
+}
+.gjr_display>li:nth-child(3){
+	width: 2.31rem;
+	height: 2.02rem;
+}
+.gjr_display>li:nth-child(4){
+	width: 2.31rem;
+	height: 1.34rem;
+	margin-top: 0.02rem;
+}
+#top{
+	width: 100%;
+	height: 2.2rem;
+	background-image: url(../../img/1.png);
+	background-size: center;
+}
+#bottom{
+	width: 100%;
+	height: 1rem;
+	background: #121314;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+}
+#bottom>ul{
+	width: 100%;
+	height: 0.7rem;
+	justify-content:space-around;
+  	display: flex;
+}
+#bottom>ul>li{
+	width: 20%;
+	height: 0.54rem;
+	margin-top: 0.24rem;
+	margin-left: 0.34rem;
+	position: relative;
+}
+#bottom>ul>li:first-child>a> img{
+	width: 0.70rem;
+}
+#bottom>ul>li:nth-child(2)>a> img{
+	width: 0.7rem;
+}
+#bottom>ul>li:nth-child(3)>a> img{
+	width: 0.7rem;
+}
+#bottom>ul>li:nth-child(4) >a>img{
+	width: 0.70rem;
+}
+#bottom>ul>li:nth-child(5)>a> img{
+	width: 0.70rem;
+}
+#bottom>ul>li div{
+	position: absolute;
+	right: 0rem;
+	top: 0;
+}
+#bottom>ul>li div img{
+	width: 0.02rem;
+	height: 0.56rem;
+}
 
 
 
