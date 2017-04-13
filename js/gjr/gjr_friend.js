@@ -10,6 +10,5 @@ $(document).ready(function(){
 		$('body,html').toggleClass('hidden');
 		$('.gjr_alert').slideToggle()
 	})
-		
 	
 })
