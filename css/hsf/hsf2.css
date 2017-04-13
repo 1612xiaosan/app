@@ -85,6 +85,8 @@ body,html{
 	right:0.85rem;
 	bottom:0.3rem;
 }
+
+/*第一步基本信息填写*/
 .hsf-two-next.active{
 	color:#fff;
 	background:#774935;
@@ -98,7 +100,7 @@ body,html{
 .hsf-two-xinxi.three{
 	background-image: url(../../img/hsf-img/hsf-two-zhuce3.png);		
 }
-
+/*第一步基本信息填写结束*/
 /*表单开始*/
 .hsf-two-register .hsf-two-biaodan{
 	width: 100%;
@@ -106,8 +108,27 @@ body,html{
 	padding-top: 0.17rem;
 	padding-left: 0.7rem;
 	box-sizing: border-box;
+	display: none;
 }
-
+/*第二步上传头像*/
+.hsf-two-images{
+	width:6rem;
+	height:6rem;
+	border-radius: 10px;
+	background:#fff;
+	margin:0.3rem auto;
+	position: relative;
+}
+.hsf-two-shangchuan{
+	width:3rem;
+	height:3rem;
+	border-radius: 50%;
+	border:2px solid #ECECEC;
+	position:absolute;
+	left:1.5rem;
+	top:1.2rem;
+}
+/*第二步上传头像结束*/
 .hsf-two-register .hsf-two-biaodan .hsf-two-biaodandise{
 	width: 6.1rem;
 	height: 4.5rem;
@@ -227,10 +248,8 @@ body,html{
     height: 0.10rem;
     background: #ececec;
     margin-top: 0.36rem;
-    /*margin-left: 0.30rem;*/
     border-radius: 50%;
     float: left;
-    /*margin-right: 0.48rem;*/
 }
  .hsf-two-size{
 	width: 1.48rem;
@@ -251,11 +270,22 @@ body,html{
 	font-family: San Francisco display;
 	font-weight: 400;
 }
+/*上传图像中的下一步*/
+.hsf-two-continue.active{
+	background: rgba(104, 53, 23, 0.8);
+	color: #fff;	
+}
+
+
+
+
+
 /*错误时验证*/
 .hsf-two-yanzheng{
 	width:100%;
 	height:0.3rem;
     padding-left: 0.7rem;
+    display: none;
 }
 .hsf-two-yuandian{
 	width:0.1rem;
