@@ -41,13 +41,14 @@ body{
 .ljb_banner{
 	width: 7.5rem;
 	height: 2.2rem;
+	position: relative;
 }
 .ljb-banner{
 	width: 7.0rem;
 	height: 2.74rem;
 	border-radius: 8px;
 	position: absolute;
-	top: 8%;
+	top: -52%;
 	left: 3%;
 }
 .ljb-banner>img{
@@ -72,7 +73,7 @@ body{
 	width: 6.02rem;
 	height: 1.18rem;
 	position: absolute;
-	top: 24%;
+	top: 48%;
 	left: 10%;
 	border-radius: 8px;
 	border: 1px solid #ccc;
@@ -280,6 +281,7 @@ body{
 	width: 100%;
 	height: auto;
 	overflow: hidden;
+	margin-top: 0.2rem;
 }
 .ljb_xie ul{
 	width: 100%;
@@ -335,6 +337,7 @@ body{
 	float: right;
 	width: 5.19rem;
 	height: 1.88rem;
+	position: relative;
 }
 .ljb_wen h1{
 	font-size: 0.25rem;
@@ -364,8 +367,8 @@ body{
 	width: 2rem;
 	height: 0.3rem;
 	position: absolute;
-	top: 139.5%;
-	left: 2.1rem;
+	top: 78.5%;
+	left: 0;
 }
 .ljb_ppb> ul{
 	width: 100%;
@@ -393,15 +396,15 @@ body{
 	width: 2rem;
 	height: 0.3rem;
 	position: absolute;
-	top: 154.2%;
-	left: 2.1rem;
+	top: 76.2%;
+	left: 0;
 }
  .bb{
 	width: 2rem;
 	height: 0.3rem;
 	position: absolute;
-	top: 169.2%;
-	left: 2.1rem;
+	top: 78.2%;
+	left: 0;
 }
 
 	
