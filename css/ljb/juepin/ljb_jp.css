@@ -113,19 +113,19 @@ body{
 
 }
 /* 最大 */
-/* .ljb_all{
+.ljb_poiu{
 	width: 7.5rem;
-	height: auto;
+	height: 1rem;
 	background: #F4F4F4;
 	position: relative;
-} */
+}
 .ljb_xingxing{
 	width:1.78rem;
 	height: auto;
 	overflow: hidden;
 	margin: 0 auto;
 	position: absolute;
-	top: 47%;
+	top: -40%;
 	left: 38%;
 }
 .ljb_xingxing >img{
@@ -136,7 +136,7 @@ body{
 	height: 0.38rem;
 	margin: 0 auto;
 	position: absolute;
-	top: 60%;
+	top: 85%;
 	left: 30%;
 }
 .ljb_xiezi >h1{
