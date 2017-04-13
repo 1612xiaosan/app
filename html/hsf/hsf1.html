@@ -6,7 +6,11 @@
 	<meta name="viewport" content="width=device-width">
 	<link rel="stylesheet" href="../../css/hsf/hsf1.css">
 	<link rel="stylesheet" href="../../css/hsf/base.css">
-	<script src="../../js/hsf/rem.js"></script>
+	<script src="../../common/js/common.js"></script>
+	<script src="../../common/js/jquery.min.js"></script>
+	<script src="../../js/hsf/jquery.validate.js"></script>
+	<script src="../../icon/iconfont.js"></script>	
+	<script src="../../js/hsf/hsf1.js"></script>
 	<!-- Add to homescreen for Safari on Ios -->
 	  <meta name="apple-mobile-web-app-capable" content="yes">
 	  <meta name="apple-mobile-web-app-status-bar-style" content="black">
@@ -40,12 +44,13 @@
 		<!--<div class="hsf-first-twoshangpin"></div>-->
 		<!-- 标志物标题结束 -->
 		<!-- 表单填写开始 -->
+		<form action="" id="hsf-first-myform">
 		<div class="hsf-first-biaodan">
 			<div class="hsf-first-biaodandise">
 				<div class="hsf-first-kuang">
 					<div class="hsf-first-dian1"></div>
 					<div class="hsf-first-dian1 s"></div>
-					<input type="text" placeholder="你的名字" class="hsf-first-zhanghao"> 
+					<input type="text" placeholder="你的名字" class="hsf-first-zhanghao" name="hsffirstname"> 
 					<div class="hsf-first-yonghu"></div>
 					<div class="hsf-first-true"></div>					
 				</div>
@@ -53,27 +58,49 @@
 				<div class="hsf-first-kuang">
 					<div class="hsf-first-dian1"></div>
 					<div class="hsf-first-dian1 s"></div>
-					<input type="password" placeholder="你的密码" class="hsf-first-zhanghao"> 
+					<input type="password" placeholder="你的密码" class="hsf-first-zhanghao" name="hsffirstpass"> 
 					<div class="hsf-first-mima"></div>
-					<div class="hsf-first-false"></div>
-					<div class="hsf-first-xianshi"></div>
+					<div class="hsf-first-false">
+						<svg class="icon" aria-hidden="true">
+                                     <use xlink:href="#icon-shanchu"></use>
+                        </svg>
+					</div>
+					<div class="hsf-first-xianshi">
+						<svg class="icon" aria-hidden="true">
+                                     <use xlink:href="#icon-iconxianshimima01"></use>
+                        </svg>
+					</div>
 				</div>
 			</div>
 		</div>
+	
 		<!-- 表单填写结束 -->
 		<!-- 进入按钮开始 -->
+		<!--<div class="hsf-first-jiazai">
+			<div class="hsf-first-jiazaitu"></div>
+			<div class="hsf-first-morens">
+			<a href="#" class="hsf-first-wangjimima">
+				<div class="hsf-first-dian"></div>
+				<div class="hsf-first-zi">忘记密码</div>
+			</a>
+			<div class="hsf-first-xian"></div>
+			<div class="hsf-first-jizhu">
+				<div class="hsf-first-jizhuanniu">
+					<div class="hsf-first-xiaodian"></div>
+				</div>
+			</div>
+		</div>
+		</div>-->
 		<div class="hsf-first-button">
-			<a href="index.html">
-			<input type="button" class="hsf-first-jinru">
+			<input type="button" class="hsf-first-jinru active">
 			<div class="hsf-first-neirong">
 				<div class="hsf-first-dian"></div>
 				<div class="hsf-first-ziz">
 					<h1>进入珏品</h1>
-					<h2>KAISHIXUANGOU</h2>
+					<h2 class="active">KAISHIXUANGOU</h2>
 				</div>
 				<div class="hsf-first-dian s"></div>
 			</div>
-			</a>
 		</div>
 		<!-- 进入按钮结束 -->
 		<!-- 忘记密码开始 -->
@@ -89,6 +116,7 @@
 				</div>
 			</div>
 		</div>
+			</form>
 		<!-- 忘记密码结束 -->
 		<!-- 第三方登录开始 -->
 		<div class="hsf-first-disanfang">
@@ -97,6 +125,12 @@
 			<a href="#" class="hsf-first-QQ w"></a>
 		</div>
 		<!-- 第三方登录结束 -->
+	</div>
+	<div class="hsf-first-shibai">
+		<div class="hsf-first-failure">
+			<div class="hsf-first-jiancha"></div>
+			<div class="hsf-first-guanbi"></div>
+		</div>
 	</div>
 </body>
 </html>
