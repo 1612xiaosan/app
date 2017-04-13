@@ -42,6 +42,7 @@
 	position: absolute;
 	border-radius: 5px;
 	border: 2px solid #fff;
+	overflow: hidden;
 	left: 0;
 	top: -45%;
 }
