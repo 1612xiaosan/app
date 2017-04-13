@@ -11,6 +11,7 @@ body{
     position: fixed;
     left: 0rem;
     top: 0rem;
+    z-index: 10;
 }
 .gjr_back{
     display: block;
@@ -112,6 +113,7 @@ body{
     float: right;
     line-height:1.2rem;
 }
+
 .xia{
     float: right;
 //  color: #6f6f6f;
@@ -134,14 +136,24 @@ body{
     top: 0.26rem;
 }
 .gjr_tab{
+    display:block;
     width: 0.96rem;
     height: 0.48rem;
     float: right;
     margin-top: 0.3rem;
     margin-right: 0.2rem;
+    background-image: url('../../img/gjr-img/more/button1.png');
+    background-size: cover; 
 }
-
-
+.gjr_tabone{
+    background-image: url('../../img/gjr-img/more/button2.png');
+}
+//.gjr_icon {
+//  width: 0.96rem;
+//  height: 0.48rem;
+//
+//
+//}
 
 
 
