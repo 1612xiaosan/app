@@ -7,8 +7,11 @@ $(document).ready(function(){
 		})
 	})
 	$('.gjr_share>img:first').click(function(){
-		$('body,html').toggleClass('hidden');
-		$('.gjr_alert').slideToggle()
+		$('body,html').addClass('hidden');
+		$('.gjr_alert').slideDown();
 	})
-	
+	$('.gjr_circle').click(function(){
+		$('body,html').removeClass('hidden');
+		$('.gjr_alert').slideUp();
+	})
 })
