@@ -15,6 +15,7 @@
 	position: fixed;
 	left: 0;
 	bottom: 0;
+	z-index: 99999999;
 }
 #bottom>ul{
 	width: 100%;
