@@ -26,10 +26,21 @@ body{
 	float: right;
 	margin-top: 0.15rem;
 }
+.ljb_zz{
+	width: 1.56rem;
+	height: 0.48rem;
+	float:left;
+	margin-top: 0.4rem;
+	margin-left:2.1rem;
+}
+.ljb_zz img{
+	width: 100%;
+
+}
+
 .ljb_banner{
 	width: 7.5rem;
 	height: 2.2rem;
-	background: red;
 }
 .ljb-banner{
 	width: 7.0rem;
@@ -38,7 +49,6 @@ body{
 	position: absolute;
 	top: 8%;
 	left: 3%;
-	background: yellow;
 }
 .ljb-banner>img{
 	width: 100%;
@@ -55,47 +65,54 @@ body{
 	position: absolute;
 	top: 0;
 	left: 0;
+	border-radius: 8px;
 }
+.ljb_pj{
+	width: 6.02rem;
+	height: 1.18rem;
+	position: absolute;
+	top: 24%;
+	left: 10%;
+	border-radius: 8px;
+	border: 2px solid #ccc;
+	background: #fff;
+}
+.ljb_pj >.l-pp{
+	width: 1.11rem;
+	height: 1.29rem;
+	position: absolute;
+	top: -30%;
+	left: 3%;
+}
+.ljb_pj >.l-pp img{
+	width: 100%;
+}
+.ljb_pj h1{
+	font-size: 0.3rem;
+	color: #898c99;
+	font-family: San Francisco display;
+	margin-top: 0.14rem;
+	margin-left: 1.5rem;
+}
+.ljb_pj h2{
+	font-size: 0.22rem;
+	font-family: "苹方";
+	color: #afafaf;
+	margin-left: 1.5rem;
+}
+/* .ljb_pj .xian{
+	width: 4.52rem;
+	height: 0.03rem;
+	background: url('../../../img/ljb.png') no-repeat;
+	background-size: 4.54rem;
+	margin-left: 1.3rem;
+	
+} */
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .ljb_zuida{
+.ljb_zuida{
 	width: 100%;
 	height: 20.00rem;
 	background: #F6F6F6;
@@ -127,7 +144,6 @@ body{
 .ljb_tese{
 	width: 100%;
 	height: 1.5rem;
-	margin-top: 2.5rem;
 	padding-top: 0.2rem;
 	box-sizing:border-box; 
 	margin-bottom: 0.17rem;
@@ -137,7 +153,6 @@ body{
 	height: 100%;
 	background: #fff;
 	padding-left: 0.52rem;
-	margin-top: -0.3rem;
 }
 .ljb_tese>ul>li:first-child a{
 	display: block;
@@ -376,4 +391,4 @@ body{
 }
 .ljb_san img{
 	width: 100%;
-} */
+}

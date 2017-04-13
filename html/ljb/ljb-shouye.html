@@ -4,27 +4,40 @@
 	<meta charset="UTF-8">
 	<title>shouye</title>
 	<script src="../../js/ljb/jquery.js"></script>
+	<script src="../../common/js/jquery.min.js"></script>
+	<script src='../../js/ljb/swiper.min.js'></script>
+
 	
 	<link rel="stylesheet" href="../../common/css/bottom.css">
 	<link rel="stylesheet" href="../../common/css/common.css">
 	<link rel="stylesheet" href="../../css/ljb/shouye/ljb_shouye.css">
+	<link rel="stylesheet" href="../../css/ljb/shouye/swiper.min.css">
+	
+
 	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
 
-		<meta name="x5-orientation" content="portrait | landscape" />
+	<meta name="x5-orientation" content="portrait | landscape" />
 		<!---->
-		<meta name="screen-orientation" content="portrait">
+	<meta name="screen-orientation" content="portrait">
 		<!--全屏问题-->
-		<meta name="x5-fullscreen" content="true" />
-		<meta name="full-screen" content="yes">
+	<meta name="x5-fullscreen" content="true" />
+	<meta name="full-screen" content="yes">
 		<!--禁止打电话、登录邮箱-->
-		<meta name="format-detection" content="telephone=no, email=no" />
+	<meta name="format-detection" content="telephone=no, email=no" />
+
+
 	<script src="../../common/js/common.js"></script>
 	<script src="../../js/ljb/ljb.js"></script>
+
+
 </head>
 <body>
 	<div class="ljb_top">
 		<div class='ljb_sousuo'>
 			<img src="../../img/ljb/ljb_2.png">
+		</div>
+		<div class="ljb_zz">
+			<img src="../../img/ljb/ljb_3.png">
 		</div>
 		<div class='ljb_sys'>
 			<img src="../../img/ljb/ljb_1.png">
@@ -45,6 +58,14 @@
 				</li>
 			</ul>
 		</div>
+		<div class="ljb_pj">
+			<div class="l-pp">
+				<img src="../../img/ljb/ljb_4.png">
+			</div>
+			<h1>ENJOY LIFE</h1>
+			<h2>简约创意生活带给您舒适的感受</h2>
+			<div class="xian"></div>
+		</div>
 	</div>
 
 
@@ -53,10 +74,10 @@
 
 
 
-s
 
 
-<!-- <div class="ljb_zuida">
+
+<div class="ljb_zuida">
 		<div class="ljb_ms">
 			<a href="javascript:;">
 				<img src="../../img/ljb/ljb_4.png">
@@ -82,7 +103,7 @@ s
 		<div id="ljb_t1">
 			<img src="../../img/ljb/ljb_biaoti1.png">
 		</div>
-		<div class="ljb_dz swiper-dz">
+		<div class="ljb_dz swiper-container">
 		<div class="swiper-wrapper">
 			<a href="javascript:;" class="swiper-slide">
 				<img src="../../img/ljb/ljb_dingzhi1 (1).png">
@@ -205,24 +226,6 @@ s
 		</div>
 
 </div>
-	 -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 	<div id ="bottom">
@@ -251,15 +254,9 @@ s
 </body>
 </html>
 <script>
-// 	var swiper = new Swiper('.swiper-container', {
-//         pagination: '.swiper-pagination',
-//         paginationClickable: true,
-//         spaceBetween: 30,
-//         effect: 'fade'
-//     });
-// </script>
-//  <script>
-//     var swiper = new Swiper('.swiper-dz',{
-//     	slidesPerView:'auto',
-//     });
+	$(document).ready(function(){
+	    var swiper = new Swiper('.swiper-container',{
+	    	slidesPerView:'auto',
+	    });		
+	});
    </script>
