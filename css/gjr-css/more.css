@@ -31,7 +31,13 @@ body {
 }
 
 .gjr_back > span {
-  color: #fff;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: block;
+  background-image: url("../../img/gjr-img/lr_03.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .gjr_back img {
@@ -125,8 +131,15 @@ body {
 
 .xia {
   float: right;
-  color: #6f6f6f;
   margin-right: 0.2rem;
+  width: 0.26rem;
+  height: 0.2rem;
+  margin-top: 0.5rem;
+  border-radius: 50%;
+  display: block;
+  background-image: url("../../img/gjr-img/lr_07.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .gjr_line {
