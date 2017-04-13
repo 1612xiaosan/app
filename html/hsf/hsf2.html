@@ -11,6 +11,7 @@
 		<script src="../../common/js/jquery.min.js"></script>
 		<script src="../../js/hsf/jquery.validate.js"></script>
 		<script src="../../icon/iconfont.js"></script>
+		<script src="../../js/hsf/biaodanyanzheng.js"></script>
 		<script src="../../js/hsf/hsf2.js"></script>
 		<!-- Add to homescreen for Safari on Ios -->
 		<meta name="apple-mobile-web-app-capable" content="yes">
@@ -44,15 +45,15 @@
 			<div class="hsf-two-yanzheng">
 				<div class="hsf-two-yuandian"></div>
 				<div class="hsf-two-yuandian"></div>				
-				<p>当前手机号不正确</p>
+				<p></p>
 			</div>
-			<form action="" name="hsf-two-from">
+			<form action="" name="hsf-two-from" class="form-horizontal" role="form" id="register-form">
 				<div class="hsf-two-biaodan">
 					<div class="hsf-two-biaodandise">
 						<div class="hsf-two-kuang">
 							<div class="hsf-two-dian1"></div>
 							<div class="hsf-two-dian1 s"></div>
-							<input type="text" placeholder="你的名字username" class="hsf-two-zhanghao" name="hsftwoname">
+							<input type="text" placeholder="你的名字username" class="hsf-two-zhanghao" name="hsftwoname" id="username">
 							<div class="hsf-two-yonghu"></div>
 							<div class="hsf-two-true"></div>
 						</div>
@@ -60,7 +61,7 @@
 						<div class="hsf-two-kuang">
 							<div class="hsf-two-dian1"></div>
 							<div class="hsf-two-dian1 s"></div>
-							<input type="tel" placeholder="手机号phone" class="hsf-two-zhanghao" name="hsftwotel">
+							<input type="tel" placeholder="手机号phone" id="phone" class="hsf-two-zhanghao" name="hsftwotel">
 							<div class="hsf-two-yonghu"></div>
 							<div class="hsf-two-true"></div>
 						</div>
@@ -68,7 +69,7 @@
 						<div class="hsf-two-kuang">
 							<div class="hsf-two-dian1"></div>
 							<div class="hsf-two-dian1 s"></div>
-							<input type="password" placeholder="设置密码password" class="hsf-two-zhanghao" name="hsftwopass">
+							<input type="password" placeholder="设置密码password" id="password" class="hsf-two-zhanghao" name="hsftwopass">
 							<div class="hsf-two-yonghu"></div>
 							<div class="hsf-two-true"></div>
 						</div>
@@ -76,7 +77,7 @@
 						<div class="hsf-two-kuang">
 							<div class="hsf-two-dian1"></div>
 							<div class="hsf-two-dian1 s"></div>
-							<input type="password" placeholder="再次设置密码password" class="hsf-two-zhanghao" name="hsftwopass">
+							<input type="password" id="notpass" placeholder="再次设置密码password" class="hsf-two-zhanghao" name="hsftwopass">
 							<div class="hsf-two-mima"></div>
 							<div class="hsf-two-false">
 								<svg class="icon" aria-hidden="true">

@@ -6,7 +6,7 @@
 }
 body,html{
 	width:100%;
-	height:auto;
+	height:100%;
 	overflow: hidden;
 }
 /*全图背景*/
@@ -62,7 +62,7 @@ body,html{
 	background-image: url(../../img/hsf-img/hsf-two-youping.png);
 	background-size: 100%;
 	background-repeat: no-repeat;
-	display: none;
+	/*display: none;*/
 }
 .hsf-two-xinxi{
 	width:100%;
@@ -83,8 +83,8 @@ body,html{
 	line-height: 0.8rem;
 	font-size:18px;
 	font-family: "宋体";
-	right:0.85rem;
-	bottom:0.3rem;
+	right:1.2rem;
+	bottom:0.15rem;
 }
 
 /*第一步基本信息填写*/
@@ -109,7 +109,7 @@ body,html{
 	padding-top: 0.17rem;
 	padding-left: 0.7rem;
 	box-sizing: border-box;
-	display: none;
+	/*display: none;*/
 }
 /*第二步上传头像*/
 .hsf-two-images{
@@ -117,6 +117,7 @@ body,html{
 	height:6rem;
 	border-radius: 10px;
 	background:#fff;
+	display: none;
 	margin:0.3rem auto;
 	position: relative;
 }
@@ -284,16 +285,16 @@ body,html{
 /*错误时验证*/
 .hsf-two-yanzheng{
 	width:100%;
-	height:0.3rem;
+	height:0.5rem;
     padding-left: 0.7rem;
-    display: none;
+    /*display: none;*/
 }
 .hsf-two-yuandian{
 	width:0.1rem;
 	height:0.1rem;
 	border-radius: 50%;
 	background:red;
-	margin-top:0.1rem;
+	margin-top:0.4rem;
 	margin-left:0.05rem;
 	float:left;
 	
