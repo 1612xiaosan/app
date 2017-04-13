@@ -2,9 +2,12 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>shouye</title>
+	<script src="../../js/ljb/jquery.js"></script>
+	<script src="../../js/ljb/swiper.min.js"></script>
 	<link rel="stylesheet" href="../../common/css/bottom.css">
-	<link rel="stylesheet" href="../../css/ljb/ljb.css">
+	<link rel="stylesheet" href="../../css/ljb/shouye/swiper.min.css">
+	<link rel="stylesheet" href="../../css/ljb/shouye/ljb_shouye.css">
 	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
 	<meta name="x5-orientation" content="portrait | landscape" />
 	<meta name="screen-orientation" content="portrait">
@@ -12,6 +15,7 @@
 	<meta name="full-screen" content="yes">
 	<meta name="format-detection" content="telephone=no, email=no" />	
 	<script src="../../common/js/common.js"></script>
+	<script src="../../js/ljb/ljb.js"></script>
 </head>
 <body>
 	<div id="top">
@@ -27,24 +31,30 @@
 				<a href=""><img src="../../img/ljb/ljb_1.png"></a>
 			</div>		
 		</div>
+	<div class="ljb_bb">
 		<div class="ljb_banner">
-			<a href="">
+			<a href="javascript:;">
 				<ul>
 					<li>
 						<img src="../../img/ljb/ljb_banner1.png">
-					</li>
-					<li>
-						<img src="../../img/ljb/ljb_banner2.png">
-					</li>
-					<li>
-						<img src="../../img/ljb/ljb_banner3.png">
-					</li>
-					<li>
-						<img src="../../img/ljb/ljb_banner4.png">
+					  <div class="swiper-container">
+        					<div class="swiper-wrapper">
+          		 				 <div class="swiper-slide">
+          		 				 	<img src="../../img/ljb/ljb_banner3.png">
+          		 				 </div>
+          						 <div class="swiper-slide">
+          						 	<img src="../../img/ljb/ljb_banner4.png">
+          						 </div>
+         	  	 				 <div class="swiper-slide">
+         	  	 				 	<img src="../../img/ljb/ljb_banner1.png">
+         	  	 				 </div>
+         					</div>
+   					 </div>	
 					</li>
 				</ul>
 			</a>
 		</div>
+	</div>	
 	</div>
 <div class="ljb_zuida">
 		<div class="ljb_ms">
@@ -72,16 +82,19 @@
 		<div id="ljb_t1">
 			<img src="../../img/ljb/ljb_biaoti1.png">
 		</div>
-		<div class="ljb_dz">
-			<a href="">
+		<div class="ljb_dz swiper-dz">
+		<div class="swiper-wrapper">
+			<a href="javascript:;" class="swiper-slide">
 				<img src="../../img/ljb/ljb_dingzhi1 (1).png">
 			</a>
-			<a href="">
+			<a href="javascript:;" class="swiper-slide">
 				<img src="../../img/ljb/ljb_dingzhi1 (2).png">
 			</a>
-			<a href="">
-				<!-- <img src="../../img/ljb/ljb_dingzhi1 (3).png"> -->
+			<a href="javascript:;" class="swiper-slide">
+				<img src="../../img/ljb/ljb_dingzhi1 (5).png">
 			</a>
+			
+			</div>	
 		</div>
 		<div class="ljb_t2">
 			<img src="../../img/ljb/ljb_biaoti2.png">
@@ -237,3 +250,16 @@
 	</div>
 </body>
 </html>
+<script>
+	var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        spaceBetween: 30,
+        effect: 'fade'
+    });
+</script>
+ <script>
+    var swiper = new Swiper('.swiper-dz',{
+    	slidesPerView:'auto',
+    });
+   </script>
