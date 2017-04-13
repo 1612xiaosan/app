@@ -1,81 +1,101 @@
-.ljb_box{
-	width: 7.02rem;
-	height: 0.83rem;
-	margin: 0 auto;
+body{
+	background: #f6f6f6;
 }
-.ljb_box >.ljb_left img{
+.ljb_top{
+	width: 7.5rem;
+	height: 2.2rem;
+	background-image: url(../../../img/1.png);
+	background-size: 7.52rem;
+	overflow: hidden; 
+	padding-left: 0.24rem;
+	padding-right: 0.24rem;
+}
+.ljb_sousuo{
 	width: 0.7rem;
-	height: 0.7rem;
+	height: 0.46rem;
 	float: left;
 	margin-top: 0.15rem;
 }
-.ljb_box >.ljb_right img{
-	width:0.7rem;
-	height: 0.7rem;
+.ljb_sousuo img,.ljb_sys img{
+	width: 100%;
+	margin-top: 0.15rem;
+}
+.ljb_sys{
+	width: 0.7rem;
+	height: 0.4rem;
 	float: right;
 	margin-top: 0.15rem;
 }
-.ljb_box >.ljb_zi img{
-	width:1.56rem;
-	height: 0.48rem;
-	float: left;
-	margin-top: 0.25rem;
-	margin-left: 2.1rem;
+.ljb_banner{
+	width: 7.5rem;
+	height: 2.2rem;
+	background: red;
 }
-.ljb_bb{
-	width: 100%;
-	height:2.55rem;
-	background:#f6f6f6;
-	margin-top: 1.35rem;
-}
-.ljb_banner >a>ul{
+.ljb-banner{
 	width: 7.0rem;
 	height: 2.74rem;
-	margin: 0 auto;
-	margin-top: -0.04rem;
 	border-radius: 8px;
-	position:relative;
+	position: absolute;
+	top: 8%;
+	left: 3%;
+	background: yellow;
 }
-.ljb_banner >a>ul>li{
+.ljb-banner>img{
+	width: 100%;
+}
+.ljb-banner>ul{
 	width: 100%;
 	height: 100%;
 	position: absolute;
-	border-radius: 5px;
-	border: 2px solid #fff;
-	overflow: hidden;
+	top: 0;
 	left: 0;
-	top: -45%;
 }
-.ljb_banner .swiper-container{
-	height: 7.0rem;
+.ljb-banner>ul li img{
 	width: 100%;
 	position: absolute;
 	top: 0;
+	left: 0;
 }
-.ljb_banner .swiper-slide{
-	width: 7.0rem;
-	height: 100%;
-}
-.ljb_banner .swiper-slide>img{
-	width: 100%;
-    /* z-index: 1000; */
-} 
- .ljb_banner >a>ul>li:first-child img{
-	width: 100%;
-}
-/*.ljb_banner >a>ul>li:nth-child(2) img{
-	width: 100%;
-	height: 100%;
-}
-.ljb_banner >a>ul>li:nth-child(3) img{
-	width: 100%;
-	height: 100%;
-}
-.ljb_banner >a>ul>li:nth-child(4) img{
-	width: 100%;
-	height: 100%;
-} */
-.ljb_zuida{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .ljb_zuida{
 	width: 100%;
 	height: 20.00rem;
 	background: #F6F6F6;
@@ -356,4 +376,4 @@
 }
 .ljb_san img{
 	width: 100%;
-}
+} */
