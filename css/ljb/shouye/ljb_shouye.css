@@ -66,6 +66,7 @@ body{
 	top: 0;
 	left: 0;
 	border-radius: 8px;
+	transition:opacity 0.5s;
 }
 .ljb_pj{
 	width: 6.02rem;
@@ -74,7 +75,7 @@ body{
 	top: 24%;
 	left: 10%;
 	border-radius: 8px;
-	border: 2px solid #ccc;
+	border: 1px solid #ccc;
 	background: #fff;
 }
 .ljb_pj >.l-pp{
@@ -285,7 +286,7 @@ body{
 	height: 100%;
 
 }
-.ljb_xie ul li{
+.ljb_xie >ul> li{
 	margin-left:0.1rem;
 	width: 7.24rem;
 	height: 1.88rem;
@@ -295,38 +296,38 @@ body{
 	border-radius: 5px;
 	margin-top: 0.1rem;
 }
-.ljb_xie ul li>a.left{
+.ljb_xie> ul >li>a.left{
 	display: block;
 	width: 1.4rem;
 	height: 1.52rem;
 	float: left;
 
 }
-.ljb_xie ul li>a>.ljb_88{
+.ljb_xie> ul >li>a>.ljb_88{
 	width: 1.4rem;
 	height: 1.6rem;
 	float: left;
 }
-.ljb_xie ul li>a>.ljb_88 img{
+.ljb_xie >ul >li>a>.ljb_88 img{
 	width: 100%;
 	height: 1.3rem;
 }
-.ljb_xie ul li>a>.ljb_89{
+.ljb_xie >ul> li>a>.ljb_89{
 	width: 1.4rem;
 	height: 0.11rem;
 	float: left;
 	margin-top: -0.3rem;
 }
-.ljb_xie ul li>a>.ljb_89 img{
+.ljb_xie> ul >li>a>.ljb_89 img{
 	width: 100%;
 }
-.ljb_xie ul li>a>.ljb_90{
+.ljb_xie >ul >li>a>.ljb_90{
 	width: 1.4rem;
 	height: 0.28rem;
 	float: left;
 	margin-top: -0.1rem;
 }
-.ljb_xie ul li>a>.ljb_90 img{
+.ljb_xie >ul >li>a>.ljb_90 img{
 	width: 60%;
 	margin-left: 0.3rem;
 }
@@ -353,18 +354,54 @@ body{
 	width: 100%;
 	margin-top: 0.06rem;
 }
-.ljb_wen p{
+.ljb_wen> p{
 	width: 4.66rem;
 	height: 0.34rem;
 	font-size: 0.2rem;
 	margin-top: 0.1rem;
 }
-.ljb_san{
+.ljb_ppb{
 	width: 2rem;
-	height: 0.2rem;
-	background: red;
-	float: left;
+	height: 0.3rem;
+	position: absolute;
+	top: 139.5%;
+	left: 2.1rem;
 }
-.ljb_san img{
+.ljb_ppb> ul{
+	width: 100%;
+	height: 100%;
+}
+.ljb_ppb >ul >li{
+	float: left;
+	width:0.32rem;
+	height: 0.32rem;
+	margin-left: 0.02rem;
+}
+.ljb_ppb >ul> li>img{
 	width: 100%;
 }
+.ljb_ppb >ul >li >p{
+	display: inline-block;
+	font-size: 0.2rem;
+	z-index: 22;
+	line-height: 0.355rem;
+}
+.ljb_ppb >ul >li:nth-child(3){
+	margin-left: 0.2rem;
+}
+ .aa{
+	width: 2rem;
+	height: 0.3rem;
+	position: absolute;
+	top: 154.2%;
+	left: 2.1rem;
+}
+ .bb{
+	width: 2rem;
+	height: 0.3rem;
+	position: absolute;
+	top: 169.2%;
+	left: 2.1rem;
+}
+
+	
