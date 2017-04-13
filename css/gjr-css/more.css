@@ -17,6 +17,7 @@ body {
 }
 
 .gjr_back {
+  display: block;
   width: 0.5rem;
   height: 0.5rem;
   border-radius: 50%;
@@ -27,6 +28,10 @@ body {
   color: #fff;
   text-align: center;
   line-height: 0.5rem;
+}
+
+.gjr_back > span {
+  color: #fff;
 }
 
 .gjr_back img {

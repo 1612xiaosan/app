@@ -18,6 +18,7 @@ body {
 }
 
 .gjr_back {
+  display: block;
   width: 0.5rem;
   height: 0.5rem;
   border-radius: 50%;
@@ -28,6 +29,10 @@ body {
   color: #fff;
   text-align: center;
   line-height: 0.5rem;
+}
+
+.gjr_back > span {
+  color: #fff;
 }
 
 .gjr_back img {
@@ -239,12 +244,11 @@ p.gjr_nub {
 }
 
 .gjr_sright > a > img {
-  width: 0.48rem;
-  height: 0.16rem;
+  width: 0.66rem;
   position: absolute;
   right: 0.1rem;
   top: 50%;
-  height: -0.08rem;
+  margin-top: -0.33rem;
 }
 
 .gjr_user > img {

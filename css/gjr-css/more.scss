@@ -13,6 +13,7 @@ body{
     top: 0rem;
 }
 .gjr_back{
+    display: block;
     width: 0.5rem;
     height: 0.5rem;
     border-radius: 50%;
@@ -22,8 +23,10 @@ body{
     margin-left: 0.24rem;
     color: #fff;
     text-align: center;
-    line-height: 0.5rem;
-    
+    line-height: 0.5rem; 
+}
+.gjr_back>span{
+    color: #fff;
 }
 .gjr_back img{
     width: 100%;

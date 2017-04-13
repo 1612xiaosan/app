@@ -8,10 +8,12 @@
 	position: fixed;
 	left: 0rem;
 	top: 0rem;
+	z-index: 10;
 	display: flex;
 	justify-content: space-between;
 }
 .gjr_back{
+	display: block;
 	width: 0.5rem;
 	height: 0.5rem;
 	border-radius: 50%;
@@ -21,6 +23,9 @@
 	color: #fff;
 	text-align: center;
 	line-height: 0.5rem;
+}
+.gjr_back>span{
+	color: #fff;
 }
 .gjr_back img{
 	width: 100%;
