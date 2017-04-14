@@ -1,0 +1,140 @@
+* {
+  font-size: 0.12rem;
+}
+
+body {
+  background: #f3f3f3;
+}
+
+.gjr_header {
+  width: 100%;
+  height: 1rem;
+  background-image: url("../img/gjr-img/gjr_newt_03.png");
+  background-size: cover;
+  position: fixed;
+  left: 0rem;
+  top: 0rem;
+  z-index: 10;
+}
+
+.gjr_back {
+  display: block;
+  width: 0.5rem;
+  height: 0.5rem;
+  margin-top: 0.3rem;
+  margin-left: 0.24rem;
+  color: #fff;
+  text-align: center;
+  line-height: 0.5rem;
+}
+
+.gjr_back > span {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-image: url("../img/gjr-img/gjr_cback_03.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.gjr_back img {
+  width: 100%;
+}
+
+.gjr_person {
+  width: 1.8rem;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.gjr_banner {
+  width: 100%;
+  height: 4.56rem;
+  background-image: url("../img/gjr-img/gjr_banner_02.png");
+  background-size: cover;
+}
+
+.gjr_nhead1 {
+  width: 100%;
+  height: 1.24rem;
+  background-size: cover;
+  background-image: url("../img/gjr-img/gjr_newh_03.png");
+}
+
+.gjr_nhead2 {
+  width: 100%;
+  height: 1.24rem;
+  background-size: cover;
+  background-image: url("../img/gjr-img/gjr_newh_05.png");
+}
+
+.gjr_nhead3 {
+  width: 100%;
+  height: 1.24rem;
+  background-size: cover;
+  background-image: url("../img/gjr-img/gjr_newh_05.png");
+}
+
+.gjr_display {
+  width: 100%;
+  height: 5rem;
+}
+
+.gjr_display ul {
+  width: 100%;
+  height: 100%;
+}
+
+.gjr_display ul li {
+  float: left;
+}
+
+.gjr_display ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.gjr_display ul li a img {
+  width: 100%;
+}
+
+.gjr_display ul li:first-child {
+  width: 2.5rem;
+  height: 2.47rem;
+}
+
+.gjr_display ul li:nth-child(2) {
+  width: 5rem;
+  height: 2.47rem;
+}
+
+.gjr_display ul li:nth-child(2) ~ li {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.gjr_xj {
+  width: 7.01rem;
+  height: 4rem;
+  margin: 0 auto;
+  margin-top: 1rem;
+  background-image: url("../img/gjr-img/gjr_newbg_03.png");
+  background-size: cover;
+}
+
+.gjr_xj .gjr_newbg {
+  width: 100%;
+  height: 2.35rem;
+  border-radius: 0.05rem;
+  background: #fff;
+}
+
+.gjr_xj .gjr_newbg img {
+  width: 2.54rem;
+}

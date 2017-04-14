@@ -192,12 +192,13 @@ body{
 	z-index: 3;
 }
 .gjr_mbottom a{
-	display: inline-block;
+	display: block;
 	width: 2.4rem;
 	height: 1.63rem;
 }
 .gjr_mbottom img{
 	height: 100%;
+	display: block;
 }
 .gjr_shead{
 	width: 4.5rem;
