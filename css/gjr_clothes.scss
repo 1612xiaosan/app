@@ -110,20 +110,21 @@ $shadow: 0 0 0.05rem  #ccc;
     height: 4.88rem;
 } 
 .gjr_love{
-    width: 100%;
+    width: 3rem;
     height: 0.35rem;
-    margin-top: 0.05rem;
-    display: flex;
-    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 0.1rem;
     div{
-        width: 0.92rem;
+        width: 33.333333333333333%;
         height: 100%;
         position: relative;
+        float: left;
         img.gjr_special1{
             width: 0.36rem;
             float: left;
             display: block;
             margin-top: 0.05rem;
+            margin-left: -0.05rem;
         }
         .gjr_rmb1{
             display: block;
@@ -134,7 +135,11 @@ $shadow: 0 0 0.05rem  #ccc;
             color: #808081;
             float: left;
         }
-    }        
+    }    
+    div:nth-child(2)>img{
+            margin-left: 0.05rem;
+        
+    }    
 }
 .gjr_rmb{
     display: block;
@@ -143,12 +148,12 @@ $shadow: 0 0 0.05rem  #ccc;
     font-family: 'San Francisco Display';
     font-size: 0.32rem;
     color: #8f5830;
-    margin-left: 0.3rem;
+    float: right;
 }
 img.gjr_special{
     position: absolute;
     width: 0.5rem;
-    right: 0.05rem;
+    right: 0.02rem;
     top: -0.2rem;
 }
 
