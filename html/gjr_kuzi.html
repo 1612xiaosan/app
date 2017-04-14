@@ -20,7 +20,36 @@
 	<script src="../js/gjr_person.js"></script>
 	<script src='../common/js/common.js'></script>
 	<script type="text/javascript" src="../common/js/iscroll.js"></script>
-	<body>
+	<script type="text/javascript">
+        var myScroll;
+        function loaded () {
+            myScroll = new IScroll('#wrapper', {
+                scrollbars: true,
+                mouseWheel: true,
+                interactiveScrollbars: true,
+                shrinkScrollbars: 'scale',
+                fadeScrollbars: true
+            });
+        }
+	</script>
+	<style>
+		#wrapper {
+			position: absolute;
+			z-index: 1;
+			top: 0px;
+			bottom: 0px;
+			left: 0;
+			width: 100%;
+			overflow: hidden;
+		}
+		#scroller {
+			position: absolute;
+			z-index: 1;
+			-webkit-tap-highlight-color: rgba(0,0,0,0);
+			width: 100%;
+		}
+	</style>
+	<body onload="loaded()">
 		<div class="gjr_header">
 			<a href="" class="gjr_back">
 				<span></span>
@@ -29,155 +58,164 @@
 				<p>下装</p>
 			</div>
 		</div>
-		<div class="gjr_content">
-			<ul class="gjr_clothes">
-				<li class="gjr_big">
-					<a href="">
-						<img src="../img/gjr-img/gjr_kuzi_03.png" alt="" />
-						<div class="gjr_text">
-							<h1>ABSURD LOGIC</h1>
-							<h2>卡其色带弹休闲束腿裤</h2>
-						</div>
-						<div class="gjr_love">
-							<div>
-								<img class="gjr_special1" src="../img/gjr-img/gjr_clothes_07.png" alt="" />
-								<span class='gjr_rmb1'>2545</span>
-							</div>
-							<div>
-								<img class="gjr_special1" src="../img/gjr-img/gjr_clothes_09.png" alt="" />
-								<span class='gjr_rmb1'>2545</span>
-							</div>
-							<div>
-								<img class="gjr_special" src="../img/gjr-img/gjr_clothes_03.png" alt="" />
-								<span class='gjr_rmb'>344</span>
-							</div>
-						</div>
-					</a>
-				</li>
-				<li class='gjr_small'>
-					<a href="">
-						<img src="../img/gjr-img/gjr_kuzi_10.png" alt="" />
-						<div class="gjr_text">
-							<h1>VALKOMM 078 2.0</h1>
-							<h2>纯色百搭休闲裤</h2>
-							
-						</div>
-						<div class="gjr_love">
-							<div>
-								<img class="gjr_special1" src="../img/gjr-img/gjr_clothes_07.png" alt="" />
-								<span class='gjr_rmb1'>2545</span>
-							</div>
-							<div>
-								<img class="gjr_special1" src="../img/gjr-img/gjr_clothes_09.png" alt="" />
-								<span class='gjr_rmb1'>2545</span>
-							</div>
-							<div>
-								<img class="gjr_special" src="../img/gjr-img/gjr_clothes_03.png" alt="" />
-								<span class='gjr_rmb'>344</span>
-							</div>
-						</div>
-					</a>
-				</li>
-				<li class='gjr_small'>
-					<a href="">
-						<img src="../img/gjr-img/gjr_kuzi_15.png" alt="" />
-						<div class="gjr_text">
-							<h1>COKEIN</h1>
-							<h2>纯色百搭休闲裤</h2>
-							
-						</div>
-						<div class="gjr_love">
-							<div>
-								<img class="gjr_special1" src="../img/gjr-img/gjr_clothes_07.png" alt="" />
-								<span class='gjr_rmb1'>2545</span>
-							</div>
-							<div>
-								<img class="gjr_special1" src="../img/gjr-img/gjr_clothes_09.png" alt="" />
-								<span class='gjr_rmb1'>2545</span>
-							</div>
-							<div>
-								<img class="gjr_special" src="../img/gjr-img/gjr_clothes_03.png" alt="" />
-								<span class='gjr_rmb'>344</span>
-							</div>
-						</div>
-					</a>
-				</li>
-			</ul>
-			<ul class="gjr_clothes">
-				<li class='gjr_small'>
-					<a href="">
-						<img src="../img/gjr-img/gjr_kuzi_05.png" alt="" />
-						<div class="gjr_text">
-							<h1>Life·After Life </h1>
-							<h2>拼色束脚九分裤</h2>
-							
-						</div>
-						<div class="gjr_love">
-							<div>
-								<img class="gjr_special1" src="../img/gjr-img/gjr_clothes_07.png" alt="" />
-								<span class='gjr_rmb1'>2545</span>
-							</div>
-							<div>
-								<img class="gjr_special1" src="../img/gjr-img/gjr_clothes_09.png" alt="" />
-								<span class='gjr_rmb1'>2545</span>
-							</div>
-							<div>
-								<img class="gjr_special" src="../img/gjr-img/gjr_clothes_03.png" alt="" />
-								<span class='gjr_rmb'>344</span>
-							</div>
-						</div>
-					</a>
-				</li>
-				<li class='gjr_small'>
-					<a href="">
-						<img src="../img/gjr-img/gjr_kuzi_09.png" alt="" />
-						<div class="gjr_text">
-							<h1>PREPPY ELITE</h1>
-							<h2>漆点休闲长裤</h2>
-							
-						</div>
-						<div class="gjr_love">
-							<div>
-								<img class="gjr_special1" src="../img/gjr-img/gjr_clothes_07.png" alt="" />
-								<span class='gjr_rmb1'>2545</span>
-							</div>
-							<div>
-								<img class="gjr_special1" src="../img/gjr-img/gjr_clothes_09.png" alt="" />
-								<span class='gjr_rmb1'>2545</span>
-							</div>
-							<div>
-								<img class="gjr_special" src="../img/gjr-img/gjr_clothes_03.png" alt="" />
-								<span class='gjr_rmb'>344</span>
-							</div>
-						</div>
-					</a>
-				</li>
-				<li class='gjr_big'>
-					<a href="">
-						<img src="../img/gjr-img/gjr_kuzi_13.png" alt="" />
-						<div class="gjr_text">
-							<h1>Genanx </h1>
-							<h2>经典破洞牛仔裤</h2>
-							
-						</div>
-						<div class="gjr_love">
-							<div>
-								<img class="gjr_special1" src="../img/gjr-img/gjr_clothes_07.png" alt="" />
-								<span class='gjr_rmb1'>2545</span>
-							</div>
-							<div>
-								<img class="gjr_special1" src="../img/gjr-img/gjr_clothes_09.png" alt="" />
-								<span class='gjr_rmb1'>2545</span>
-							</div>
-							<div>
-								<img class="gjr_special" src="../img/gjr-img/gjr_clothes_03.png" alt="" />
-								<span class='gjr_rmb'>344</span>
-							</div>
-						</div>
-					</a>
-				</li>
+		<div id="wrapper">
+			<div id='scroller'>
+				<div class="gjr_content">
+					<ul class="gjr_clothes">
+						<li class="gjr_big">
+							<a href="">
+								<img src="../img/gjr-img/gjr_kuzi_03.png" alt="" />
+								<div class="gjr_text">
+									<h1>ABSURD LOGIC</h1>
+									<h2>卡其色带弹休闲束腿裤</h2>
+								</div>
+								<div class="gjr_love">
+									<div>
+										<img class="gjr_special1" src="../img/gjr-img/gjr_clothes_07.png" alt="" />
+										<span class='gjr_rmb1'>2545</span>
+									</div>
+									<div>
+										<img class="gjr_special1" src="../img/gjr-img/gjr_clothes_09.png" alt="" />
+										<span class='gjr_rmb1'>2545</span>
+									</div>
+									<div>
+										<img class="gjr_special" src="../img/gjr-img/gjr_clothes_03.png" alt="" />
+										<span class='gjr_rmb'>344</span>
+									</div>
+								</div>
+							</a>
+						</li>
+						<li class='gjr_small'>
+							<a href="">
+								<img src="../img/gjr-img/gjr_kuzi_10.png" alt="" />
+								<div class="gjr_text">
+									<h1>VALKOMM 078 2.0</h1>
+									<h2>纯色百搭休闲裤</h2>
+									
+								</div>
+								<div class="gjr_love">
+									<div>
+										<img class="gjr_special1" src="../img/gjr-img/gjr_clothes_07.png" alt="" />
+										<span class='gjr_rmb1'>2545</span>
+									</div>
+									<div>
+										<img class="gjr_special1" src="../img/gjr-img/gjr_clothes_09.png" alt="" />
+										<span class='gjr_rmb1'>2545</span>
+									</div>
+									<div>
+										<img class="gjr_special" src="../img/gjr-img/gjr_clothes_03.png" alt="" />
+										<span class='gjr_rmb'>344</span>
+									</div>
+								</div>
+							</a>
+						</li>
+						<li class='gjr_small'>
+							<a href="">
+								<img src="../img/gjr-img/gjr_kuzi_15.png" alt="" />
+								<div class="gjr_text">
+									<h1>COKEIN</h1>
+									<h2>纯色百搭休闲裤</h2>
+									
+								</div>
+								<div class="gjr_love">
+									<div>
+										<img class="gjr_special1" src="../img/gjr-img/gjr_clothes_07.png" alt="" />
+										<span class='gjr_rmb1'>2545</span>
+									</div>
+									<div>
+										<img class="gjr_special1" src="../img/gjr-img/gjr_clothes_09.png" alt="" />
+										<span class='gjr_rmb1'>2545</span>
+									</div>
+									<div>
+										<img class="gjr_special" src="../img/gjr-img/gjr_clothes_03.png" alt="" />
+										<span class='gjr_rmb'>344</span>
+									</div>
+								</div>
+							</a>
+						</li>
+					</ul>
+					<ul class="gjr_clothes">
+						<li class='gjr_small'>
+							<a href="">
+								<img src="../img/gjr-img/gjr_kuzi_05.png" alt="" />
+								<div class="gjr_text">
+									<h1>Life·After Life </h1>
+									<h2>拼色束脚九分裤</h2>
+									
+								</div>
+								<div class="gjr_love">
+									<div>
+										<img class="gjr_special1" src="../img/gjr-img/gjr_clothes_07.png" alt="" />
+										<span class='gjr_rmb1'>2545</span>
+									</div>
+									<div>
+										<img class="gjr_special1" src="../img/gjr-img/gjr_clothes_09.png" alt="" />
+										<span class='gjr_rmb1'>2545</span>
+									</div>
+									<div>
+										<img class="gjr_special" src="../img/gjr-img/gjr_clothes_03.png" alt="" />
+										<span class='gjr_rmb'>344</span>
+									</div>
+								</div>
+							</a>
+						</li>
+						<li class='gjr_small'>
+							<a href="">
+								<img src="../img/gjr-img/gjr_kuzi_09.png" alt="" />
+								<div class="gjr_text">
+									<h1>PREPPY ELITE</h1>
+									<h2>漆点休闲长裤</h2>
+									
+								</div>
+								<div class="gjr_love">
+									<div>
+										<img class="gjr_special1" src="../img/gjr-img/gjr_clothes_07.png" alt="" />
+										<span class='gjr_rmb1'>2545</span>
+									</div>
+									<div>
+										<img class="gjr_special1" src="../img/gjr-img/gjr_clothes_09.png" alt="" />
+										<span class='gjr_rmb1'>2545</span>
+									</div>
+									<div>
+										<img class="gjr_special" src="../img/gjr-img/gjr_clothes_03.png" alt="" />
+										<span class='gjr_rmb'>344</span>
+									</div>
+								</div>
+							</a>
+						</li>
+						<li class='gjr_big'>
+							<a href="">
+								<img src="../img/gjr-img/gjr_kuzi_13.png" alt="" />
+								<div class="gjr_text">
+									<h1>Genanx </h1>
+									<h2>经典破洞牛仔裤</h2>
+									
+								</div>
+								<div class="gjr_love">
+									<div>
+										<img class="gjr_special1" src="../img/gjr-img/gjr_clothes_07.png" alt="" />
+										<span class='gjr_rmb1'>2545</span>
+									</div>
+									<div>
+										<img class="gjr_special1" src="../img/gjr-img/gjr_clothes_09.png" alt="" />
+										<span class='gjr_rmb1'>2545</span>
+									</div>
+									<div>
+										<img class="gjr_special" src="../img/gjr-img/gjr_clothes_03.png" alt="" />
+										<span class='gjr_rmb'>344</span>
+									</div>
+								</div>
+							</a>
+						</li>
+						
+					</ul>
+				</div>
 				
-			</ul>
+				
+				
+				
+			</div>
 		</div>
+		
 	</body>
 </html>
