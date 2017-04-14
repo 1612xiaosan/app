@@ -13,7 +13,7 @@ body,html{
 .hsf-two-register{
 	width: 100%;
 	height: 13.34rem;
-	background: url(../../img/hsf-img/hsf-two-bg.png) no-repeat;
+	background: url(../img/hsf-img/hsf-two-bg.png) no-repeat;
 	background-size: 7.5rem;
 }
 
@@ -38,7 +38,7 @@ body,html{
 	width: 0.22rem;
 	height: 0.22rem;
 	border-radius: 50%;
-	background: #fff url(../../img/hsf-img/hsf-first-fanhui.png)no-repeat 50% 50%;
+	background: #fff url(../img/hsf-img/hsf-first-fanhui.png)no-repeat 50% 50%;
 	background-size: 0.07rem;
 	margin-left: 0.16rem;
 	margin-top: 0.14rem;
@@ -59,7 +59,7 @@ body,html{
 	width:4.25rem;
 	height:1.5rem;
 	margin-top: 0.5rem;
-	background-image: url(../../img/hsf-img/hsf-two-youping.png);
+	background-image: url(../img/hsf-img/hsf-two-youping.png);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	/*display: none;*/
@@ -93,13 +93,13 @@ body,html{
 	background:#774935;
 }
 .hsf-two-xinxi.one{
-	background-image: url(../../img/hsf-img/hsf-two-zhuce1.png);	
+	background-image: url(../img/hsf-img/hsf-two-zhuce1.png);	
 }
 .hsf-two-xinxi.two{
-	background-image: url(../../img/hsf-img/hsf-two-zhuce2.png);		
+	background-image: url(../img/hsf-img/hsf-two-zhuce2.png);		
 }
 .hsf-two-xinxi.three{
-	background-image: url(../../img/hsf-img/hsf-two-zhuce3.png);		
+	background-image: url(../img/hsf-img/hsf-two-zhuce3.png);		
 }
 /*第一步基本信息填写结束*/
 /*表单开始*/
@@ -173,7 +173,7 @@ body,html{
 	width: 0.44rem;
 	height: 0.44rem;
 	float: right;
-	background: #fff url(../../img/hsf-img/hsf-first-suo.png) no-repeat 50% 50%;
+	background: #fff url(../img/hsf-img/hsf-first-suo.png) no-repeat 50% 50%;
 	background-size: 0.19rem;
 	border: 1px solid #ececec;
 	border-radius: 50%;
@@ -183,7 +183,7 @@ body,html{
 	width: 0.44rem;
 	height: 0.44rem;
 	float: right;
-	background: #fff url(../../img/hsf-img/hsf-first-ren.png) no-repeat 50% 50%;
+	background: #fff url(../img/hsf-img/hsf-first-ren.png) no-repeat 50% 50%;
 	background-size: 0.19rem;
 	border: 1px solid #ececec;
 	border-radius: 50%;
@@ -206,7 +206,7 @@ body,html{
 	height:0.44rem;
 	float: right;
 	display: none;	
-	background: url(../../img/hsf-img/hsf-first-true.png)no-repeat 50% 50%;
+	background: url(../img/hsf-img/hsf-first-true.png)no-repeat 50% 50%;
 }
 .hsf-two-xianshi{
 	width:0.7rem;
@@ -222,7 +222,7 @@ body,html{
 .hsf-two-register .hsf-two-biaodandise .hsf-two-xian{
 	width: 6.1rem;
 	height: 0.09rem;
-	background: url(../../img/hsf-img/hsf-first-xian.png) no-repeat 50% 50%;
+	background: url(../img/hsf-img/hsf-first-xian.png) no-repeat 50% 50%;
 	background-size: 5.99rem;
 	margin-bottom: 0.3rem;
 }
@@ -277,9 +277,64 @@ body,html{
 	background: rgba(104, 53, 23, 0.8);
 	color: #fff;	
 }
+/*上传图像中的相册选择*/
+.hsf-two-choose{
+	width:2.37rem;
+	height:0.8rem;
+	background: #fff;
+	border-radius: 0.8rem;
+	position: absolute;
+	border: 2px solid #9c583b;
+}
+.hsf-two-choose.one{
+	bottom: 0.5rem;
+	left:0.5rem;
+}
+.hsf-two-choose.two{
+	bottom:0.5rem;
+	right:0.5rem;
+}
+.hsf-two-choosedian{
+	    width: 0.10rem;
+    height: 0.10rem;
+    background: #ececec;
+    margin-top: 0.36rem;
+    margin-left: 0.30rem;
+    border-radius: 50%;
+    float: left;
+    margin-right: 0.48rem;
+}
+.hsf-two-choosedian{
+	 width: 0.10rem;
+    height: 0.10rem;
+    background: #ececec;
+    margin-top: 0.36rem;
+    border-radius: 50%;
+    float: left;
+}
+ .hsf-two-sizes{
+	width:2rem;
+	height: 0.66rem;
+	float: left;
+	margin-top:0.1rem;
+	margin-left: 0.35rem;
+	
+}
+ .hsf-two-sizes h1{
+	color: #9c583b;
+	font-size: 0.26rem;
+	font-family: "苹方";
+	text-align: center;
+	
+}
+ .hsf-two-sizes h2{
+	color: #9c583b;
+	font-size: 0.16rem;
+	font-family: San Francisco display;
+	font-weight: 400;
+}
 
-
-
+/*上传图像中的相册选择结束*/
 
 
 /*错误时验证*/
@@ -287,7 +342,7 @@ body,html{
 	width:100%;
 	height:0.5rem;
     padding-left: 0.7rem;
-    /*display: none;*/
+    display: none;
 }
 .hsf-two-yuandian{
 	width:0.1rem;

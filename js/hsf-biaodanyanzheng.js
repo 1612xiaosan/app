@@ -12,19 +12,24 @@ $(function(){
 	errorElement:'p'
 });
     //表单验证
+    $.validator.setDefaults({
+   debug: true
+})
 //	$("#register-form").validate();
 	$("#register-form").validate({
-  rrorPlacement:function(error,element) {  
-  	error.html(error.html()+"<br/>"); 
-  	error.appendTo(".hsf-two-yanzheng");
+   errorPlacement:function(error,element) {  
+//	error.html(error.html()+"<br/>"); 
+  	error.appendTo(".hsf-two-yanzheng p");
  },
- success:{
- 	function(){
- 		console.log(1)
- 	}
- },
- 
-   debug:true
+    success:function(i,va){
+//                console.log(i,va)//i表示div-error的jquery对象，va表示input标签
+                $(va).nextAll().remove();
+                if($(va).next('i').length==0){
+//                      $('<i>').html('OK').insertAfter(va)
+               alert(1)
+                }
+        },
+        focusCleanup:true,
 })
 
   
