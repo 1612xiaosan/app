@@ -15,6 +15,6 @@ $(document).ready(function(){
 		$('.gjr_alert').hide();
 	})
 	$('.gjr_gg').on('touchstart',function(){
-		location.href='gjr_more.html'
+		window.location.href='gjr_more.html';
 	})
 })
