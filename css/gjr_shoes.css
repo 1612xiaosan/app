@@ -127,17 +127,19 @@ body {
 	height: 5.95rem;
 }
 .gjr_love {
-  width: 100%;
+  width: 3rem;
   height: 0.35rem;
-  margin-top: 0.05rem;
-  display: flex;
-  justify-content: space-around;
+	margin: 0 auto;
+  margin-top: 0.1rem;
+
 }
 
 .gjr_love div {
-  width: 0.92rem;
+  width: 33.333333333333333%;
   height: 100%;
   position: relative;
+  float: left;
+  
 }
 
 .gjr_love div img.gjr_special1 {
@@ -145,8 +147,12 @@ body {
   float: left;
   display: block;
   margin-top: 0.05rem;
+  margin-left: -0.05rem;
+  
 }
-
+.gjr_love div:nth-child(2)>img{
+	 margin-left: 0.05rem;
+}
 .gjr_love div .gjr_rmb1 {
   display: block;
   height: 100%;
@@ -164,12 +170,13 @@ body {
   font-family: 'San Francisco Display';
   font-size: 0.32rem;
   color: #8f5830;
-  margin-left: 0.3rem;
+  /*margin-left: 0.3rem;*/
+ 	float: right;
 }
 
 img.gjr_special {
   position: absolute;
   width: 0.5rem;
-  right: 0.05rem;
+  right: 0.02rem;
   top: -0.2rem;
 }
