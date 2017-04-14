@@ -321,6 +321,8 @@ span.gjr_first{
 	float: left;
 }
 .gjr_fleft p,.gjr_fright p{
+	width: 100%;
+	text-align: left;
 	font-size: 0.24rem;
 	float: left;
 	color: #fff;
