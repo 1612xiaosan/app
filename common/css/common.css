@@ -1,3 +1,24 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: San Francisco display;
+}
+h1{
+	font-size: 0.24rem;
+	color: #5e5e5e;
+	font-family: "苹方";
+}
+h2{
+	font-size: 0.18rem;
+	color: #9b9b9b;
+	font-family: San Francisco display
+}
+p{
+	font-size: 0.2rem;
+	color: #7a7a7a;
+	font-family: "苹方";
+}
 body,ul,li,ol,p,pre,h1,h2,h3,h4,h5,h6,input,form{
 	margin:0;
 	padding:0;
@@ -7,7 +28,6 @@ ul li,span{
 }
 a,a:visited{
 	text-decoration:none;
-	color: #b0b0b0;
 }
 a,button,input{
 		-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -25,4 +45,5 @@ body{
 }
 img,input{
 	border:0;
+	
 }
