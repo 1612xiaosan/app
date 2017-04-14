@@ -229,6 +229,7 @@ span.gjr_first{
 	color: #454444;
 }
 .gjr_user{
+	display: block;
 	width: 7.02rem;
 	height: 1.3rem;
 	margin: 0 auto;
