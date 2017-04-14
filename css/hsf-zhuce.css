@@ -4,6 +4,11 @@
    fill: currentColor;
    overflow: hidden;
 }
+body,html{
+	width:100%;
+	height:auto;
+	/*overflow: hidden;*/
+}
 /*全图背景*/
 .hsf-two-register{
 	width: 100%;
