@@ -316,16 +316,15 @@ span.gjr_first{
 	background: #6b4123;
 }
 .gjr_text{
-	width: 2rem;
-	height: 0.46rem;
+	width: 60%;
+	height: 100%;
 	float: left;
-	margin-left: 0.1rem;
-	margin-top: 0.2rem;
 }
 .gjr_fleft p,.gjr_fright p{
 	font-size: 0.24rem;
 	float: left;
 	color: #fff;
+	margin-top: 0.2rem;
 }
 .gjr_fleft span,.gjr_fright span{
 	font-size: 0.18rem;
