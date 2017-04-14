@@ -13,6 +13,7 @@ body{
     top: 0rem;
     z-index: 10;
 }
+
 .gjr_back{
     display: block;
     width: 0.5rem;
@@ -31,7 +32,7 @@ body{
     height: 100%;
     border-radius: 50%;
     display: block;
-    background-image: url('../../img/gjr-img/lr_03.png');
+    background-image: url('../img/gjr-img/lr_03.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -123,7 +124,7 @@ body{
     margin-top: 0.5rem;
     border-radius: 50%;
     display: block;
-    background-image: url('../../img/gjr-img/lr_07.png');
+    background-image: url('../img/gjr-img/lr_07.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -142,11 +143,11 @@ body{
     float: right;
     margin-top: 0.3rem;
     margin-right: 0.2rem;
-    background-image: url('../../img/gjr-img/more/button1.png');
+    background-image: url('../img/gjr-img/more/button1.png');
     background-size: cover; 
 }
 .gjr_tabone{
-    background-image: url('../../img/gjr-img/more/button2.png');
+    background-image: url('../img/gjr-img/more/button2.png');
 }
 //.gjr_icon {
 //  width: 0.96rem;

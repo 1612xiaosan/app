@@ -1,11 +1,9 @@
 * {
   font-size: 0.12rem;
 }
-
 body {
   background: #f4f4f4;
 }
-
 .gjr_header {
   width: 100%;
   height: 1rem;
@@ -34,7 +32,7 @@ body {
     height: 100%;
     border-radius: 50%;
     display: block;
-    background-image: url('../../img/gjr-img/lr_03.png');
+    background-image: url('../img/gjr-img/lr_03.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -123,7 +121,7 @@ body {
     margin-top: 0.5rem;
     border-radius: 50%;
     display: block;
-    background-image: url('../../img/gjr-img/lr_07.png');
+    background-image: url('../img/gjr-img/lr_07.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -265,7 +263,7 @@ p.gjr_nub{
     display: inline-block;
     width: 0.36rem;
     height: 0.36rem;
-    background-image:url('../../img/gjr-img/gjr_25.png');
+    background-image:url('../img/gjr-img/gjr_25.png');
     background-size: cover;
     /*margin-top: 0.1rem;*/
 }
