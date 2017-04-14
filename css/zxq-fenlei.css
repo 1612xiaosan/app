@@ -17,7 +17,7 @@
 	.zxq-header .zxq-word{
 		width: 2.84rem;
 		height: 0.54rem;
-		background: url('../../img/zxq-img/zxq-fl.png')no-repeat left bottom;
+		background: url('../img/zxq-img/zxq-fl.png')no-repeat left bottom;
 		background-size: 2.84rem;
 		position: absolute;
 		left: 2.3rem;
@@ -33,7 +33,7 @@
  	ul.zxq-nav{
         width:100%;
 		height:4rem;
-		background: url('../../img/zxq-img/zxq-fengexian.png')no-repeat;
+		background: url('../img/zxq-img/zxq-fengexian.png')no-repeat;
 		background-size: 7.5rem 4rem;
 		padding-top: 0.5rem;
 		box-sizing: border-box;
@@ -203,19 +203,19 @@
     	text-align: center;
     	line-height: 0.29rem;
     	position: absolute;
-    	top:0.75rem;
+    	top:0.7rem;
     	border:0.01rem solid #D5BA93;
     	border-radius: 0.1rem;
     }
     .zxq-tj .zxq-tj1 .zxq-tjright h5{
     	position: absolute;
     	right:3.43rem;
-    	top:0.75rem;
+    	top:0.7rem;
     }
     .zxq-tj .zxq-tj1 .zxq-tjright h3{
     	position: absolute;
     	right:2.66rem;
-    	top:0.75rem;
+    	top:0.7rem;
     }
     .zxq-tj .zxq-tj1 .zxq-tjright .zxq-tjhd{
     	width:5.45rem;
@@ -264,6 +264,7 @@
 		bottom: 0.10rem;
 	}
     .zxq-tj .zxq-tj1 .zxq-tjright p{
+    	display: inline-block;
     	width:0.6rem;
     	height: 0.2rem;
     	line-height:0.2rem;
@@ -334,17 +335,17 @@
     .zxq-tj .zxq-tj2 .zxq-tjright h5{
     	position: absolute;
     	right:3.43rem;
-    	top:0.75rem;
+    	top:0.7rem;
     }
     .zxq-tj .zxq-tj2 .zxq-tjright h3{
     	position: absolute;
     	right:2.66rem;
-    	top:0.75rem;
+    	top:0.7rem;
     }
     .zxq-tj .zxq-tj2 .zxq-tjright h2{
     	position: absolute;
     	right:1.88rem;
-    	top:0.75rem;
+    	top:0.7rem;
     }
     .zxq-tj .zxq-tj2 .zxq-tjright .zxq-tjhd{
     	width:5.45rem;
@@ -393,6 +394,7 @@
 		bottom: 0.10rem;
 	}
     .zxq-tj .zxq-tj2 .zxq-tjright p{
+    	display: inline-block;
     	width:0.6rem;
     	height: 0.2rem;
     	line-height:0.2rem;
@@ -414,7 +416,8 @@
     	top:6.61rem;
     	left:0.24rem;
     	border:0.02rem solid #ececec;
-    	background: #ffffff; 	
+    	background: #ffffff; 
+    	margin-bottom:1.28rem;	
     }
     .zxq-tj .zxq-tj3 .zxq-tjimg1{
     	width:1.01rem;
@@ -434,7 +437,7 @@
     	color:#484848;
     	font-family:'San Francisco Display';
     	position: absolute;
-    	right:2.44rem;
+    	right:3.4rem;
     	top:0.2rem;
     }
     .zxq-tj .zxq-tj3 .zxq-tjright h6{
@@ -463,17 +466,17 @@
     .zxq-tj .zxq-tj3 .zxq-tjright h5{
     	position: absolute;
     	right:3.43rem;
-    	top:0.75rem;
+    	top:0.7rem;
     }
     .zxq-tj .zxq-tj3 .zxq-tjright h3{
     	position: absolute;
     	right:2.66rem;
-    	top:0.75rem;
+    	top:0.7rem;
     }
     .zxq-tj .zxq-tj3 .zxq-tjright h2{
     	position: absolute;
     	right:1.88rem;
-    	top:0.75rem;
+    	top:0.7rem;
     }
     .zxq-tj .zxq-tj3 .zxq-tjright .zxq-tjhd{
     	width:5.45rem;
@@ -522,6 +525,7 @@
 		bottom: 0.10rem;
 	}
     .zxq-tj .zxq-tj3 .zxq-tjright p{
+    	display: inline-block;
     	width:0.6rem;
     	height: 0.2rem;
     	line-height:0.2rem;
@@ -536,3 +540,57 @@
     	background: #8E5730;
     }
     /*优品推荐结束*/
+   /*底部结束*/
+   @import url(common.css);
+	*{
+		font-size: 0;
+	}
+	#bottom{
+		width: 100%;
+		height: 1rem;
+		background: #121314;
+		position: fixed;
+		left: 0;
+		bottom: 0;
+	}
+	#bottom>ul{
+		width: 100%;
+		height: 0.7rem;
+		justify-content:space-around;
+	  	display: flex;
+	}
+	#bottom>ul>li{
+		width: 20%;
+		height: 0.54rem;
+		margin-top: 0.24rem;
+		margin-left: 0.34rem;
+		position: relative;
+	}
+	#bottom>ul>li:first-child>a> img{
+		width:0.60rem;
+		height:0.55rem;
+	}
+	#bottom>ul>li:nth-child(2)>a> img{
+		width: 0.60rem;
+		height:0.55rem;
+	}
+	#bottom>ul>li:nth-child(3)>a> img{
+		width: 0.7rem;
+		
+	}
+	#bottom>ul>li:nth-child(4) >a>img{
+		width: 0.70rem;
+	}
+	#bottom>ul>li:nth-child(5)>a> img{
+		width: 0.70rem;
+	}
+	#bottom>ul>li div{
+		position: absolute;
+		right: 0rem;
+		top: 0;
+	}
+	#bottom>ul>li div img{
+		width: 0.02rem;
+		height: 0.56rem;
+	}
+	/*底部结束*/
