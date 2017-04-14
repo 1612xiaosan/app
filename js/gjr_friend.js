@@ -8,10 +8,10 @@ $(document).ready(function(){
 	})
 	$('.gjr_share>img:first').click(function(){
 		$('body,html').addClass('hidden');
-		$('.gjr_alert').slideDown();
+		$('.gjr_alert').show();
 	})
 	$('.gjr_circle').click(function(){
 		$('body,html').removeClass('hidden');
-		$('.gjr_alert').slideUp();
+		$('.gjr_alert').hide();
 	})
 })
