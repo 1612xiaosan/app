@@ -14,4 +14,7 @@ $(document).ready(function(){
 		$('body,html').removeClass('hidden');
 		$('.gjr_alert').hide();
 	})
+	$('.gjr_gg').on('touchstart',function(){
+		location.href='gjr_more.html'
+	})
 })
