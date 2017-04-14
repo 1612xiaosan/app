@@ -4,4 +4,7 @@ $(document).ready(function(){
 //		console.log(1)
 		$(this).attr('value','');
 	})
+	
+	//链接到经典页面
+	$('.yzf-list')
 })
