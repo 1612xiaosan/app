@@ -15,7 +15,6 @@ $(document).ready(function(){
 		$('.gjr_alert').hide();
 	})
 	$('.gjr_gg').on('touchstart',function(){
-		window.location.href='https://htmlpreview.github.io/?https://github.com/1612xiaosan/app/blob/master/html/gjr_more.html
-';
+	window.location.href='gjr_more.html';
 	})
 })

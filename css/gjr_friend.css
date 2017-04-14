@@ -441,7 +441,11 @@ span.gjr_first{
 	color: #fff;
 	transform: rotateZ(45deg);
 }
-
+.gjr_gg{
+	width:0.8rem;
+	height:0.2rem;
+	display: block;
+}
 
 
 
