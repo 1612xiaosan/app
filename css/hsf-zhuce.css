@@ -182,13 +182,20 @@ body,html{
 .hsf-two-register .hsf-two-kuang .hsf-two-yonghu{
 	width: 0.44rem;
 	height: 0.44rem;
-	float: right;
-	background: #fff url(../img/hsf-img/hsf-first-ren.png) no-repeat 50% 50%;
+	float: right;	
 	background-size: 0.19rem;
 	border: 1px solid #ececec;
 	border-radius: 50%;
-	margin-right: 0.5rem;
-	
+	margin-right: 0.5rem;	
+}
+.hsf-two-register .hsf-two-kuang .hsf-two-yonghu.one{
+	background: #fff url(../img/hsf-img/hsf-first-ren.png) no-repeat 50% 50%;
+}
+.hsf-two-register .hsf-two-kuang .hsf-two-yonghu.two{
+	background: #fff url(../img/hsf-img/hsf-two-phone.png) no-repeat 50% 50%;
+}
+.hsf-two-register .hsf-two-kuang .hsf-two-yonghu.three{
+	background: #fff url(../img/hsf-img/hsf-first-suo.png) no-repeat 50% 50%;
 }
 /*错误时叉号*/
 .hsf-two-false{
@@ -671,6 +678,11 @@ body,html{
 	position: absolute;
 	left:0.74rem;
 	top:0.2rem;
+}
+.zxq-wczc a{
+	display: block;
+	width:3rem;
+	height: 1.01rem;
 }
 .zxq-main  .zxq-wczc .zxq-circle2,.zxq-main  .zxq-wczc .zxq-circle3{
 	width:0.08rem;
