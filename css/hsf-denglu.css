@@ -290,7 +290,9 @@ body,html{
 	margin-top: 0.42rem;
 
 }
-
+.hsf-first-button >a{
+	display: block;
+}
 
 .hsf-first-register .hsf-first-button .hsf-first-neirong{
 	width: 2.64rem;

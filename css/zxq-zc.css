@@ -78,13 +78,7 @@
 	font-weight: bold;
 	font-size: 0.18rem;
 }
-.zxq-one{
-	background: #fff;
-}
-span.zxq-first{
-	color: #454444;
-	line-height: 0.5rem;
-}
+
 .zxq-yhq .zxq-three{
 	margin-top:-0.5rem;
 	color:#454444;
@@ -108,4 +102,11 @@ span.zxq-first{
 }
 .zxq-main .img1{
 	margin-top:0;
+}
+.zxq-one{
+	background: #fff;
+}
+span.zxq-first{
+	color: #454444;
+	line-height: 0.5rem;
 }

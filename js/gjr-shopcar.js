@@ -34,6 +34,7 @@ $(document).ready(function(){
 			$('.gjr_img2 img').removeClass('yzf-active2').eq($(this).index()-1).addClass('yzf-active2')
 		})
 	})
+<<<<<<< HEAD
 	$('.gjr_color3 > span:first-child ~ span').each(function(index,value){
 		console.log($(this))
 		$(this).on('touchstart',function(){
@@ -50,5 +51,10 @@ $(document).ready(function(){
 			$('.gjr_img3 img').removeClass('yzf-active2').eq($(this).index()-1).addClass('yzf-active2')
 		})
 	})
+=======
+//	$('.yzf-jiesuan >img:first-child').click(function(){
+//		location.href()
+//	})
+>>>>>>> 5467ec6f9b44f953bd61bd384fded8f36e879577
 	
 })

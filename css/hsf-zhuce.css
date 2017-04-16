@@ -83,7 +83,7 @@ body,html{
 	line-height: 0.8rem;
 	font-size:18px;
 	font-family: "宋体";
-	right:1.2rem;
+	right:0.4rem;
 	bottom:0.15rem;
 }
 
@@ -174,28 +174,32 @@ body,html{
 	height: 0.44rem;
 	float: right;
 	background: #fff url(../img/hsf-img/hsf-first-suo.png) no-repeat 50% 50%;
-	background-size: 0.19rem;
+	background-size: 80%;
 	border: 1px solid #ececec;
 	border-radius: 50%;
-	margin-right: 0.5rem;
+	position: absolute;
+	left:5.4rem;
 }
 .hsf-two-register .hsf-two-kuang .hsf-two-yonghu{
 	width: 0.44rem;
 	height: 0.44rem;
 	float: right;	
-	background-size: 0.19rem;
+	position: absolute;
+	background-size:80%;
 	border: 1px solid #ececec;
 	border-radius: 50%;
 	margin-right: 0.5rem;	
+	background-repeat: no-repeat;
+	left:5.5rem;
 }
 .hsf-two-register .hsf-two-kuang .hsf-two-yonghu.one{
-	background: #fff url(../img/hsf-img/hsf-first-ren.png) no-repeat 50% 50%;
+	background-image:url(../img/hsf-img/hsf-first-ren.png);
 }
 .hsf-two-register .hsf-two-kuang .hsf-two-yonghu.two{
-	background: #fff url(../img/hsf-img/hsf-two-phone.png) no-repeat 50% 50%;
+	background-image: url(../img/hsf-img/hsf-two-phone.png);
 }
 .hsf-two-register .hsf-two-kuang .hsf-two-yonghu.three{
-	background: #fff url(../img/hsf-img/hsf-first-suo.png) no-repeat 50% 50%;
+	background-image:url(../img/hsf-img/hsf-first-suo.png);
 }
 /*错误时叉号*/
 .hsf-two-false{

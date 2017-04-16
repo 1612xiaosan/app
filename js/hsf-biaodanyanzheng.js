@@ -15,10 +15,10 @@ $(function(){
     $.validator.setDefaults({
    debug: true
 })
-//	$("#register-form").validate();
+	$("#register-form").validate();
 	$("#register-form").validate({
    errorPlacement:function(error,element) {  
-//	error.html(error.html()+"<br/>"); 
+
   	error.appendTo(".hsf-two-yanzheng p");
  },
     success:function(i,va){
@@ -31,14 +31,6 @@ $(function(){
         },
         focusCleanup:true,
 })
-
-  
-  
-
-  
-  
-  
-  
   
  	//用户名
 	$("#username").rules('add',{
