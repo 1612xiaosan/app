@@ -151,6 +151,13 @@ body {
 .gjr_bottom img{
 	width: 100%;
 }
+.gjr_bottom2{
+	margin-top:0.5rem;
+	width: 100%;
+}
+.gjr_bottom2 img{
+	width: 100%;
+}
 .gjr_add{
 	width: 0.42rem;
 	height: 0.42rem;
@@ -194,8 +201,7 @@ body {
 	background-size: cover;
 	text-align: center;
 	line-height: 0.74rem;
-	float: left;
-	
+	float: left;	
 }
 .gjr_jian span{
 	display: inline-block;
@@ -349,8 +355,8 @@ body {
 	font-size:0.20rem;
 	color:#ccc;
 }
-.color3{
-	width: 1.7rem;
+.gjr_color3{
+	width: 4rem;
 	height: 0.55rem;
 	border:1px solid #ccc;
 	border-radius:0.25rem 0.25rem;
@@ -358,34 +364,54 @@ body {
 	line-height: 0.55rem;
 	color:#ccc;
 	float:left;
-	
 }
-.color3 span:nth-child(1){
+.gjr_color3 span:nth-child(1){
 	float:left;
 	display: block;
 }
-.color3 span:nth-child(2){
-	margin:0.12rem 0.25rem; 0.14rem 0.2rem;
+.gjr_color3 span:nth-child(2){
+	margin:0.13rem 0.25rem; 0.14rem 0.25rem;
 	float:left;
+	display: block;
 	background:#000;
 	width:0.28rem;
 	height:0.28rem;
 	border-radius: 50%;
-	display: block;
-	position:relative;
 }
-.color3 span:nth-child(2) > span{
-	background:#fff;
-	width:0.1rem;
-	height:0.1rem;
+.gjr_lb .gjr_color3 span.yzf-active{
+	width:0.34rem;
+	height:0.34rem;
+	margin:0.1rem 0.25rem; 0.14rem 0.25rem;
+}
+.gjr_color3 span:nth-child(3){
+	margin:0.13rem 0.25rem; 0.14rem 0.25rem;
+	float:left;
+	display: block;
+	background:#e51857;
+	width:0.28rem;
+	height:0.28rem;
 	border-radius: 50%;
-	display: block;
-	position:absolute;
-	top:0.08rem;
-	left:0.10rem;
 }
-.color4{
-	width: 1.7rem;
+.gjr_color3 span:nth-child(4){
+	margin:0.13rem 0.25rem; 0.14rem 0.25rem;
+	float:left;
+	display: block;
+	background:#18e5ae;
+	width:0.28rem;
+	height:0.28rem;
+	border-radius: 50%;
+}
+.gjr_color3 span:nth-child(5){
+	margin:0.13rem 0.25rem; 0.14rem 0.25rem;
+	float:left;
+	display: block;
+	background:#e59f18;
+	width:0.28rem;
+	height:0.28rem;
+	border-radius: 50%;
+}
+.gjr_color22{
+	width: 4rem;
 	height: 0.55rem;
 	border:1px solid #ccc;
 	border-radius:0.25rem 0.25rem;
@@ -393,14 +419,32 @@ body {
 	line-height: 0.55rem;
 	color:#ccc;
 	float:left;
-	margin-left:0.2rem;
+	margin-top:0.2rem;
 }
-.color4 span:nth-child(1){
+.gjr_lb .gjr_color22 span.yzf-active3{
+	color:red;
+}
+.gjr_color22 span:nth-child(1){
 	float:left;
 	display: block;
 }
-.color4 span:nth-child(2){
-	margin:0 0.25rem; 0.14rem 0.2rem;
+.gjr_color22 span:nth-child(2){
+	margin:0 0.25rem; 0.14rem 0.25rem;
+	float:left;
+	display: block;
+}
+.gjr_color22 span:nth-child(3){
+	margin:0 0.25rem; 0.14rem 0.25rem;
+	float:left;
+	display: block;
+}
+.gjr_color22 span:nth-child(4){
+	margin:0 0.25rem; 0.14rem 0.25rem;
+	float:left;
+	display: block;
+}
+.gjr_color22 span:nth-child(5){
+	margin:0 0.25rem; 0.14rem 0;
 	float:left;
 	display: block;
 }
@@ -441,7 +485,7 @@ body {
 	height:0.55rem;
 	line-height: 0.55rem;
 	float:left;
-	margin-left:0.6rem;
+	margin-left:0.2rem;
 }
 .shuliang3 img{
 	float:left;	
