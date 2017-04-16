@@ -38,6 +38,7 @@ body {
   background-size: cover;
 }
 .gjr_person{
+	display: block;
 	width: 0.8rem;
 	height:0.43rem;
 	border: 1px solid #575757;
@@ -304,12 +305,12 @@ body {
 	color: #a0a0a0;
 }
 .gjr_shopping{
+	display: block;
 	width: 100%;
 	height: 0.97rem;
 	background-image: url('../img/gjr-img/gjr_shop_07.png');
 	background-size: cover;
 }
-
 /*140*152*/
 .gjr_color2{
 	width: 4rem;
@@ -595,13 +596,19 @@ body {
 	/*background:pink;*/
 	margin-bottom: 1rem;
 }
-.yzf-jiesuan >img:first-child{
+.yzf-jiesuan >a{
 	display: block;
 	float:right;
 	width:2.5rem;
 	height:1rem;
 }
-.yzf-jiesuan >img:nth-child(2){
+.yzf-jiesuan >a >img{
+	display: block;
+	float:right;
+	width:2.5rem;
+	height:1rem;
+}
+.yzf-jiesuan >img{
 	display: block;
 	float:right;
 	width:1.6rem;

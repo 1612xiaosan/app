@@ -7,15 +7,21 @@ body{
 	background:#22262B;
 	position:relative;
 }
-.yzf-nav img:first-child{
+yzf-nav >a{
 	width:0.8rem;
 	height:0.8rem;
 	display: block;
 	float:left;	
-	margin-left: 0.2rem;
-	margin-top: 0.2rem;
 }
-.yzf-nav img:nth-child(2){
+.yzf-nav >a >img{
+	margin-left: 0.2rem;
+	margin-top: 0.2rem;	
+	display: block;
+	float:left;	
+	width:0.8rem;
+	height:0.8rem;
+}
+.yzf-nav >img:nth-child(2){
 	width:2.8rem;
 	height:1rem;	
 	display: block;
@@ -589,6 +595,7 @@ body {
 	color:#ccc;
 }
 .yzf-zhifu{
+	display: block;
 	margin-top:0.5rem;
 	width:100%;
 	height:0.95rem;
