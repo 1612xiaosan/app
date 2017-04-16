@@ -19,7 +19,7 @@ $(function(){
 	$("#register-form").validate({
    errorPlacement:function(error,element) {  
 //	error.html(error.html()+"<br/>"); 
-  	error.appendTo(".hsf-two-yanzheng");
+  	error.appendTo(".hsf-two-yanzheng p");
  },
     success:function(i,va){
 //                console.log(i,va)//i表示div-error的jquery对象，va表示input标签
@@ -31,14 +31,6 @@ $(function(){
         },
         focusCleanup:true,
 })
-
-  
-  
-
-  
-  
-  
-  
   
  	//用户名
 	$("#username").rules('add',{
