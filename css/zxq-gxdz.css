@@ -70,6 +70,7 @@ body{
 	width:7.5rem;
 	height:2.71rem;
 	margin-top:0.16rem;
+	overflow: hidden;
 }
 .zxq-main  ul{
 	/*width:8.46rem;*/
