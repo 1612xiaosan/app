@@ -29,7 +29,7 @@
         <div class="swiper-slide"><img src="../img/ljb/ljb_shangping3 (3).png" alt=""></div>
         <div  class="swiper-slide"><img src="../img/ljb/ljb_shangping3 (2).png" alt=""></div>
         <div class="swiper-slide">
-        	<a href="index.html"><img src="../img/ljb/ljb_shangping3 (1).png" alt=""></a>
+        	<a href="ljb-shouye.html"><img src="../img/ljb/ljb_shangping3 (1).png" alt=""></a>
         </div>
       </div>
     <div class="swiper-pagination"></div>
@@ -37,14 +37,25 @@
 </body>
 </html>
 <script>        
-  var mySwiper = new Swiper ('.swiper-container', {
-    // direction: 'vertical',
-    loop: true,
-    effect : 'coverflow"',
-    autoplay : 2000,
-    pagination : '.swiper-pagination',
-    
-    pagination: '.swiper-pagination',
-
-  }) 
+//var mySwiper = new Swiper ('.swiper-container', {
+//  // direction: 'vertical',
+//  loop: true,
+//  effect : 'coverflow"',
+//  autoplay : 2000,
+//  pagination : '.swiper-pagination',
+//  
+//  pagination: '.swiper-pagination',
+//
+//}) 
+var swiper = new Swiper('.swiper-container', {
+        direction: 'horizontal',
+        loop: false,
+        onTouchMove: function(swiper){
+          if(swiper.activeIndex == 2){
+            swiper.lockSwipeToPrev();
+          }else{
+            swiper.unlockSwipeToPrev();
+          }
+        }
+    });
  </script>
