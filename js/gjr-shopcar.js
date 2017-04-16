@@ -34,5 +34,8 @@ $(document).ready(function(){
 			$('.gjr_img2 img').removeClass('yzf-active2').eq($(this).index()-1).addClass('yzf-active2')
 		})
 	})
+//	$('.yzf-jiesuan >img:first-child').click(function(){
+//		location.href()
+//	})
 	
 })
