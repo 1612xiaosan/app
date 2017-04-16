@@ -142,7 +142,118 @@
 	height:1.85rem;
 	background-image: url(../img/hsf-img/hsf-qrdd-zhifubao.png);
 	background-size: 100%;
-	float: left;
+	float: left;	
+}
+.hsf-qrdd-querenzhifu{
+	width:100%;
+	height:13.34rem;
+	background-image: url(../img/hsf-img/hsf-qrdd-querenzhifu.png);
+	background-size: 100%;
+	display: none;
+	position: relative;
+}
+.hsf-qrdd-xiangxiang{
+	width:3.75rem;
+	height:1.2rem;
+	background-image: url(../img/hsf-img/hsf-qrdd-rangwoxiangxiang.png);
+	background-size: 100%;
+	position: absolute;
+	top:8.8rem;
+	left:1.8rem;
+}
+.hsf-qrdd-querenanniu{
+	width:2.11rem;
+	height:0.82rem;
+	background-image: url(../img/hsf-img/hsf-qrdd-querenzhifua.png);
+	background-size: 100%;
+	position: absolute;
+	top:0.18rem;
+	left:0.18rem;
+}
+/*选择银行卡*/
+.hsf-qrdd-xuanzeihangka{
+	width:100%;
+	height:13.34rem;
+	display: none;	
+}
+.hsf-qrdd-xuanzeitop{
+	width:100%;
+	height:1rem;
+	background:#4E3727;
+	line-height: 0.4rem;
+	position: relative;
+}
+.hsf-qrdd-circles{
+	position:absolute;
+	top:0.4rem;
+	left:0.4rem;
+	width:0.4rem;
+	height:0.4rem;
+	border-radius: 50%;
+	background:#3E4247;
+	color: #fff;
+	text-align: center;
+	line-height: 0.4rem;
+	font-size: 0.26rem;
+	font-family: "宋体";
+}
+.hsf-qrdd-xuanzeitop h5{
+	text-align: center;
+	font-family: "苹方";
+	font-size: 0.26rem;
+	font-weight: 400;
+	color:#fff;
+}
+.hsf-qrdd-xuanzeitop h6{
+	font-size: 0.18rem;
+	color: #9b9b9b;
+	text-align: center;
+	font-family: San Francisco display
+}
+.hsf-qrdd-tianjia{
+	width:1.01rem;
+	height:0.68rem;
+	background-image: url(../img/hsf-img/hsf-qrdd-tianjia.png);
+	background-size: 100%;
+	position:absolute;
+	right:0.05rem;
+	top:0.08rem;
+}
+.hsf-qrdd-yinhangkacenter{
+	width: 100%;
+	height:12rem;
+	position: absolute;
+	top:1rem;
+	left:0;
+	background-image: url(../img/hsf-img/hsf-yinghangkacenter.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
 	
-	
+}
+.hsf-qrdd-yinhangkabottom{
+	width:100%;
+	height:1.58rem;
+	background-image: url(../img/hsf-img/hsf-qrdd-yinghangkabottom.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 11.6rem;
+	left: 0;
+}
+.hsf-qrdd-yinhangkabottom >h5{
+	text-align: center;
+	font-family: "苹方";
+	font-size: 0.26rem;
+	font-weight: 400;
+	padding-left:0.4rem;
+	padding-top:0.4rem;
+	color:#fff;
+}
+.hsf-qrdd-yinhangkabottom >h6{
+	font-size: 0.18rem;
+	color: #9b9b9b;
+	text-align: center;
+	padding-left:0.1rem;
+	padding-top:0.05rem;
+	font-family: San Francisco display
 }
