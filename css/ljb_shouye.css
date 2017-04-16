@@ -137,10 +137,10 @@ body{
 	width: 1.46rem;
 	height: 0.89rem;
 	background: url('../img/ljb/ljb_one.png') no-repeat;
-	background-size: 1.46rem;
+	background-size: 1.6rem;
 	float: left;
 	margin-right: 0.24rem;
-	margin-top: 0.2rem;
+	margin-top: 0.15rem;
 }
 .ljb_tese>ul>li:nth-child(2) a{
 	display: block;
