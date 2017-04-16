@@ -22,7 +22,7 @@ $(document).ready(function(){
 	tiao.ontouchstart=function(e){
 		let left=e.touches[0].pageX;
 		c2.style.left=left+'px';
-		zou.style.width=left+'px'
+		zou.style.width=left+'px';
 	}
 //	tiao.ontouchstart=function(e){
 //		let left=e.touches[0].pageX;
