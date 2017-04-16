@@ -19,15 +19,15 @@ $(function(){
 	$("#register-form").validate({
    errorPlacement:function(error,element) {  
 //	error.html(error.html()+"<br/>"); 
-  	error.appendTo(".hsf-two-yanzheng p");
+  	error.appendTo(".hsf-two-yanzheng");
  },
     success:function(i,va){
 //                console.log(i,va)//i表示div-error的jquery对象，va表示input标签
                 $(va).nextAll().remove();
-                if($(va).next('i').length==0){
-//                      $('<i>').html('OK').insertAfter(va)
-               alert(1)
-                }
+//              if($(va).next('i').length==0){
+////                      $('<i>').html('OK').insertAfter(va)
+//             alert(1)
+//              }
         },
         focusCleanup:true,
 })
