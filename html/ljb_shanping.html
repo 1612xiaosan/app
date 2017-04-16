@@ -21,7 +21,6 @@
 	<meta name="full-screen" content="yes">
 		<!--禁止打电话、登录邮箱-->
 	<meta name="format-detection" content="telephone=no, email=no" />
-
 </head>
 <body>
 	<div class="swiper-container tu">
@@ -47,15 +46,15 @@
 //  pagination: '.swiper-pagination',
 //
 //}) 
-var swiper = new Swiper('.swiper-container', {
+var swiper = new Swiper('.swiper-container',{
         direction: 'horizontal',
         loop: false,
-        onTouchMove: function(swiper){
-          if(swiper.activeIndex == 2){
-            swiper.lockSwipeToPrev();
-          }else{
-            swiper.unlockSwipeToPrev();
-          }
-        }
+//      onTouchMove: function(swiper){
+//        if(swiper.activeIndex == 2){
+//          swiper.lockSwipeToPrev();
+//        }else{
+//          swiper.unlockSwipeToPrev();
+//        }
+//      }
     });
- </script>
+</script>
