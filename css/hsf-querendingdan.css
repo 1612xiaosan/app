@@ -257,3 +257,128 @@
 	padding-top:0.05rem;
 	font-family: San Francisco display
 }
+.hsf-qrdd-tianjiayinhangka{
+	display: none;
+}
+.hsf-qrdd-tjcenter{
+	width:100%;
+	height:7.96rem;
+	background-image: url(../img/hsf-img/hsf-qrdd-tianjiayinhangka.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: absolute;
+	left:0;
+	top:1.2rem;	
+}
+/*表单*/
+.hsf-qrdd-tjcenter input{
+	width:5rem;
+	height:0.6rem;
+	border:1px solid #ccc;
+	border-radius:1.2rem;
+	position: absolute;
+	left:1.6rem;
+}
+.hsf-qrdd-tjcenter input.tjone{
+	top:1.6rem;
+}
+.hsf-qrdd-tjcenter input.tjtwo{
+	top:2.6rem;
+}
+.hsf-qrdd-tjcenter input.tjthree{
+	top:3.6rem;
+}
+.hsf-qrdd-tjcenter input.tjfour{
+	top:4.6rem;
+}
+.hsf-qrdd-tjcenter input.tjfive{
+	width:2.4rem;
+	height:0.6rem;
+	border:1px solid #ccc;
+	border-radius:1.2rem;
+	position: absolute;
+	left:1.6rem;
+	top:5.6rem;
+}
+.hsf-qrdd-huoquyanzhengma{
+	width:2.4rem;
+	height:0.6rem;
+	border:1px solid #ccc;
+	border-radius:1.2rem;
+	background:#F1F1F1;
+	position: absolute;
+	left:4.2rem;
+	text-align:center;
+	line-height: 0.6rem;
+	top:5.6rem;
+}
+.hsf-qrdd-fuwuxieyi{
+	width:0.1rem;
+	height:0.1rem;
+	background:#B26917;
+/*	border:1px solid #ccc;*/	
+	border-radius: 50%;
+	position: absolute;
+	left:0.82rem;
+	top:6.72rem;
+}
+.hsf-bottom{
+	width:100%;
+	height:1.10rem;
+	background:#6b3b23;
+	position: absolute;
+	bottom:0;
+	left:0;
+	background-image: url(../img/hsf-img/hsf-qrdd-yinghangkabottom.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.hsf-bottom >h5{
+	text-align: center;
+	font-family: "苹方";
+	font-size: 0.26rem;
+	font-weight: 400;
+	padding-left:0.4rem;
+	padding-top:0.4rem;
+	color:#fff;
+}
+.hsf-bottom >h6{
+	font-size: 0.18rem;
+	color: #9b9b9b;
+	text-align: center;
+	padding-left:0.1rem;
+	padding-top:0.05rem;
+	font-family: San Francisco display
+}
+/*指纹识别支付*/
+.hsf-qrdd-zhiwenshibie{
+	width:100%;
+	height:12.96rem;
+	background-image: url(../img/hsf-img/hsf-qrdd-zhiwenzhifu.png);
+	background-size: 100%;
+	display: none;
+}
+.hsf-qrdd-guanbi{
+	width:0.6rem;
+	height:0.56rem;
+	background-image: url(../img/hsf-img/hsf-qrdd-guanbi.png);
+	background-size: 100%;
+	margin-top: 0.05rem;
+	margin-left: 0.05rem;
+}
+/*密码识别方式*/
+.hsf-qrdd-mimashibie{
+	width:100%;
+	height:12.96rem;
+	background-image: url(../img/hsf-img/hsf-qrdd-mimashi.png);
+	background-size: 100%;
+	display: none;
+}
+/*图案识别方式*/
+.hsf-qrdd-tuanshibie{
+	width:100%;
+	height:12.96rem;
+	background-image: url(../img/hsf-img/hsf-qrdd-zhiwenshi.png);
+	background-size: 100%;
+	display: none;
+}
