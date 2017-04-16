@@ -1,0 +1,25 @@
+$(document).ready(function(){
+	$('.gjr_shai').on('touchstart',function(){
+		$('body,html').addClass('hidden');
+		$('.gjr_alert').show();
+	})
+	$('.right').on('touchstart',function(){
+		$('body,html').removeClass('hidden');
+		$('.gjr_alert').hide();
+	})
+	$('.gjr_tab>li').on('touchstart',function(){
+		$(this).find('h3,p,span').toggleClass('gjr').toggleClass('gjr_active')
+	})
+//	$('.gjr_big').on('touchstart',function(e){
+////		console.log(e.offsetX)
+//	})
+	let tiao=document.querySelector('.gjr_big');
+//	console.log(tiao)
+	tiao.ontouchstart=function(e){
+		alert(1)
+	}
+//	tiao.ontouchstart=function(e){
+//		let left=e.touches[0].pageX;
+//		console.log(left)
+//	}
+})
