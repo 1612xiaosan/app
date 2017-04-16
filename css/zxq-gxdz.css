@@ -69,13 +69,14 @@ body{
 .zxq-main .zxq-dz{
 	width:7.5rem;
 	height:2.71rem;
-	overflow: hidden;
 	margin-top:0.16rem;
 }
 .zxq-main  ul{
-	width:8.46rem;
+	/*width:8.46rem;*/
+	width:15rem;
 	height: 2.71rem;
 	margin-left:0.4rem;
+	margin-right:0.4rem;
 	
 }
 .zxq-main ul li{
