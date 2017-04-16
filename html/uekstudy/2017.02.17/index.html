@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<link rel="stylesheet" href="index.css">
+<style>
+		@media screen and (min-width:1200px) {
+			ul{
+				width:1170px;
+				height:100px;
+				background:red;
+			    margin:0 auto;
+		}
+		ul li:nth-child(1){
+			width:33.3333333%;
+			height:100%;
+			float:left;
+			background:#ccc;
+		}
+			ul li:nth-child(2){
+			width:66.666666%;
+			height:100%;
+			float:left;
+			background:#dfdfdf;
+		}
+	}
+	@media screen and (max-width:1200px) and (min-width:992px) {
+		ul{
+			width:950px;
+			height:100px;
+			background:blue;
+			margin:0 auto;
+		}
+		ul li:nth-child(1){
+			width:66.66666%;
+			height:100%;
+			float:left;
+			background:blueviolet;
+		}
+			ul li:nth-child(2){
+			width:33.33333%;
+			height:100%;
+			float:left;
+			background:#123545;
+		}
+	}
+	@media screen and (max-width:992px) and (min-width:768px) {
+		ul{
+			width:750px;
+			height:100px;
+			background:yellow;
+			margin:0 auto;
+		}
+		ul li:nth-child(1){
+			width:66.66666%;
+			height:100%;
+			float:left;
+			background:blueviolet;
+		}
+			ul li:nth-child(2){
+			width:33.33333%;
+			height:100%;
+			float:left;
+			background:darkmagenta;
+		}
+	}
+	@media screen and (max-width:768px) {
+		ul{
+			width:100%;
+			height:100px;
+			background:pink;
+			margin:0 auto;
+		}
+		ul li:nth-child(1){
+			width:100%;
+			height:100%;
+			float:left;
+			background:violet;
+		}
+			ul li:nth-child(2){
+			width:100%;
+			height:100%;
+			float:left;
+			background:aqua;
+		}
+	}
+</style>
+<body>
+	<ul>
+		<li>响应式</li>
+		<li></li>
+	</ul>
+</body>
+</html>

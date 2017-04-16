@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<style>
+		div{
+			width:100px;
+			height:100px;
+			background:red;
+			margin-top:30px;
+			margin-left:100px;
+			transition:all 2s;
+		}
+		div:nth-child(2n){
+			background:blue;
+		}
+		div:nth-child(1):hover{
+			transform:translateY(200px);
+		}
+		div:nth-child(2){
+			transform-origin:left center;
+		}
+		div:nth-child(2):hover{
+			transform:scaleX(2);
+		}
+	</style>
+	<body>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+	</body>
+</html>

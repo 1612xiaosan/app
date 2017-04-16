@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<style>
+ /*section{
+ 	width:200px;
+ 	height:200px;
+ 	border:1px solid #000;
+ }
+  section::first-letter{
+ 	color:red;
+ 	font-size:12px;
+ }
+ section::first-line{
+ 	color:blue;
+ 	font-size:30px;
+ }
+ div{
+ 	width:200px;
+ 	height:200px;
+ 	background:#ccc;
+ }
+ div::after{
+ 	content:"我是后面添加的文字";
+ 	color:pink;
+ }
+ div::before{
+ 	content:"我是前面添加的文字";
+ 	color:yellow;
+ }*/
+/* div.one{
+ 	width:50px;
+ 	height:auto;
+ 	background:#555555;
+ }
+ div.two{
+ 	background:yellow;
+ 	float:left;
+ }
+ section .two::after{
+ 	content:"";
+ 	display:block;
+ 	clear:both;
+ }*/
+/*div[id]{
+	color:blue;
+}*/
+/*div[class~=one]{
+	color:#ccc;
+}*/
+/*div[class|=one]{
+	color:#ccc;
+}*/
+/*div >div{
+	color:blue;
+}*/
+.two +div{
+	color:blue;
+}
+
+
+
+
+</style>
+<body>
+	<!-- <section>
+		我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字
+	</section>
+	<div>
+		我是中国人我是中国人我是中国人我是中国人我是中国人我是中国人我是中国人我是中国人我是中国人我是中国人
+	</div> -->
+	<div class="one two">
+	</div>
+	<div class="two" id="one">
+		<div class="four"></div>
+	</div>
+	<div class="three" id="two"></div>
+	<div class="onethree" id="three"></div>
+
+
+</body>
+</html>

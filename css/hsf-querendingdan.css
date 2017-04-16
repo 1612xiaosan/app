@@ -1,0 +1,148 @@
+.hsf-qrdd-top{
+	width:100%;
+	height:2.2rem;
+	background: #22262B;
+	position: relative;
+	padding-top: 0.5rem;
+}
+.hsf-qrdd-circle{
+	position:absolute;
+	top:0.6rem;
+	left:0.4rem;
+	width:0.4rem;
+	height:0.4rem;
+	border-radius: 50%;
+	background:#3E4247;
+	color: #fff;
+	text-align: center;
+	line-height: 0.4rem;
+	font-size: 0.26rem;
+	font-family: "宋体";
+}
+.hsf-qrdd-top h1{
+	text-align: center;
+	/*line-height: 2.2rem;*/
+	font-family: "苹方";
+	font-size: 0.26rem;
+	font-weight: 400;
+	color:#fff;
+}
+.hsf-qrdd-top h2{
+	font-size: 0.18rem;
+	color: #9b9b9b;
+	text-align: center;
+	font-family: San Francisco display
+}
+
+/*收货地址*/
+.hsf-qrdd-shouhuaren{
+	width:7.02rem;
+	height:2rem;
+	background-image: url(../img/hsf-img/hsf-qrdd-bg.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	position: absolute;
+	left: 50%;
+	text-align: center;
+    margin-left: -3.52rem;
+    top:1.4rem;
+    padding-top:0.3rem;
+}
+.hsf-qrdd-shouhuaren >h4{
+	color:#1C1D1F;
+	font-size:0.3rem;
+	font-family: San Francisco display;
+}
+.hsf-qrdd-shouhuaren >h2{
+	color:#b26917;
+	font-size:0.36rem;
+	font-family: San Francisco display;
+}
+.hsf-qrdd-shouhuaren >h5{
+	color:#c8a073;
+	font-size:0.18rem;
+	font-family: San Francisco display;
+}
+.hsf-qrdd-shouhuaren >h3{
+	font-size: 0.24rem;
+	color: #5e5e5e;
+	font-family: "苹方";
+}
+.hsf-qrdd-beijing{
+	width:100%;
+	height:11.14rem;
+	background:#FAFAFA;
+	overflow: hidden;
+}
+
+.hsf-qrdd-zhifu{
+	width:7.02rem;
+	height:4.74rem;
+	background:#fff;
+	position: absolute;
+	left: 50%;
+    margin-left: -3.52rem;
+    top:3.8rem;	
+}
+.hsf-qrdd-kashu{
+	width:0.8rem;
+	height:0.38rem;
+	border: 1px solid #121314;
+	border-radius: 1rem;
+	position: absolute;
+	font-size:0.16rem;
+	line-height: 0.38rem;
+	right:0.5rem;
+	top:0.8rem;
+	text-align: center;
+}
+.hsf-qrdd-yinghangka{
+	width:100%;
+	height:1.58rem;
+	background-image: url(../img/hsf-img/hsf-qrdd-yinghangka.png);
+	background-size: 100%;
+}
+.hsf-qrdd-yupingbi{
+	width:100%;
+	height:1.58rem;
+	background-image: url(../img/hsf-img/hsf-qrdd-yupingbi.png);
+	background-size: 100%;
+}
+.hsf-qrdd-huodaofukuan{
+	width:100%;
+	height:1.58rem;
+	background-image: url(../img/hsf-img/hsf-qrdd-huodaofuk.png);
+	background-size: 100%;
+}
+.hsf-qrdd-qitazhifu{
+	width:100%;
+	height:1.06rem;
+	background:url(../img/hsf-img/hsf-qrdd-zhongjie.png);
+	background-size: 100%;
+	position: absolute;
+	top:9.0rem;
+	left:0;
+}
+.hsf-qrdd-disanfangzhifu{
+	width:100%;
+	height:1.85rem;
+	position: absolute;
+	top:10rem;
+	left: 0;
+}
+.hsf-qrdd-weixinzhufu{
+	width:3.75rem;
+	height:1.85rem;
+	background-image: url(../img/hsf-img/hsf-qrdd-weixin.png);
+	background-size: 100%;
+	float: left;
+}
+.hsf-qrdd-zhifubaozhufu{
+	width:3.75rem;
+	height:1.85rem;
+	background-image: url(../img/hsf-img/hsf-qrdd-zhifubao.png);
+	background-size: 100%;
+	float: left;
+	
+	
+}

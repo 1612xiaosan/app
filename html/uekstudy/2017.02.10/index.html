@@ -1,0 +1,51 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>Document</title>
+</head>
+<style>
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	height:2000px;
+}
+	.boxone{
+		width:200px;
+		height:200px;
+		background:blue;
+		/*position:static;*/
+		/*position:relative;*/
+		position: absolute;
+		right:20px;
+		bottom:20px;
+	}
+	.boxtwo{
+		width:400px;
+		height:400px;
+		background:pink;
+		position:absolute;
+		top:10px;
+		left:20px;
+	}
+	.ad{
+		width:100px;
+		height:100px;
+		background:yellow;
+		position:fixed;
+		bottom:10px;
+		right:20px;
+		line-height:100px;
+		text-align:center;
+	}
+</style>
+<body>
+	
+	<div class="boxtwo">
+		<div class="boxone"></div>
+	</div>
+	<div class="ad">小广告</div>
+</body>
+</html>
