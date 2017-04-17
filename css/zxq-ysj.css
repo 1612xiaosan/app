@@ -14,7 +14,8 @@ body{
 	height:1rem;
 	
 }
-.zxq-top .zxq-tj{
+.zxq-top a{
+	display: block;
 	width:0.44rem;
 	height:0.44rem;
 	background: #1F2027;
@@ -171,21 +172,61 @@ body{
 }
 /*第一块结束*/
 /*第二块开始*/
-.zxq-ysjf11{
+.zxq-bbox1{
 	width:6.65rem;
 	height:3.14rem;
-	background:#ffffff;
+	/*background:#ffffff;*/
 	box-shadow: 0 0 0.2rem 0.02rem rgba(0,0,0,0.1);
 	margin:0.41rem 0.23rem 0 0.63rem;
 	border-radius: 0.1rem;
 	position: relative;
+	/*overflow: hidden;*/
 }
-.zxq-ysjf11 .zxq-ysjf1{
+.zxq-box1{
+	width:6.65rem;
+	height:3.14rem;
+	/*background:#ffffff;*/
+	box-shadow: 0 0 0.2rem 0.02rem rgba(0,0,0,0.1);
+	/*margin:0.41rem 0.23rem 0 0.63rem;*/
+	border-radius: 0.1rem;
+	position: relative;
+	overflow: hidden;
+}
+.zxq-bbox1 .zxq-sekuai{
+	width:120%;
+	height:100%;
+	background: #733D17;
+	position: absolute;
+	left:0;
+	top:0;
+	border-radius: 0.1rem;
+	z-index:1;
+}
+
+.zxq-bbox1 .zxq-sekuai  .zxq-gb{
+	width:0.45rem;
+	height:0.45rem;
+	position:absolute;
+	left:5.9rem;
+	top:1.3rem;
+}
+.zxq-bbox1 .zxq-ysjf11{
+	width:6.65rem;
+	height:3.14rem;
+	background:#ffffff;
+	box-shadow: 0 0 0.2rem 0.02rem rgba(0,0,0,0.1);
+	/*margin:0.41rem 0.23rem 0 0.63rem;*/
+	border-radius: 0.1rem;
+	position: relative;
+	z-index:2;
+}
+.zxq-bbox1 .zxq-ysjf1{
 	width:0.78rem;
 	height:0.78rem;
 	position: absolute;
 	left:-0.37rem;
-	top:-0.23rem;	
+	top:-0.23rem;
+	z-index:3;	
 }
 .zxq-ysjf11 h3{
 	font-size: 0.34rem;
@@ -417,7 +458,7 @@ body{
 	position: relative;
 	overflow: hidden;
 }
- .zxq-sekuai{
+ .zxq-bbox .zxq-sekuai{
 	width:120%;
 	height:100%;
 	background: #733D17;
@@ -428,7 +469,7 @@ body{
 	z-index:1;
 }
 
-.zxq-sekuai  .zxq-gb{
+.zxq-bbox .zxq-sekuai  .zxq-gb{
 	width:0.45rem;
 	height:0.45rem;
 	position:absolute;
