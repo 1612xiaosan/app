@@ -9,30 +9,69 @@ $(function(){
 
     
     $.validator.setDefaults({
-	errorElement:'p'
+	errorElement:'p',
 });
     //表单验证
     $.validator.setDefaults({
    debug: true
 })
+    
 	$("#register-form").validate();
-	$("#register-form").validate({
-   errorPlacement:function(error,element) {  
-
-  	error.appendTo(".hsf-two-yanzheng p");
+	$("#register-form").validate({	
+   errorPlacement:function(error,val) {  
+//   console.log(val)
+//   console.log(error)
+//   error.css({'color':'red','font-size':'12px'}).insertAfter(val);
+	error.appendTo(".hsf-two-yanzheng p");
  },
     success:function(i,va){
-//                console.log(i,va)//i表示div-error的jquery对象，va表示input标签
-                $(va).nextAll().remove();
-                if($(va).next('i').length==0){
-//                      $('<i>').html('OK').insertAfter(va)
-               alert(1)
-                }
+
         },
         focusCleanup:true,
 })
   
  	//用户名
+
+    
+    //邮箱
+//  $("#email").rules('add',{
+//      required:true,
+//      email:true,
+//      messages:{
+//          required:'请输入您的邮箱！',
+//          email:'请输入正确的邮箱！',
+//      }
+//  });
+
+    //生日
+//  $("#birthday").rules('add',{
+//      required:true,
+//      date:true,
+//      messages:{
+//          required:'请选择生日，如1993-03-29！', 
+//          date:'生日格式不正确'        
+//      }
+//
+//  });
+
+
+
+    // $(".accept").parents(".form-group").find("i").css("margin-right","5px");
+//  $("#accept").rules('add',{
+//      required:true,
+//      messages:{
+//          required:'请接受版权声明和隐私保护！'
+//      },
+//      highlight : function(element,errorClass){     
+//          setTimeout(function(){
+//              if($("#accept-error").get(0)){
+//                  $("#accept-error").css("display","block")
+//                  $(".accept").insertBefore("#accept-error");
+//
+//              }
+//          },0);        
+//      },
+//  });
 	$("#username").rules('add',{
 		required:true,
 		minlength:4,
@@ -56,28 +95,7 @@ $(function(){
             phone:'请输入正确的手机号！'
         }
     });
-    
-    //邮箱
-//  $("#email").rules('add',{
-//      required:true,
-//      email:true,
-//      messages:{
-//          required:'请输入您的邮箱！',
-//          email:'请输入正确的邮箱！',
-//      }
-//  });
-
-    //生日
-//  $("#birthday").rules('add',{
-//      required:true,
-//      date:true,
-//      messages:{
-//          required:'请选择生日，如1993-03-29！', 
-//          date:'生日格式不正确'        
-//      }
-//
-//  });
-    //密码
+        //密码
     $("#password").rules('add',{
         required:true,
         minlength:6,
@@ -99,25 +117,6 @@ $(function(){
             equalTo:'密码输入不一致',
         }
     });
-
-
-    // $(".accept").parents(".form-group").find("i").css("margin-right","5px");
-//  $("#accept").rules('add',{
-//      required:true,
-//      messages:{
-//          required:'请接受版权声明和隐私保护！'
-//      },
-//      highlight : function(element,errorClass){     
-//          setTimeout(function(){
-//              if($("#accept-error").get(0)){
-//                  $("#accept-error").css("display","block")
-//                  $(".accept").insertBefore("#accept-error");
-//
-//              }
-//          },0);        
-//      },
-//  });
-
     // 邮箱自动补全
     
 //  $("#email").autocomplete({

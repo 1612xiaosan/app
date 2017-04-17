@@ -25,9 +25,9 @@ $(document).ready(function(){
 		$('.hsf-qrdd-zhiwenshibie').css("display","block");
 	})
 //	支付方式的转换
-let zhiwenshibie=document.getElementById("zhiwenshibie");
-let mimashibie=document.getElementById("mimashibie");
-let tuanshibie=document.getElementById("tuanshibie");
+var zhiwenshibie=document.getElementById("zhiwenshibie");
+var mimashibie=document.getElementById("mimashibie");
+var tuanshibie=document.getElementById("tuanshibie");
  zhiwenshibie.addEventListener("touchmove",function(){
  	zhiwenshibie.style.display="none";
  	mimashibie.style.display="block";
