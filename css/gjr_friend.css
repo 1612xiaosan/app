@@ -303,6 +303,11 @@ span.gjr_first{
 	float: left;
 	text-align: center;
 }
+.gjr_fleft a,.gjr_fright a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
 .gjr_fleft img,.gjr_fright img{
 	width: 0.5rem;
 	height: 0.46rem;
