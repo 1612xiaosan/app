@@ -83,7 +83,7 @@ body,html{
 	line-height: 0.8rem;
 	font-size:18px;
 	font-family: "宋体";
-	right:1.2rem;
+	right:0.4rem;
 	bottom:0.15rem;
 }
 
@@ -177,17 +177,20 @@ body,html{
 	background-size: 80%;
 	border: 1px solid #ececec;
 	border-radius: 50%;
-	margin-right: 0.5rem;
+	position: absolute;
+	left:5.4rem;
 }
 .hsf-two-register .hsf-two-kuang .hsf-two-yonghu{
 	width: 0.44rem;
 	height: 0.44rem;
 	float: right;	
+	position: absolute;
 	background-size:80%;
 	border: 1px solid #ececec;
 	border-radius: 50%;
 	margin-right: 0.5rem;	
 	background-repeat: no-repeat;
+	left:5.5rem;
 }
 .hsf-two-register .hsf-two-kuang .hsf-two-yonghu.one{
 	background-image:url(../img/hsf-img/hsf-first-ren.png);

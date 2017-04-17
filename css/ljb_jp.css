@@ -247,6 +247,10 @@ body{
 	width: 25%;
 	float: left;
 }
+.ljb_fenleitwo>ul>li>a:hover{
+	background: #ccc;
+	color: #fff;
+}
 .ljb_fenleitwo>ul>li>a{
 	width: 1.1rem;
 	height: 0.6rem;
