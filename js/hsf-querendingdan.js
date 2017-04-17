@@ -44,6 +44,19 @@ $('.hsf-qrdd-guanbi').click(function(){
 	$('.hsf-qrdd-threeshibie').css("display","none");
 		$('.hsf-qrdd-baowei').css("display","block");
 })
-	
+$('.hsf-qrdd-threeshibie').click(function(){
+	$('.hsf-qrdd-threeshibie').css("display","none");
+		$('.hsf-qrdd-success').css("display","block");
+})
+$('.hsf-success-next').click(function(){
+	$('.hsf-success-look').removeClass("actives");
+	$('.hsf-success-next').addClass("actives");
+})
+$('.hsf-success-look').click(function(){
+	$('.hsf-success-next').removeClass("actives");
+	$('.hsf-success-look').addClass("actives");
+})
+
+
 })
 
