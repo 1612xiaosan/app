@@ -81,7 +81,7 @@
 
 .zxq-yhq .zxq-three{
 	margin-top:-0.5rem;
-	color:#454444;
+	color:#ffddcd;
 	line-height: 0.5rem;
 	font-size:0.11rem;
 	font-family: 'San Francisco Display';
@@ -107,6 +107,6 @@
 	background: #fff;
 }
 span.zxq-first{
-	color: #454444;
+	color: #454444!important;
 	line-height: 0.5rem;
 }

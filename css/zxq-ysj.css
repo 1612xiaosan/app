@@ -2,14 +2,7 @@ body{
 	background: #F6F6F6;
 }
 /*头部开始*/
-/*.box{
-	/*width:7.5rem;
-	height:1rem;
-	position:fixed;
-	left:0;
-	top:0;
-	z-index: 100;*/
-/*}*/
+
 .zxq-top{
 	width:7.5rem;
 	height:1rem;
@@ -404,22 +397,65 @@ body{
 }
 /*第四快结束*/
 /*第三块开始*/
-.zxq-ysjf13{
+.zxq-bbox{
+	width:6.65rem;
+	height:2.98rem;
+	/*background:#ffffff;*/
+	box-shadow: 0 0 0.2rem 0.02rem rgba(0,0,0,0.1);
+	margin:0.41rem 0.23rem 0 0.63rem;
+	/*border-radius: 0.1rem;*/
+	position: relative;
+	/*overflow: hidden;*/
+}
+.zxq-box{
 	width:6.65rem;
 	height:2.98rem;
 	background:#ffffff;
 	box-shadow: 0 0 0.2rem 0.02rem rgba(0,0,0,0.1);
-	margin:0.41rem 0.23rem 0 0.63rem;
+	/*margin:0.41rem 0.23rem 0 0.63rem;*/
 	border-radius: 0.1rem;
 	position: relative;
+	overflow: hidden;
 }
-.zxq-ysjf13 .zxq-ysjf1{
+ .zxq-sekuai{
+	width:120%;
+	height:100%;
+	background: #733D17;
+	position: absolute;
+	left:0;
+	top:0;
+	border-radius: 0.1rem;
+	z-index:1;
+}
+
+.zxq-sekuai  .zxq-gb{
+	width:0.45rem;
+	height:0.45rem;
+	position:absolute;
+	left:5.9rem;
+	top:1.3rem;
+}
+.zxq-ysjf13{
+	width:6.65rem;
+	height:2.98rem;
+	background:#fff;
+	position: absolute;
+	left:0;
+	top:0;
+	/*box-shadow: 0 0 0.2rem 0.02rem rgba(0,0,0,0.1);*/
+	/*margin:0.41rem 0.23rem 0 0.63rem;*/
+	border-radius: 0.1rem;
+	z-index:2;	
+}
+.zxq-ysjf1{
 	width:0.78rem;
 	height:0.78rem;
 	position: absolute;
 	left:-0.37rem;
 	top:-0.23rem;	
+	z-index:3;
 }
+
 .zxq-ysjf13 h3{
 	font-size: 0.34rem;
 	color:#1e1e1e;
@@ -542,6 +578,7 @@ body{
 	position: fixed;
 	left: 0;
 	bottom: 0;
+	z-index:100;
 }
 #bottom>ul{
 	width: 100%;
