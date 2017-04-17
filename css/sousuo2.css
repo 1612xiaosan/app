@@ -1,3 +1,31 @@
+.hidden{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.gjr_alert{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.8);
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 1000;
+	display: none;
+}
+.gjr_alert a{
+	width: 5.08rem;
+	height: 6.83rem;
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}
+.gjr_alert a img{
+	width: 100%;
+}
 .yzf-body{
 	background:#eeeeee;
 }
