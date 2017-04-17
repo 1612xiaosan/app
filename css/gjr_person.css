@@ -330,6 +330,7 @@ span.gjr_first{
 	width: 7.02rem;
 	height: 3.5rem;
 	margin: 0 auto;
+	margin-bottom: 1rem;
 }
 .gjr_display>li{
 	float: left;
