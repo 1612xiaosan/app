@@ -11,6 +11,10 @@ $(document).ready(function(){
 		$('.hsf-qrdd-xuanzeihangka').css("display","none");
 		$('.hsf-qrdd-tianjiayinhangka').css("display","block");
 	})
+	$('.hsf-qrdd-circles').on("click",function(){
+		$('.hsf-qrdd-xuanzeihangka').css("display","none");
+		$('.hsf-qrdd-baowei').css("display","block");
+	})
 	$('.hsf-bottom').on("click",function(){
 		$('.hsf-qrdd-tianjiayinhangka').css("display","none");
 		$('.hsf-qrdd-threeshibie').css("display","block");		
@@ -56,6 +60,29 @@ $('.hsf-success-look').click(function(){
 	$('.hsf-success-next').removeClass("actives");
 	$('.hsf-success-look').addClass("actives");
 })
+$('.hsf-success-nexts').click(function(){
+	$('.hsf-success-looks').removeClass("actives");
+	$('.hsf-success-nexts').addClass("actives");
+})
+$('.hsf-success-looks').click(function(){
+	$('.hsf-success-nexts').removeClass("actives");
+	$('.hsf-success-looks').addClass("actives");
+})
+	$('.hsf-success-nexts').on("click",function(){
+		$('.hsf-qrdd-querenzhifu').css("display","none");
+		$('.hsf-qrdd-xuanzeihangka').css("display","block");
+	})
+		$('.hsf-success-looks').on("click",function(){
+		$('.hsf-qrdd-querenzhifu').css("display","none");
+		$('.hsf-qrdd-baowei').css("display","block");
+	})
+		$('.fanhui').on("click",function(){
+		$('.hsf-qrdd-tianjiayinhangka').css("display","none");
+		$('.hsf-qrdd-xuanzeihangka').css("display","block");
+	})
+
+
+
 
 
 })

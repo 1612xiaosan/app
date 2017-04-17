@@ -238,7 +238,7 @@
 	background-size: 100%;
 	background-repeat: no-repeat;
 	position: absolute;
-	top: 11.6rem;
+	bottom:0;
 	left: 0;
 }
 .hsf-qrdd-yinhangkabottom >h5{
@@ -323,6 +323,61 @@
 	left:0.82rem;
 	top:6.72rem;
 }
+/*我再想想和确认支付*/
+.hsf-success-bgs{
+	width:3.71rem;
+	height:1.10rem;
+	background-image: url(../img/hsf-img/hsf-success-bg.png);
+	background-size: 100%;
+	position: absolute;
+	top:8.4rem;
+	left:1.6rem;
+}
+.hsf-success-nexts{
+	position: absolute;
+	text-align: center;
+	top:0.20rem;
+	left:0.16rem;
+	width:1.76rem;
+	height:0.68rem;
+}
+.hsf-success-looks{
+	position: absolute;
+	text-align: center;
+	top:0.20rem;
+	left:1.60rem;
+	width:1.76rem;
+	height:0.68rem;
+}
+.hsf-success-nexts.actives{
+	background:#784018;
+	border-radius: 0.68rem;
+}
+.hsf-success-looks.actives{
+	background:#784018;
+	border-radius: 0.68rem;
+}
+.hsf-success-nexts.actives h1{
+	color:#fff;
+}
+.hsf-success-nexts.actives h2{
+	color:#fff;
+}
+.hsf-success-looks.actives h1{
+	color:#fff;
+}
+.hsf-success-looks.actives h2{
+	color:#fff;
+}
+
+
+
+
+
+
+
+
+
 .hsf-bottom{
 	width:100%;
 	height:1.10rem;
@@ -398,7 +453,7 @@
 	background-image: url(../img/hsf-img/hsf-success-bg.png);
 	background-size: 100%;
 	position: absolute;
-	top:8.0rem;
+	top:8.4rem;
 	left:1.6rem;
 }
 .hsf-success-next{
