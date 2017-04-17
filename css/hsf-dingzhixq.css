@@ -247,10 +247,10 @@ body{
 	width: 25%;
 	float: left;
 }
-/* .ljb_fenleitwo>ul>li>a:hover{
+.ljb_fenleitwo>ul>li>a:hover{
 	background: #ccc;
 	color: #fff;
-} */
+}
 .ljb_fenleitwo>ul>li>a{
 	width: 1.1rem;
 	height: 0.6rem;
@@ -281,10 +281,9 @@ body{
 	height: 0.58rem;
 	margin-left: 25%;
 	position: absolute;
-	top: 49%;
+	top: 30%;
 	left: 0%;
 	z-index: 99;
-	font-size: 0;
 }
 .ljb_jiajian>a>img{
 	width: 100%;
@@ -296,9 +295,8 @@ body{
 	display: block;
 	width: 0.58rem;
 	height: 0.58rem;
-	top: 49%;
+	top: 30%;
 	right: 3%;
-	font-size: 0;
 }
 .ljb_jiajian>a.oob{
 	width: 6rem;
@@ -307,13 +305,12 @@ body{
 	position: absolute;
 	top: 20%;
 	left: 9%;
-
 }
 .ljb_jiajian>p{
 	font-size: 0.3rem;
 	position: absolute;
 	top: 53%;
-	left: 47%;
+	left: 46%;
 	z-index: 60;
 	font-family: "苹方";
 }
