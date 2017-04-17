@@ -1,3 +1,4 @@
+
 .hidden{
     width: 100%;
     height: 100%;
@@ -25,6 +26,7 @@
 }
 .gjr_alert a img{
     width: 100%;
+}
 * {
   font-size: 0.12rem;
 }
@@ -41,6 +43,7 @@ body {
   z-index: 10;
 }
 
+
 .gjr_back {
   display: block;
   width: 0.5rem;
@@ -54,6 +57,7 @@ body {
   text-align: center;
   line-height: 0.5rem;
 }
+
 .gjr_back>span{
     width: 100%;
     height: 100%;
@@ -241,6 +245,22 @@ p.gjr_nub{
     background: #f4f4f4;
     overflow: hidden;
 }
+.gjr_active{
+    display: none;
+}
+
+.content{
+    width: 7.02rem;
+    height: 1.3rem;
+    margin: 0 auto;
+    
+}
+.gjr_user1{
+    width: 7.02rem;
+    height: 1.3rem;
+    margin: 0 auto;
+    border-bottom: 1px solid #cbcbcb;
+}
 .gjr_user{
     width: 7.02rem;
     height: 1.3rem;
@@ -254,13 +274,17 @@ p.gjr_nub{
     padding-top: 0.3rem;
     position: relative;
 }
-.gjr_sright>a>img{
-    width: 0.66rem;
-//  height: 0.16rem;
+.gjr_sright>a{
+    display: block;
+     width: 0.66rem;
+    height: 0.66rem;
     position: absolute;
     right: 0.1rem;
     top: 50%;
     margin-top: -0.33rem;
+}
+.gjr_sright>a>img{
+    width: 0.66rem;
 }
 .gjr_user>img{
     width: 1.2rem;
@@ -294,6 +318,66 @@ p.gjr_nub{
     background-size: cover;
     /*margin-top: 0.1rem;*/
 }
+.gjr_user1>img{
+    width: 1.2rem;
+    float: left;
+}
+.gjr_user1 .gjr_sright{
+    float: left;
+    width: 100%;
+    height: 1rem;
+    padding-top: 0.3rem;
+    position: relative;
+}
+.gjr_user1 h1{
+    font-size: 0.32rem;
+    float: left;
+}
+.gjr_user1  .gjr_sright>a:nth-child(4){
+    display: block;
+     width: 0.66rem;
+    height: 0.66rem;
+   position: absolute;
+    right: 1rem;
+    top: 50%;
+    margin-top: -0.33rem;
+}
+.gjr_user1  .gjr_sright>a:nth-child(5){
+    display: block;
+     width: 0.66rem;
+    height: 0.66rem;
+   position: absolute;
+    right: 0rem;
+    top: 50%;
+    margin-top: -0.33rem;
+}
+.gjr_user1  .gjr_sright>a>img{
+    width: 0.66rem;
+}
+.gjr_user1>.gjr_sright>h2{
+    width: 100%;
+    height: 0.4rem;
+    font-size: 0.24rem;
+    font-weight: normal;
+    float: left;
+    overflow: hidden;
+    line-height: 0.36rem;
+}
+.gjr_user1>.gjr_sright>h2>span{
+    font-size: 0.24rem;
+    height: 0.4rem;
+    display: inline-block;
+    line-height: 0.4rem;
+    /*margin-top: -0.1rem;*/
+}
+.gjr_user1>.gjr_sright>h2>i.gjr_face{
+    display: inline-block;
+    width: 0.36rem;
+    height: 0.36rem;
+    background-image:url('../img/gjr-img/gjr_25.png');
+    background-size: cover;
+    /*margin-top: 0.1rem;*/
+}
 .gjr_sright> div.gjr_star1{
     width: 5rem;
     height: 0.35rem;
@@ -308,6 +392,7 @@ p.gjr_nub{
 }
 .gjr_friend img{
     width: 100%;
+
 }
 
 

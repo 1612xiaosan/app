@@ -7,7 +7,7 @@ body{
 	background:#22262B;
 	position:relative;
 }
-yzf-nav >a{
+.yzf-nav >a{
 	width:0.8rem;
 	height:0.8rem;
 	display: block;
@@ -164,6 +164,7 @@ body {
 
 	position: relative;
 }
+
 .gjr_circle{
 	width: 0.4rem;
 	height: 100%;
@@ -173,11 +174,15 @@ body {
 }
 .gjr_circle span{
 	display: inline-block;
-	width: 0.2rem;
-	height: 0.2rem;
+	width: 0.3rem;
+	height: 0.3rem;
 	border-radius: 50%;
 	background: #f7f7f7;
 	border: 1px solid #D7D7D7;
+}
+.gjr_lb .gjr_circle span.first{
+	background:#B26918;
+
 }
 .gjr_img{
 	width: 1.4rem;

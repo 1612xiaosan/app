@@ -36,7 +36,7 @@ $(document).ready(function(){
 	})
 	//
 	$('.gjr_color3 > span:first-child ~ span').each(function(index,value){
-		console.log($(this))
+//		console.log($(this))
 		$(this).on('touchstart',function(){
 //			console.log($(this))
 			$(this).addClass('yzf-active').siblings().removeClass('yzf-active')
@@ -44,7 +44,7 @@ $(document).ready(function(){
 		})
 	})
 	$('.gjr_color22 > span:first-child ~ span').each(function(index,value){
-		console.log($(this))
+//		console.log($(this))
 		$(this).on('touchstart',function(){
 //			console.log($(this))
 			$(this).addClass('yzf-active3').siblings().removeClass('yzf-active3')
@@ -52,5 +52,10 @@ $(document).ready(function(){
 		})
 	})
 //>>>>>>> 5467ec6f9b44f953bd61bd384fded8f36e879577
-	
+		$('.gjr_circle > span').each(function(index,value){
+		console.log($('.gjr_circle > span'));
+		$(this).on('touchstart',function(){
+			$(this).toggleClass('first');
+		})
+	})
 })

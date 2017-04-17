@@ -9,4 +9,22 @@ $(function(){
 		$('body,html').removeClass('hidden')
 		
 	})
+	$('.zaixian').on('touchstart',function(){
+		$(this).parent().parent().hide();
+		$(this).parent().parent().parent().find('#gjr_active').show();
+	})
+//	$('#gjr a').on('touchstart',function(){
+//		
+//		$(this).parent().parent().hide();
+//		$(this).parent().parent().parent().find('#gjr_active').show();
+//	})
+	$('.back').on('touchstart',function(){
+		$(this).parent().parent().hide();
+		$(this).parent().parent().parent().find('#gjr').show();
+	})
+	$('.meile').on('touchstart',function(){
+		$(this).parent().parent().parent().remove()
+//		$('#gjr').hide();
+		
+	})
 })

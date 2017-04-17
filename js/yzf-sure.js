@@ -18,7 +18,7 @@ $(document).ready(function(){
 		})
 	})
 	$('.gjr_color3 > span:first-child ~ span').each(function(index,value){
-		console.log($(this))
+//		console.log($(this))
 		$(this).on('touchstart',function(){
 //			console.log($(this))
 			$(this).addClass('yzf-active').siblings().removeClass('yzf-active')
@@ -31,6 +31,33 @@ $(document).ready(function(){
 //			console.log($(this))
 			$(this).addClass('yzf-active3').siblings().removeClass('yzf-active3')
 			$('.gjr_img3 img').removeClass('yzf-active2').eq($(this).index()-1).addClass('yzf-active2')
+		})
+	})
+	
+	
+	//
+		$('.shuliang').on('touchstart',function(){
+		let value=$('.shuliang span').text();
+//		console.log(value)
+		$('.shuliang span').html(parseInt(value)+1);
+	})
+	$('.shuliang2').on('touchstart',function(){
+		let value=$('.shuliang2 span').text();
+//		console.log(value)
+		$('.shuliang2 span').html(parseInt(value)+1);
+	})
+	$('.shuliang3').on('touchstart',function(){
+		let value=$('.shuliang3 span').text();
+//		console.log(value)
+		$('.shuliang3 span').html(parseInt(value)+1);
+	})
+	
+	
+	
+	$('.gjr_circle > span').each(function(index,value){
+		console.log($('.gjr_circle > span'));
+		$(this).on('touchstart',function(){
+			$(this).toggleClass('first');
 		})
 	})
 })

@@ -13,8 +13,10 @@
 		<meta name="format-detection" content="telephone=no, email=no" />
 	</head>
 	<link rel="stylesheet" href="../common/css/common.css" />
+	<link rel="stylesheet" href="../css/swiper.min.css">
 	<link rel="stylesheet" type="text/css" href="../css/hsf-querendingdan.css" />
 	<script src="../common/js/jquery.min.js"></script>
+	<script src="../js/swiper.min.js"></script>
 	<script src='../common/js/common.js'></script>
 	<script src="../js/hsf-querendingdan.js"></script>
 	<title></title>
@@ -48,13 +50,20 @@
 			</div>
 		</div>
 		<div class="hsf-qrdd-querenzhifu">
-			<div class="hsf-qrdd-xiangxiang">
-				<div class="hsf-qrdd-querenanniu"></div>
+			<div class="hsf-success-bgs">
+				<div class="hsf-success-nexts actives">
+					<h1>确认支付</h1>
+					<h2>CHAOLOOP</h2>
+				</div>
+				<div class="hsf-success-looks">
+					<h1>我再想想</h1>
+					<h2>CHAOLOOP</h2>	
+				</div>
 			</div>
 		</div>
 		<div class="hsf-qrdd-xuanzeihangka">
 			<div class="hsf-qrdd-xuanzeitop">
-				<div class="hsf-qrdd-circles">&gt;</div>
+				<div class="hsf-qrdd-circles">&lt;</div>
 				<h5>选择银行卡</h5>
 				<h6>DINCDANZNSHANSIXIANG</h6>
 				<div class="hsf-qrdd-tianjia"></div>
@@ -67,7 +76,7 @@
 		</div>
 		<div class="hsf-qrdd-tianjiayinhangka">
 			 <div class="hsf-qrdd-top">
-				<div class="hsf-qrdd-circle">&gt;</div>
+				<div class="hsf-qrdd-circle fanhui">&lt;</div>
 				<h1>添加银行卡</h1>
 				<h2>DINCDANZNSHANSIXIANG</h2>
 			</div>
@@ -89,20 +98,60 @@
 				<h6>CONTAINT</h6>
 			</div>				
 		</div>
-		<div class="hsf-qrdd-threeshibie">
-			<!--指纹识别支付-->
-		<div class="hsf-qrdd-zhiwenshibie" id="zhiwenshibie">
-			<div class="hsf-qrdd-guanbi"></div>
-		</div>
-		<!--密码识别方式-->
-		<div class="hsf-qrdd-mimashibie" id="mimashibie">
-			<div class="hsf-qrdd-guanbi"></div>
-		</div>
-		<!--图案识别方式-->
-		<div class="hsf-qrdd-tuanshibie" id="tuanshibie">
-			<div class="hsf-qrdd-guanbi"></div>
-		</div>
-		</div>
+	<div class="swiper-container tu">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="../img/hsf-img/hsf-qrdd-zhiwenzhifu.png" alt="">
+        	<div class="hsf-qrdd-guanbi"></div>
+        </div>
+        <div  class="swiper-slide"><img src="../img/hsf-img/hsf-qrdd-mimashi.png" alt="">
+        	<div class="hsf-qrdd-guanbi"></div>
+        </div>
+        <div class="swiper-slide">
+        	<a href="ljb-shouye.html"><img src="../img/hsf-img/hsf-qrdd-zhiwenshi.png" alt="">
+        		<div class="hsf-qrdd-guanbi"></div>
+        	</a>
+        </div>
+      </div>
+    <div class="swiper-pagination"></div>
+    </div>
+	<script>        
+//var mySwiper = new Swiper ('.swiper-container', {
+//  // direction: 'vertical',
+//  loop: true,
+//  effect : 'coverflow"',
+//  autoplay : 2000,
+//  pagination : '.swiper-pagination',
+//  
+//  pagination: '.swiper-pagination',
+//
+//}) 
+var swiper = new Swiper('.swiper-container',{
+        direction: 'horizontal',
+        loop: false,
+//      onTouchMove: function(swiper){
+//        if(swiper.activeIndex == 2){
+//          swiper.lockSwipeToPrev();
+//        }else{
+//          swiper.unlockSwipeToPrev();
+//        }
+//      }
+    });
+</script>	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		<!--支付成功-->
 		<div class="hsf-qrdd-success">
 			<div class="hsf-success-bg">
