@@ -1,10 +1,10 @@
 window.onload=function(){
-	let ljb_box=document.querySelectorAll('.ljb_banner')
-	let ljb_li=document.querySelectorAll('.ljb_banner ul')
-	let ljb_li_img=document.querySelectorAll('.ljb_banner li img')
+	var ljb_box=document.querySelectorAll('.ljb_banner')
+	var ljb_li=document.querySelectorAll('.ljb_banner ul')
+	var ljb_li_img=document.querySelectorAll('.ljb_banner li img')
 	console.log(ljb_li_img)
-	let n=0;
-	let t =setInterval(move,2500)
+	var n=0;
+	var t =setInterval(move,2500)
 	function move(){
 		n++;
 		if (n >= ljb_li_img.length) {
