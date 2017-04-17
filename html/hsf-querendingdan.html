@@ -98,20 +98,60 @@
 				<h6>CONTAINT</h6>
 			</div>				
 		</div>
-		<div class="hsf-qrdd-threeshibie">
-			<!--指纹识别支付-->
-		<div class="hsf-qrdd-zhiwenshibie" id="zhiwenshibie">
-			<div class="hsf-qrdd-guanbi"></div>
-		</div>
-		<!--密码识别方式-->
-		<div class="hsf-qrdd-mimashibie" id="mimashibie">
-			<div class="hsf-qrdd-guanbi"></div>
-		</div>
-		<!--图案识别方式-->
-		<div class="hsf-qrdd-tuanshibie" id="tuanshibie">
-			<div class="hsf-qrdd-guanbi"></div>
-		</div>
-		</div>
+	<div class="swiper-container tu">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="../img/hsf-img/hsf-qrdd-zhiwenzhifu.png" alt="">
+        	<div class="hsf-qrdd-guanbi"></div>
+        </div>
+        <div  class="swiper-slide"><img src="../img/hsf-img/hsf-qrdd-mimashi.png" alt="">
+        	<div class="hsf-qrdd-guanbi"></div>
+        </div>
+        <div class="swiper-slide">
+        	<a href="ljb-shouye.html"><img src="../img/hsf-img/hsf-qrdd-zhiwenshi.png" alt="">
+        		<div class="hsf-qrdd-guanbi"></div>
+        	</a>
+        </div>
+      </div>
+    <div class="swiper-pagination"></div>
+    </div>
+	<script>        
+//var mySwiper = new Swiper ('.swiper-container', {
+//  // direction: 'vertical',
+//  loop: true,
+//  effect : 'coverflow"',
+//  autoplay : 2000,
+//  pagination : '.swiper-pagination',
+//  
+//  pagination: '.swiper-pagination',
+//
+//}) 
+var swiper = new Swiper('.swiper-container',{
+        direction: 'horizontal',
+        loop: false,
+//      onTouchMove: function(swiper){
+//        if(swiper.activeIndex == 2){
+//          swiper.lockSwipeToPrev();
+//        }else{
+//          swiper.unlockSwipeToPrev();
+//        }
+//      }
+    });
+</script>	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		<!--支付成功-->
 		<div class="hsf-qrdd-success">
 			<div class="hsf-success-bg">

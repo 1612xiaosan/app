@@ -371,13 +371,6 @@
 }
 
 
-
-
-
-
-
-
-
 .hsf-bottom{
 	width:100%;
 	height:1.10rem;
@@ -407,6 +400,45 @@
 	font-family: San Francisco display
 }
 /*指纹识别支付*/
+.tu{
+	width: 100%;
+	height: 13.34rem;
+	background: #f1f1f1;
+	display: none;
+}
+.swiper-slide{
+	position: relative;
+}
+.swiper-slide img{
+	width: 7.5rem;
+}
+.anniu{
+	width: 3.3rem;
+	height: 0.9rem;
+	background: pink;
+}
+.hsf-qrdd-guanbi{
+	width:0.6rem;
+	height:0.56rem;
+	background-image: url(../img/hsf-img/hsf-qrdd-guanbi.png);
+	background-size: 100%;
+	position: absolute;
+	left:0.05rem;
+	top:0.05rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .hsf-qrdd-zhiwenshibie{
 	width:100%;
 	height:12.96rem;
@@ -414,14 +446,7 @@
 	background-size: 100%;
 	display: none;
 }
-.hsf-qrdd-guanbi{
-	width:0.6rem;
-	height:0.56rem;
-	background-image: url(../img/hsf-img/hsf-qrdd-guanbi.png);
-	background-size: 100%;
-	margin-top: 0.05rem;
-	margin-left: 0.05rem;
-}
+
 /*密码识别方式*/
 .hsf-qrdd-mimashibie{
 	width:100%;
