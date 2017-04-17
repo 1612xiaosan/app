@@ -602,3 +602,20 @@ body {
 	background-image:url(../img/yzf-img/zhifu_03.gif);
 	background-size:cover;
 }
+
+
+.shuliang3{
+	width:0.8rem;
+	height:0.55rem;
+	line-height: 0.55rem;
+	float:left;
+	margin-left:0.22rem;
+}
+.shuliang3 img{
+	float:left;	
+	margin-top:0.14rem;
+}
+.shuliang3 span{
+	font-size:0.3rem;
+	color:#ccc;
+}
