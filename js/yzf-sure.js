@@ -37,17 +37,17 @@ $(document).ready(function(){
 	
 	//
 		$('.shuliang').on('touchstart',function(){
-		let value=$('.shuliang span').text();
+		var value=$('.shuliang span').text();
 //		console.log(value)
 		$('.shuliang span').html(parseInt(value)+1);
 	})
 	$('.shuliang2').on('touchstart',function(){
-		let value=$('.shuliang2 span').text();
+		var value=$('.shuliang2 span').text();
 //		console.log(value)
 		$('.shuliang2 span').html(parseInt(value)+1);
 	})
 	$('.shuliang3').on('touchstart',function(){
-		let value=$('.shuliang3 span').text();
+		var value=$('.shuliang3 span').text();
 //		console.log(value)
 		$('.shuliang3 span').html(parseInt(value)+1);
 	})
