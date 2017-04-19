@@ -58,4 +58,16 @@ $(document).ready(function(){
 			$(this).toggleClass('first');
 		})
 	})
+		
+		
+		
+		//横向拉伸
+	$('.gjr_color3 span:nth-child(2)').on('touchstart',function(){
+		$('.gjr_color3').toggleClass('active5');
+		$('.gjr_color3 > span:nth-child(2) ~ span').toggleClass('active6');
+	})
+	$('.gjr_color22 span:nth-child(2)').on('touchstart',function(){
+		$('.gjr_color22').toggleClass('active5');
+		$('.gjr_color22 > span:nth-child(2) ~ span').toggleClass('active7');
+	})
 })

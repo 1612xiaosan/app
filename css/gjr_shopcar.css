@@ -6,7 +6,7 @@ body {
   background: #fff;
 }
 
-.gjr_header {
+.gjr_header{
   width: 100%;
   height: 1rem;
   background-image: url('../img/gjr-img/gjr_shopt_03.png');
@@ -156,7 +156,7 @@ body {
 	width: 100%;
 }
 .gjr_bottom2{
-	margin-top:0.75rem;
+	margin-top:1rem;
 	width: 100%;
 }
 .gjr_bottom2 img{
@@ -213,19 +213,16 @@ body {
 	height: 100%;
 	color: #838383;
 }
-.gjr_dian{
-	
-}
 .gjr_dian img{
 	width: 3.97rem;
 }
 .gjr_color{
-	width: 4rem;
-	height: 0.55rem;
+	width: 5rem;
+	height: 0.8rem;
 	border:1px solid #ccc;
-	border-radius:0.25rem 0.25rem;
+	border-radius:0.5rem 0.5rem;
 	padding-left:0.3rem;
-	line-height: 0.55rem;
+	line-height: 0.8rem;
 	color:#ccc;
 	float:left;
 }
@@ -234,44 +231,44 @@ body {
 	display: block;
 }
 .gjr_color span:nth-child(2){
-	margin:0.13rem 0.25rem; 0.14rem 0.25rem;
+	margin:0.17rem 0.25rem; 0.14rem 0.25rem;
 	float:left;
 	display: block;
 	background:#000;
-	width:0.28rem;
-	height:0.28rem;
+	width:0.4rem;
+	height:0.4rem;
 	border-radius: 50%;
 }
 .gjr_lb .gjr_color span.yzf-active{
-	width:0.34rem;
-	height:0.34rem;
+	width:0.6rem;
+	height:0.6rem;
 	margin:0.1rem 0.25rem; 0.14rem 0.25rem;
 }
 .gjr_color span:nth-child(3){
-	margin:0.13rem 0.25rem; 0.14rem 0.25rem;
+	margin:0.17rem 0.25rem; 0.14rem 0.25rem;
 	float:left;
 	display: block;
 	background:#e51857;
-	width:0.28rem;
-	height:0.28rem;
+	width:0.4rem;
+	height:0.4rem;
 	border-radius: 50%;
 }
 .gjr_color span:nth-child(4){
-	margin:0.13rem 0.25rem; 0.14rem 0.25rem;
+	margin:0.17rem 0.25rem; 0.14rem 0.25rem;
 	float:left;
 	display: block;
 	background:#18e5ae;
-	width:0.28rem;
-	height:0.28rem;
+	width:0.4rem;
+	height:0.4rem;
 	border-radius: 50%;
 }
 .gjr_color span:nth-child(5){
-	margin:0.13rem 0.25rem; 0.14rem 0.25rem;
+	margin:0.17rem 0.25rem; 0.14rem 0.25rem;
 	float:left;
 	display: block;
 	background:#e59f18;
-	width:0.28rem;
-	height:0.28rem;
+	width:0.4rem;
+	height:0.4rem;
 	border-radius: 50%;
 }
 .gjr_color .type{
@@ -316,14 +313,15 @@ body {
 }
 /*140*152*/
 .gjr_color2{
-	width: 4rem;
-	height: 0.55rem;
+	width: 5rem;
+	height: 0.8rem;
 	border:1px solid #ccc;
-	border-radius:0.25rem 0.25rem;
+	border-radius:0.5rem 0.5rem;
 	padding-left:0.3rem;
-	line-height: 0.55rem;
+	line-height: 0.8rem;
 	color:#ccc;
 	float:left;
+	font-size:0.5rem;
 }
 .gjr_lb .gjr_color2 span.yzf-active3{
 	color:red;
@@ -333,24 +331,28 @@ body {
 	display: block;
 }
 .gjr_color2 span:nth-child(2){
-	margin:0 0.25rem; 0.14rem 0.25rem;
+	margin:0 0.22rem 0.14rem 0.22rem;
 	float:left;
 	display: block;
+	font-size:0.5rem;
 }
 .gjr_color2 span:nth-child(3){
-	margin:0 0.25rem; 0.14rem 0.25rem;
+	margin:0 0.22rem 0.14rem 0.22rem;
 	float:left;
 	display: block;
+	font-size:0.5rem;
 }
 .gjr_color2 span:nth-child(4){
-	margin:0 0.25rem; 0.14rem 0.25rem;
+	margin:0 0.22rem 0.14rem 0.22rem;
 	float:left;
 	display: block;
+	font-size:0.5rem;
 }
 .gjr_color2 span:nth-child(5){
-	margin:0 0.25rem; 0.14rem 0;
+	margin:0 0.22rem; 0.14rem 0;
 	float:left;
 	display: block;
+	font-size:0.5rem;
 }
 .name h5{
 	font-size:0.3rem;
@@ -360,104 +362,127 @@ body {
 	color:#ccc;
 }
 .gjr_color3{
-	width: 4rem;
-	height: 0.55rem;
+	width: 2rem;
+	height: 0.8rem;
 	border:1px solid #ccc;
-	border-radius:0.25rem 0.25rem;
+	border-radius:0.5rem 0.5rem;
 	padding-left:0.3rem;
-	line-height: 0.55rem;
+	line-height: 0.8rem;
 	color:#ccc;
 	float:left;
+}
+.gjr_style div.active5{
+	width:5rem;
 }
 .gjr_color3 span:nth-child(1){
 	float:left;
 	display: block;
 }
 .gjr_color3 span:nth-child(2){
-	margin:0.13rem 0.25rem; 0.14rem 0.25rem;
+	margin:0.17rem 0.25rem; 0.14rem 0.25rem;
 	float:left;
 	display: block;
 	background:#000;
-	width:0.28rem;
-	height:0.28rem;
+	width:0.4rem;
+	height:0.4rem;
 	border-radius: 50%;
 }
 .gjr_lb .gjr_color3 span.yzf-active{
-	width:0.34rem;
-	height:0.34rem;
-	margin:0.1rem 0.25rem; 0.14rem 0.25rem;
+	width:0.6rem;
+	height:0.6rem;
+	margin:0.08rem 0.25rem; 0.14rem 0.25rem;
 }
 .gjr_color3 span:nth-child(3){
-	margin:0.13rem 0.25rem; 0.14rem 0.25rem;
+	margin:0.17rem 0.25rem; 0.14rem 0.25rem;
 	float:left;
 	display: block;
 	background:#e51857;
-	width:0.28rem;
-	height:0.28rem;
+	width:0.4rem;
+	height:0.4rem;
 	border-radius: 50%;
+	display: none;
 }
 .gjr_color3 span:nth-child(4){
-	margin:0.13rem 0.25rem; 0.14rem 0.25rem;
+	margin:0.17rem 0.25rem; 0.14rem 0.25rem;
 	float:left;
 	display: block;
 	background:#18e5ae;
-	width:0.28rem;
-	height:0.28rem;
+	width:0.4rem;
+	height:0.4rem;
 	border-radius: 50%;
+	display: none;
 }
 .gjr_color3 span:nth-child(5){
-	margin:0.13rem 0.25rem; 0.14rem 0.25rem;
+	margin:0.17rem 0.25rem; 0.14rem 0.25rem;
 	float:left;
 	display: block;
 	background:#e59f18;
-	width:0.28rem;
-	height:0.28rem;
+	width:0.4rem;
+	height:0.4rem;
 	border-radius: 50%;
+	display: none;
+}
+.gjr_style .gjr_color3 span.active6{
+	display: block;
 }
 .gjr_color22{
-	width: 4rem;
-	height: 0.55rem;
+	width: 2rem;
+	height: 0.8rem;
 	border:1px solid #ccc;
-	border-radius:0.25rem 0.25rem;
+	border-radius:0.5rem 0.5rem;
 	padding-left:0.3rem;
-	line-height: 0.55rem;
+	line-height: 0.8rem;
 	color:#ccc;
-	float:left;
-	margin-top:0.2rem;
+	position:absolute;
+	top:2.2rem;
+	left:2rem;
 }
 .gjr_lb .gjr_color22 span.yzf-active3{
 	color:red;
+}
+.gjr_lb .gjr_color22 span.active7{
+	display: block;
 }
 .gjr_color22 span:nth-child(1){
 	float:left;
 	display: block;
 }
 .gjr_color22 span:nth-child(2){
-	margin:0 0.25rem; 0.14rem 0.25rem;
+	margin:0 0.22rem; 0.14rem 0.22rem;
 	float:left;
 	display: block;
+	font-size:0.5rem;
 }
 .gjr_color22 span:nth-child(3){
-	margin:0 0.25rem; 0.14rem 0.25rem;
+	margin:0 0.22rem; 0.14rem 0.22rem;
 	float:left;
 	display: block;
+	font-size:0.5rem;
+	display: none;
 }
 .gjr_color22 span:nth-child(4){
-	margin:0 0.25rem; 0.14rem 0.25rem;
+	margin:0 0.22rem; 0.14rem 0.22rem;
 	float:left;
 	display: block;
+	font-size:0.5rem;
+	display: none;
 }
 .gjr_color22 span:nth-child(5){
-	margin:0 0.25rem; 0.14rem 0;
+	margin:0 0.22rem; 0.14rem 0;
 	float:left;
 	display: block;
+	font-size:0.5rem;
+	display:none;
 }
 .shuliang{
 	width:0.8rem;
 	height:0.55rem;
 	line-height: 0.55rem;
-	float:left;
-	margin-left:0.2rem;
+	/*float:left;*/
+	/*margin-left:0.2rem;*/
+	position:absolute;
+	top:0.3rem;
+	right:1.5rem;
 }
 .shuliang img{
 	float:left;	
@@ -472,8 +497,11 @@ body {
 	width:0.8rem;
 	height:0.55rem;
 	line-height: 0.55rem;
-	float:left;
-	margin-left:0.2rem;
+	/*float:left;*/
+	/*margin-left:0.2rem;*/
+	position:absolute;
+	top:0.3rem;
+	right:1.5rem;
 }
 .shuliang2 img{
 	float:left;	
@@ -488,8 +516,11 @@ body {
 	width:0.8rem;
 	height:0.55rem;
 	line-height: 0.55rem;
-	float:left;
-	margin-left:0.22rem;
+	/*float:left;*/
+	/*margin-left:0.22rem;*/
+	position:absolute;
+	top:0.3rem;
+	right:1.5rem;
 }
 .shuliang3 img{
 	float:left;	
