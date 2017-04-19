@@ -1,6 +1,5 @@
 $(document).ready(function(){
-		$('.hsf-qrdd-success').css("display","none");					
-	
+	$('.hsf-qrdd-success').css("display","none");						
 	$('.hsf-qrdd-yinghangka').on("click",function(){
 		$('.hsf-qrdd-baowei').css("display","none");
 		$('.hsf-qrdd-success').css("display","none");					
@@ -24,7 +23,7 @@ $(document).ready(function(){
 	$('.hsf-bottom').on("click",function(){
 		$('.hsf-qrdd-success').css("display","none");			
 		$('.hsf-qrdd-tianjiayinhangka').css("display","none");
-		$('.hsf-qrdd-threeshibie').css("display","block");		
+		$('.tu').css("display","block");		
 		$('.hsf-qrdd-zhiwenshibie').css("display","block");
 	})
 	$('.hsf-qrdd-yinhangkabottom').on("click",function(){
