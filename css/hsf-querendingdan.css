@@ -1,3 +1,33 @@
+.yzf-nav{
+	width:100%;
+	height:1.8rem;
+	background:#22262B;
+	position:relative;
+}
+.yzf-nav >a{
+	width:0.8rem;
+	height:0.8rem;
+	display: block;
+	float:left;	
+}
+.yzf-nav >a >img{
+	margin-left: 0.2rem;
+	margin-top: 0.2rem;	
+	display: block;
+	float:left;	
+	width:0.8rem;
+	height:0.8rem;
+}
+.yzf-nav >img:nth-child(2){
+	width:2.8rem;
+	height:1rem;	
+	display: block;
+	float:left;
+	margin-left:1.25rem;
+}
+
+
+
 .hsf-qrdd-top{
 	width:100%;
 	height:2.2rem;

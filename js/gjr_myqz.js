@@ -27,4 +27,9 @@ $(function(){
 //		$('#gjr').hide();
 		
 	})
+	$('body').on('touchstart',function(e){
+		if(e.target!=$('.gjr_input').get(0)){
+			$('.gjr_input').blur()
+		}
+	})
 })
