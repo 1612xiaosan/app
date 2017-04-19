@@ -4,10 +4,7 @@ $(document).ready(function(){
 			$('ul').find('input').removeClass('active');
 			$(this).addClass('active').siblings($(this)).removeClass("active");
 			$(this).find('input').addClass('active');
-		}
-//		$(this).on('touchstart',function(){
-//			
-//		})
+		})
 	})
 	var swiper = new Swiper('.swiper-container', {
         pagination: '.swiper-pagination',
