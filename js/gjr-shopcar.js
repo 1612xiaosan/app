@@ -70,4 +70,11 @@ $(document).ready(function(){
 		$('.gjr_color22').toggleClass('active5');
 		$('.gjr_color22 > span:nth-child(2) ~ span').toggleClass('active7');
 	})
+	
+	
+//	全选
+	$('.yzf-botton').on('touchstart',function(){
+		$('.gjr_circle > span').toggleClass('first');
+		$('.yzf-botton > span').toggleClass('first');
+	})
 })
