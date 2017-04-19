@@ -17,8 +17,39 @@
 	<meta name="format-detection" content="telephone=no, email=no" />	
 	<script src="../common/js/common.js"></script>
 	<script src="../js/ljb_jupin.js"></script>
+	<script type="text/javascript" src="../common/js/iscroll.js"></script>
 </head>
-<body>
+<script type="text/javascript">
+        var myScroll;
+        function loaded () {
+            myScroll = new IScroll('#wrapper', {
+                scrollbars: true,
+                mouseWheel: true,
+                interactiveScrollbars: true,
+                shrinkScrollbars: 'scale',
+                fadeScrollbars: true
+            });
+        }
+	</script>
+	<style>
+		#wrapper {
+			position: absolute;
+			z-index: 1;
+			height: 680px;
+			left: 0;
+			width: 100%;
+			overflow: hidden;
+		}
+		#scroller {
+			position: absolute;
+			z-index: 1;
+			-webkit-tap-highlight-color: rgba(0,0,0,0);
+			width: 100%;
+		}
+	</style>
+<body onload="loaded()">
+<div id="wrapper">
+		<div class="gjr_box" id='scroller'>
 	<div class="ljb_box">
 		<div class="ljb_biaoti">
 			<a href="ljb-shouye.html" class='left'>
@@ -142,7 +173,7 @@
 			</a>
 		</div>
 		</div>
-
+</div></div>
 
 
 
