@@ -68,7 +68,7 @@ body,html{
 	width:100%;
 	height:1.63rem;
 	background-repeat: no-repeat;
-	background-size: 100%;
+/*	background-size: 100%;*/
 	position: relative;
 }
 .hsf-two-next{
@@ -81,7 +81,7 @@ body,html{
 	color:#333333;
 	text-align: center;
 	line-height: 0.8rem;
-	font-size:18px;
+	font-size:44px;
 	font-family: "宋体";
 	right:0.4rem;
 	bottom:0.15rem;
@@ -256,6 +256,11 @@ body,html{
 	margin-left:0.5rem;
 	border: 2px solid #fff;
 	display: none;
+}
+.hsf-two-continues>a{
+	display: block;
+	width: 100%;
+	height:100%;
 }
 .hsf-two-continuedian{
 	    width: 0.10rem;

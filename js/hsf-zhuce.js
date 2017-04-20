@@ -13,10 +13,10 @@ $(function(){
 		$('.hsf-two-next').css("display","none");
 		$('.hsf-two-continues').css("display","block");	
 	})
-	$('.hsf-two-continues').on("click",function(){
-         $('.hsf-two-bianhuan').css("display","none");
-		$('.hsf-two-bianhuan2').css("display","block");
-	})
+//	$('.hsf-two-continues').on("click",function(){
+//       $('.hsf-two-bianhuan').css("display","none");
+//		$('.hsf-two-bianhuan2').css("display","block");
+//	})
 	$('.zxq-wczc').on("click",function(){
 		location.assign("hsf-denglu.html")
 	})
