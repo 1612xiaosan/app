@@ -72,16 +72,16 @@ body,html{
 	position: relative;
 }
 .hsf-two-next{
-	width:1.8rem;
-	height:0.8rem;
+	width:1.2rem;
+	height:0.6rem;
 	background: rgba(0,0,0,0.2);
 	border-radius: 0.8rem;
 	display: none;
 	position: absolute;
 	color:#333333;
 	text-align: center;
-	line-height: 0.8rem;
-	font-size:44px;
+	line-height: 0.6rem;
+	font-size:20px;
 	font-family: "宋体";
 	right:0.4rem;
 	bottom:0.15rem;
