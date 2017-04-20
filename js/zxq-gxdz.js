@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	$('ul').children().each(function(){
-		document.addEventListener('touchstrat',function(){
+		$(this).on('touchstart',function(){
 			$('ul').find('input').removeClass('active');
 			$(this).addClass('active').siblings($(this)).removeClass("active");
 			$(this).find('input').addClass('active');
